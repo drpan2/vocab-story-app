@@ -90,6 +90,8 @@ function addDaysKey(dateKey, days) {
   return localDateKey(d);
 }
 
+const SRS_LEARNING_STREAK_REQUIRED = 2;
+
 function scheduleSRSWord(entry, levelNum, chapterNum) {
   if (srs.words[entry.word]) return;
   srs.words[entry.word] = {
@@ -99,6 +101,7 @@ function scheduleSRSWord(entry, levelNum, chapterNum) {
     level: levelNum,
     chapter: chapterNum,
     box: 0,
+    streak: 0,
     nextReview: addDaysKey(localDateKey(new Date()), SRS_INTERVALS[0])
   };
 }
@@ -113,15 +116,31 @@ function getDueSRSWords() {
   return Object.values(srs.words).filter((w) => w.nextReview <= today);
 }
 
+// Box 0 is a "learning" phase: a word that has ever been wrong (or is brand
+// new) must be answered correctly SRS_LEARNING_STREAK_REQUIRED times in a
+// row before it graduates into the long spaced intervals (box 1+). Any wrong
+// answer resets both the box and the streak, so it has to earn its way back.
 function gradeSRSWord(word, correct) {
   const entry = srs.words[word];
   if (!entry) return;
-  if (correct) {
-    entry.box = Math.min(entry.box + 1, SRS_INTERVALS.length - 1);
-  } else {
+  const today = localDateKey(new Date());
+  if (!correct) {
     entry.box = 0;
+    entry.streak = 0;
+    entry.nextReview = addDaysKey(today, SRS_INTERVALS[0]);
+  } else if (entry.box === 0) {
+    entry.streak = (entry.streak || 0) + 1;
+    if (entry.streak >= SRS_LEARNING_STREAK_REQUIRED) {
+      entry.box = 1;
+      entry.streak = 0;
+      entry.nextReview = addDaysKey(today, SRS_INTERVALS[entry.box]);
+    } else {
+      entry.nextReview = addDaysKey(today, SRS_INTERVALS[0]);
+    }
+  } else {
+    entry.box = Math.min(entry.box + 1, SRS_INTERVALS.length - 1);
+    entry.nextReview = addDaysKey(today, SRS_INTERVALS[entry.box]);
   }
-  entry.nextReview = addDaysKey(localDateKey(new Date()), SRS_INTERVALS[entry.box]);
   saveState('srs', srs);
 }
 
@@ -497,7 +516,7 @@ function renderDueReview() {
     return;
   }
   emptyEl.hidden = true;
-  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。答對會拉長下次複習間隔，答錯會安排稍後再複習一次。`;
+  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。新字或答錯過的字要連續答對${SRS_LEARNING_STREAK_REQUIRED}次才會進入拉長間隔，答錯會重來。`;
 
   const allZh = Object.values(srs.words).map((w) => w.zh);
   const quizArray = due.map((entry) => {
