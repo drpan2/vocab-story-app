@@ -44,14 +44,34 @@ function resetHighlightRegistry() {
 // Wrap every plain word (not already part of a target/extra highlight) in its
 // own clickable span too, so users can tap ANY word in the sentence and add
 // it to favorites, not just the ones the story marked as target vocabulary.
+//
+// IMPORTANT: this must scan the RAW (unescaped) segment for word tokens, then
+// escape each piece individually. Escaping the whole segment first and then
+// regex-matching letters on the result is wrong: encoded entities like
+// `&quot;` and `&amp;` contain letter runs ("quot", "amp") that would get
+// mistaken for real words and wrapped in a <span>, which breaks the entity
+// and makes it render as literal "&quot;" text on screen instead of a quote
+// mark. Quotation marks appear constantly in this story's dialogue, so this
+// bug was highly visible in production.
 function wrapPlainWords(segment) {
-  const escaped = escapeHtml(segment);
-  return escaped.replace(/[A-Za-z']+/g, (token) => {
+  let result = '';
+  let cursor = 0;
+  const re = /[A-Za-z']+/g;
+  let m;
+  while ((m = re.exec(segment))) {
+    result += escapeHtml(segment.slice(cursor, m.index));
+    const token = m[0];
     const key = token.toLowerCase().replace(/^'+|'+$/g, '');
-    if (!key) return token;
-    const safeKey = key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-    return `<span class="hl-plain" onclick="onPlainWordClick('${safeKey}')">${token}</span>`;
-  });
+    if (key) {
+      const safeKey = key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+      result += `<span class="hl-plain" onclick="onPlainWordClick('${safeKey}')">${escapeHtml(token)}</span>`;
+    } else {
+      result += escapeHtml(token);
+    }
+    cursor = re.lastIndex;
+  }
+  result += escapeHtml(segment.slice(cursor));
+  return result;
 }
 
 function highlightSentence(text, words) {
