@@ -126,6 +126,9 @@ body.show-zh .sentence .zh { display: block; }
 html[data-theme="dark"] .hl-target { background: #1E3A8A; color: #BFDBFE; }
 html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
 
+.hl-plain { cursor: pointer; border-radius: 3px; }
+.hl-plain:active { background: var(--accent-soft); }
+
 .quiz-block { display: flex; flex-direction: column; gap: 14px; }
 .quiz-item { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
 .quiz-item .q { font-weight: 600; margin-bottom: 8px; font-size: .92rem; }
@@ -136,6 +139,7 @@ html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
 .quiz-item label.correct { background: #DCFCE7; border-color: var(--success); }
 .quiz-item label.wrong { background: #FEE2E2; border-color: var(--danger); }
 .quiz-item input { margin-right: 8px; }
+.quiz-fav-btn { margin-bottom: 10px; }
 
 .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; gap: 10px; }
 .primary-btn, .secondary-btn {
@@ -144,6 +148,9 @@ html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
 .primary-btn { background: var(--accent); color: #fff; width: 100%; }
 .secondary-btn { background: var(--card-bg); color: var(--text); border: 1px solid var(--border); }
 .secondary-btn:disabled { opacity: .4; cursor: default; }
+.danger-btn { color: var(--danger); border-color: var(--danger); }
+.primary-btn.danger-btn { background: var(--danger); color: #fff; border: none; }
+.danger-title { color: var(--danger); }
 
 .certificate { text-align: center; padding: 40px 16px; }
 .cert-badge { font-size: 4rem; }
@@ -202,6 +209,34 @@ input:checked + .slider:before { transform: translateX(20px); }
 .word-popup-card h3 .chip-btn { font-size: .8rem; }
 .word-popup-card .pos { color: var(--muted); font-size: .85rem; margin-bottom: 8px; }
 .word-popup-card .tenses { margin-top: 10px; font-size: .88rem; color: var(--muted); }
+
+.notes-textarea {
+  width: 100%; min-height: 100px; padding: 10px 12px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--card-bg); color: var(--text);
+  font-size: .92rem; font-family: inherit; resize: vertical;
+}
+
+.notebook-list { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.notebook-item {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 14px; display: flex; gap: 10px; align-items: flex-start;
+}
+.notebook-item .notebook-body { flex: 1; cursor: pointer; }
+.notebook-item .notebook-title { font-weight: 600; font-size: .9rem; }
+.notebook-item .notebook-preview { color: var(--muted); font-size: .85rem; margin: 4px 0; white-space: pre-wrap; }
+.notebook-check input { width: 18px; height: 18px; margin-top: 2px; }
+
+.confirm-modal {
+  position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 70;
+}
+.confirm-modal:not([hidden]) { display: flex; align-items: center; justify-content: center; padding: 20px; }
+.confirm-modal-card {
+  background: var(--card-bg); color: var(--text); border-radius: 16px;
+  padding: 20px; width: 100%; max-width: 400px;
+}
+.confirm-modal-card h3 { margin: 0 0 8px; }
+.confirm-modal-actions { display: flex; gap: 10px; margin-top: 16px; }
+.confirm-modal-actions button { flex: 1; }
 
 .toast {
   position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%);

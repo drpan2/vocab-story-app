@@ -4,6 +4,7 @@ let favorites = { words: [] };
 let streak = { visits: [] };
 let prefs = { fontSize: 'md', darkMode: false };
 let srs = { words: {} };
+let notes = { entries: {} };
 
 const SRS_INTERVALS = [0, 3, 7, 14, 30];
 const SRS_SESSION_LIMIT = 20;
@@ -26,6 +27,7 @@ async function init() {
   favorites = await loadState('favorites');
   streak = await loadState('streak');
   srs = await loadState('srs');
+  notes = await loadState('notes');
   applyPrefs();
   recordVisit();
   manifest = await fetch('data/manifest.json').then(r => r.json());
@@ -226,6 +228,10 @@ function router() {
     $('topTitle').textContent = '今日複習';
     showScreen('review-due');
     renderDueReview();
+  } else if (path === '/notebook') {
+    $('topTitle').textContent = '我的筆記本';
+    showScreen('notebook');
+    renderNotebook();
   } else if (path === '/favorites') {
     $('topTitle').textContent = '我的收藏';
     showScreen('favorites');
@@ -386,7 +392,7 @@ async function renderChapter(levelNum, chapterNum) {
     sentenceList.appendChild(div);
   });
   sentenceList.onclick = (e) => {
-    if (ttsState.playing && !e.target.closest('.hl-target,.hl-extra')) advanceOneSentence();
+    if (ttsState.playing && !e.target.closest('.hl-target,.hl-extra,.hl-plain')) advanceOneSentence();
   };
 
   renderQuizBlock($('chapterQuiz'), data.quiz, (score, total) => {
@@ -413,11 +419,119 @@ async function renderChapter(levelNum, chapterNum) {
   $('translateToggleBtn').classList.remove('active');
   $('playBtn').textContent = '▶ 自動朗讀';
   $('playBtn').classList.remove('active');
+
+  bindChapterNotes(levelNum, chapterNum, data.title);
+}
+
+// ---------- per-chapter notebook ----------
+
+function noteKey(levelNum, chapterNum) {
+  return `${levelNum}-${chapterNum}`;
+}
+
+let notesSaveDebounce = null;
+
+function bindChapterNotes(levelNum, chapterNum, chapterTitle) {
+  const key = noteKey(levelNum, chapterNum);
+  const textarea = $('chapterNotesInput');
+  const status = $('notesSaveStatus');
+  const existing = notes.entries[key];
+  textarea.value = existing ? existing.text : '';
+  status.textContent = existing ? `上次儲存：${new Date(existing.updatedAt).toLocaleString('zh-TW')}` : '';
+
+  textarea.oninput = () => {
+    clearTimeout(notesSaveDebounce);
+    status.textContent = '儲存中…';
+    notesSaveDebounce = setTimeout(() => {
+      const text = textarea.value;
+      if (text.trim()) {
+        notes.entries[key] = { level: levelNum, chapter: chapterNum, title: chapterTitle, text, updatedAt: new Date().toISOString() };
+      } else {
+        delete notes.entries[key];
+      }
+      saveState('notes', notes);
+      status.textContent = text.trim() ? `已儲存：${new Date().toLocaleTimeString('zh-TW')}` : '（筆記已清空）';
+    }, 600);
+  };
+}
+
+function renderNotebook() {
+  const list = $('notebookList');
+  const entries = Object.values(notes.entries).sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+  const hasEntries = entries.length > 0;
+  $('notebookExportSelectedBtn').hidden = !hasEntries;
+  $('notebookExportAllBtn').hidden = !hasEntries;
+
+  if (!hasEntries) {
+    list.innerHTML = '<p class="meta">還沒有任何筆記。讀章節時，頁面下方有「我的筆記」欄位，寫下的內容會自動儲存並出現在這裡。</p>';
+    return;
+  }
+
+  list.innerHTML = '';
+  entries.forEach(n => {
+    const key = noteKey(n.level, n.chapter);
+    const item = document.createElement('div');
+    item.className = 'notebook-item';
+    item.innerHTML = `
+      <label class="notebook-check"><input type="checkbox" class="notebook-select" data-key="${escapeHtml(key)}"></label>
+      <div class="notebook-body">
+        <div class="notebook-title">Level ${n.level} · Ch${String(n.chapter).padStart(2, '0')}. ${escapeHtml(n.title)}</div>
+        <div class="notebook-preview">${escapeHtml(n.text.length > 100 ? n.text.slice(0, 100) + '…' : n.text)}</div>
+        <div class="meta">更新於 ${new Date(n.updatedAt).toLocaleString('zh-TW')}</div>
+      </div>
+    `;
+    item.querySelector('.notebook-body').onclick = () => { location.hash = `#/level/${n.level}/chapter/${n.chapter}`; };
+    list.appendChild(item);
+  });
+}
+
+function exportNotes(keys) {
+  const entries = (keys ? keys.map(k => notes.entries[k]).filter(Boolean) : Object.values(notes.entries))
+    .sort((a, b) => a.level - b.level || a.chapter - b.chapter);
+  if (!entries.length) {
+    showToast('沒有可匯出的筆記');
+    return;
+  }
+  let md = `# 我的單字故事筆記本\n\n匯出時間：${new Date().toLocaleString('zh-TW')}\n\n`;
+  entries.forEach(n => {
+    md += `## Level ${n.level} · Chapter ${n.chapter}. ${n.title}\n\n${n.text}\n\n---\n\n`;
+  });
+  const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `vocab-story-notes-${new Date().toISOString().slice(0, 10)}.md`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 // ---------- quiz rendering (shared by chapter quiz + level review quiz) ----------
 
-function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered) {
+function addWordToFavorites(wordInfo) {
+  if (favorites.words.some(f => f.word === wordInfo.word)) {
+    showToast('已經收藏過了');
+    return false;
+  }
+  favorites.words.push({
+    word: wordInfo.word,
+    zh: wordInfo.zh || '',
+    pos: wordInfo.pos || '',
+    level: currentLevelNum,
+    chapter: currentChapterNum,
+    addedAt: new Date().toISOString()
+  });
+  saveState('favorites', favorites);
+  showToast('⭐ 已加入收藏');
+  return true;
+}
+
+// wordExtractor(q) is optional: given a quiz question, return {word, zh, pos}
+// if the question is clearly "about" one single word (like the Level review
+// quiz's "What does X mean?" format), so a favorite button can be shown right
+// away without waiting for the quiz to be answered.
+function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered, wordExtractor) {
   const answers = new Array(quizArray.length).fill(null);
   container.innerHTML = '';
   quizArray.forEach((q, qi) => {
@@ -427,6 +541,20 @@ function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered) {
     qEl.className = 'q';
     qEl.textContent = `${qi + 1}. ${q.question}`;
     item.appendChild(qEl);
+
+    const wordInfo = wordExtractor && wordExtractor(q);
+    if (wordInfo) {
+      const favBtn = document.createElement('button');
+      favBtn.type = 'button';
+      favBtn.className = 'quiz-fav-btn chip-btn';
+      const already = favorites.words.some(f => f.word === wordInfo.word);
+      favBtn.textContent = already ? '⭐ 已收藏' : '☆ 先收藏這個字';
+      favBtn.onclick = () => {
+        if (addWordToFavorites(wordInfo)) favBtn.textContent = '⭐ 已收藏';
+      };
+      item.appendChild(favBtn);
+    }
+
     q.options.forEach((opt, oi) => {
       const label = document.createElement('label');
       const id = `quiz-${container.id}-${qi}-${oi}`;
@@ -458,6 +586,15 @@ function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered) {
   });
 }
 
+// The generated Level review quiz always asks "What does "word" mean?" with
+// the correct Chinese meaning among the options, so we can pull the word +
+// its answer straight out of the question/options without extra data.
+function reviewQuizWordExtractor(q) {
+  const m = q.question.match(/"([^"]+)"/);
+  if (!m || q.answer == null || !q.options) return null;
+  return { word: m[1], zh: q.options[q.answer] };
+}
+
 // ---------- level review quiz ----------
 
 let reviewQuizState = { done: false, score: 0, total: 0 };
@@ -485,7 +622,7 @@ async function renderReview(levelNum) {
     $('reviewResult').textContent = `已完成所有題目，答對 ${score}/${total} 題。`;
     $('submitReviewBtn').disabled = false;
     $('submitReviewBtn').textContent = `🏆 領取結業證書`;
-  });
+  }, null, reviewQuizWordExtractor);
 
   $('submitReviewBtn').onclick = () => {
     if (!reviewQuizState.done) return;
@@ -569,10 +706,11 @@ function renderDueCard(word) {
   const headword = entry.word.split('/')[0];
   let answered = false;
 
+  const alreadyFav = favorites.words.some(f => f.word === entry.word);
   const container = $('dueReviewQuiz');
   container.innerHTML = `
     <div class="quiz-item">
-      <div class="q">"${escapeHtml(headword)}" 是什麼意思？ <button class="chip-btn" id="dueSpeakBtn" type="button">🔊</button></div>
+      <div class="q">"${escapeHtml(headword)}" 是什麼意思？ <button class="chip-btn" id="dueSpeakBtn" type="button">🔊</button> <button class="chip-btn" id="dueFavBtn" type="button">${alreadyFav ? '⭐ 已收藏' : '☆ 收藏'}</button></div>
       ${options.map((opt, oi) => `<label id="dueOpt${oi}"><input type="radio" name="dueCard">${escapeHtml(opt)}</label>`).join('')}
     </div>
     <button class="primary-btn" id="dueNextBtn" style="margin-top:12px" hidden>下一張 →</button>
@@ -580,6 +718,13 @@ function renderDueCard(word) {
 
   $('dueSpeakBtn').onclick = () => speakSingleWord(headword);
   speakSingleWord(headword);
+  $('dueFavBtn').onclick = () => {
+    if (favorites.words.some(f => f.word === entry.word)) { showToast('已經收藏過了'); return; }
+    favorites.words.push({ word: entry.word, zh: entry.zh, pos: entry.pos || '', level: entry.level, chapter: entry.chapter, addedAt: new Date().toISOString() });
+    saveState('favorites', favorites);
+    $('dueFavBtn').textContent = '⭐ 已收藏';
+    showToast('⭐ 已加入收藏');
+  };
 
   options.forEach((opt, oi) => {
     $(`dueOpt${oi}`).onclick = () => {
@@ -630,6 +775,18 @@ function onWordClick(regId) {
   $('wordPopupBody').innerHTML = html;
   $('wordPopup').hidden = false;
   $('wordPopupSpeakBtn').onclick = () => speakSingleWord(bases[0]);
+}
+
+// Tapping a plain (non-highlighted) word in a sentence: it has no dictionary
+// data in our word bank, but the user can still favorite it directly so the
+// favorites list isn't limited to whatever the story happened to mark.
+function onPlainWordClick(word) {
+  currentPopupEntry = { word, zh: '', pos: '' };
+  let html = `<h3>${escapeHtml(word)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
+  html += `<div class="pos meta">這個字不在故事的標色單字庫裡，沒有內建字義，但你可以直接收藏起來。</div>`;
+  $('wordPopupBody').innerHTML = html;
+  $('wordPopup').hidden = false;
+  $('wordPopupSpeakBtn').onclick = () => speakSingleWord(word);
 }
 
 function closeWordPopup() {
@@ -736,6 +893,30 @@ function renderSettings() {
   applyPrefs();
 }
 
+// ---------- confirm modal (generic, used for destructive actions) ----------
+
+function showConfirmModal(title, body, onConfirm) {
+  $('confirmModalTitle').textContent = title;
+  $('confirmModalBody').textContent = body;
+  $('confirmModal').hidden = false;
+  const okBtn = $('confirmModalOk');
+  const cancelBtn = $('confirmModalCancel');
+  const cleanup = () => { $('confirmModal').hidden = true; okBtn.onclick = null; cancelBtn.onclick = null; };
+  okBtn.onclick = () => { cleanup(); onConfirm(); };
+  cancelBtn.onclick = cleanup;
+}
+
+async function resetReadingRecords() {
+  progress = {};
+  srs = { words: {} };
+  streak = { visits: [] };
+  await saveState('progress', progress);
+  await saveState('srs', srs);
+  await saveState('streak', streak);
+  showToast('✅ 已重置閱讀與測驗記錄');
+  setTimeout(() => { location.hash = '#/'; }, 600);
+}
+
 // ---------- toast ----------
 
 function showToast(msg) {
@@ -815,6 +996,27 @@ function bindGlobalEvents() {
     } catch (err) {
       showToast('匯入失敗：檔案格式不正確');
     }
+  };
+
+  $('resetProgressBtn').onclick = () => {
+    showConfirmModal(
+      '確定要重置閱讀與測驗記錄嗎？',
+      '這會清空所有 Level 的章節閱讀進度、章節測驗成績、總複習大會考結果，以及單字複習排程。收藏單字和筆記本內容不會受影響。',
+      () => {
+        showConfirmModal(
+          '再次確認：真的要重置嗎？',
+          '這個動作無法復原！所有閱讀與測驗記錄都會永久消失。',
+          resetReadingRecords
+        );
+      }
+    );
+  };
+
+  $('notebookExportAllBtn').onclick = () => exportNotes(null);
+  $('notebookExportSelectedBtn').onclick = () => {
+    const keys = Array.from(document.querySelectorAll('.notebook-select:checked')).map(el => el.dataset.key);
+    if (!keys.length) { showToast('請先勾選要匯出的章節'); return; }
+    exportNotes(keys);
   };
 }
 

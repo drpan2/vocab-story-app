@@ -60,10 +60,24 @@
     <h3 class="section-title">讀後測驗</h3>
     <div id="chapterQuiz" class="quiz-block"></div>
 
+    <h3 class="section-title">📔 我的筆記</h3>
+    <textarea id="chapterNotesInput" class="notes-textarea" placeholder="寫下你對這章的想法、想記住的句子、還沒搞懂的地方…"></textarea>
+    <div id="notesSaveStatus" class="meta"></div>
+
     <div class="nav-buttons">
       <button id="prevChapterBtn" class="secondary-btn">← 上一章</button>
       <button id="nextChapterBtn" class="secondary-btn">下一章 →</button>
     </div>
+  </section>
+
+  <section class="screen" id="screen-notebook">
+    <h2 class="section-title">📔 我的筆記本</h2>
+    <p class="meta">在任何章節下方寫筆記，會自動出現在這裡。可以選擇匯出部分章節，或是全部匯出成一份檔案。</p>
+    <div class="settings-row">
+      <button class="secondary-btn" id="notebookExportSelectedBtn">⬇ 匯出已選</button>
+      <button class="secondary-btn" id="notebookExportAllBtn">⬇ 匯出全部</button>
+    </div>
+    <div id="notebookList" class="notebook-list"></div>
   </section>
 
   <section class="screen" id="screen-review">
@@ -119,12 +133,17 @@
       <button class="secondary-btn" id="importBtn">⬆ 匯入進度</button>
       <input type="file" id="importFile" accept="application/json" hidden>
     </div>
+
+    <h3 class="section-title danger-title" style="margin-top:24px">⚠ 危險區域</h3>
+    <p class="meta">重置閱讀進度、章節測驗成績、Level總複習結果、單字複習排程。收藏單字和筆記本內容不會被清掉。此動作無法復原，需要兩次確認。</p>
+    <button class="secondary-btn danger-btn" id="resetProgressBtn">🗑 重置閱讀與測驗記錄</button>
   </section>
 
 </main>
 
 <nav class="bottom-nav">
   <a href="#/" data-route="/">🏠<span>首頁</span></a>
+  <a href="#/notebook" data-route="/notebook">📔<span>筆記本</span></a>
   <a href="#/favorites" data-route="/favorites">⭐<span>收藏</span></a>
   <a href="#/search" data-route="/search">🔍<span>搜尋</span></a>
   <a href="#/settings" data-route="/settings">⚙<span>設定</span></a>
@@ -135,6 +154,17 @@
     <button class="word-popup-close" id="wordPopupClose">✕</button>
     <div id="wordPopupBody"></div>
     <button class="secondary-btn" id="wordPopupFavBtn" style="margin-top:10px">⭐ 加入收藏</button>
+  </div>
+</div>
+
+<div id="confirmModal" class="confirm-modal" hidden>
+  <div class="confirm-modal-card">
+    <h3 id="confirmModalTitle"></h3>
+    <p id="confirmModalBody" class="meta"></p>
+    <div class="confirm-modal-actions">
+      <button class="secondary-btn" id="confirmModalCancel">取消</button>
+      <button class="primary-btn" id="confirmModalOk">確定</button>
+    </div>
   </div>
 </div>
 

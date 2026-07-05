@@ -62,7 +62,8 @@ const DEFAULTS = {
   favorites: { words: [] },
   streak: { visits: [] },
   prefs: { fontSize: 'md', darkMode: false },
-  srs: { words: {} }
+  srs: { words: {} },
+  notes: { entries: {} }
 };
 
 async function loadState(key) {

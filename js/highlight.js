@@ -41,6 +41,19 @@ function resetHighlightRegistry() {
   highlightRegistry = [];
 }
 
+// Wrap every plain word (not already part of a target/extra highlight) in its
+// own clickable span too, so users can tap ANY word in the sentence and add
+// it to favorites, not just the ones the story marked as target vocabulary.
+function wrapPlainWords(segment) {
+  const escaped = escapeHtml(segment);
+  return escaped.replace(/[A-Za-z']+/g, (token) => {
+    const key = token.toLowerCase().replace(/^'+|'+$/g, '');
+    if (!key) return token;
+    const safeKey = key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+    return `<span class="hl-plain" onclick="onPlainWordClick('${safeKey}')">${token}</span>`;
+  });
+}
+
 function highlightSentence(text, words) {
   const matches = [];
   words.forEach(w => {
@@ -66,12 +79,12 @@ function highlightSentence(text, words) {
   let result = '';
   let cursor = 0;
   kept.forEach(m => {
-    result += escapeHtml(text.slice(cursor, m.start));
+    result += wrapPlainWords(text.slice(cursor, m.start));
     const regId = highlightRegistry.length;
     highlightRegistry.push(m.entry);
     result += `<span class="${m.entry.cls}" data-reg-id="${regId}" onclick="onWordClick(${regId})">${escapeHtml(text.slice(m.start, m.end))}</span>`;
     cursor = m.end;
   });
-  result += escapeHtml(text.slice(cursor));
+  result += wrapPlainWords(text.slice(cursor));
   return result;
 }
