@@ -90,7 +90,7 @@ function addDaysKey(dateKey, days) {
   return localDateKey(d);
 }
 
-const SRS_LEARNING_STREAK_REQUIRED = 2;
+const SRS_LEARNING_STREAK_REQUIRED = 3;
 
 function scheduleSRSWord(entry, levelNum, chapterNum) {
   if (srs.words[entry.word]) return;
@@ -502,49 +502,103 @@ function renderCertificate(levelNum) {
 }
 
 // ---------- daily spaced-repetition review screen ----------
+//
+// Matches Anki's learning-step behavior: a word that's still in box 0 (new,
+// or reset by a wrong answer) gets reinserted a few cards later in THIS same
+// session's queue, so it comes back for another attempt within the same
+// sitting instead of waiting for a separate future visit. Only once it
+// graduates (box >= 1) does it leave the queue and fall back to day-based
+// spaced intervals.
+
+let dueQueue = [];
+let dueSessionStats = { total: 0, correct: 0, graduated: 0 };
 
 function renderDueReview() {
-  const due = getDueSRSWords().slice(0, SRS_SESSION_LIMIT);
-  const introEl = $('dueReviewIntro');
-  const quizEl = $('dueReviewQuiz');
-  const emptyEl = $('dueReviewEmpty');
+  const due = getDueSRSWords();
+  dueQueue = due.slice(0, SRS_SESSION_LIMIT).map((w) => w.word);
+  dueSessionStats = { total: 0, correct: 0, graduated: 0 };
 
-  if (!due.length) {
-    introEl.textContent = '';
-    quizEl.innerHTML = '';
+  const emptyEl = $('dueReviewEmpty');
+  if (!dueQueue.length) {
+    $('dueReviewIntro').textContent = '';
+    $('dueReviewQuiz').innerHTML = '';
     emptyEl.hidden = false;
     return;
   }
   emptyEl.hidden = true;
-  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。新字或答錯過的字要連續答對${SRS_LEARNING_STREAK_REQUIRED}次才會進入拉長間隔，答錯會重來。`;
+  showNextDueCard();
+}
+
+function updateDueProgress() {
+  $('dueReviewIntro').textContent = `本次已作答 ${dueSessionStats.total} 題・已畢業 ${dueSessionStats.graduated} 個單字・佇列剩 ${dueQueue.length + 1} 張。新字或答錯過的字要連續答對 ${SRS_LEARNING_STREAK_REQUIRED} 次（會在這次複習中重複出現）才會進入拉長間隔。`;
+}
+
+function showNextDueCard() {
+  if (!dueQueue.length) {
+    $('dueReviewQuiz').innerHTML = '';
+    $('dueReviewIntro').textContent = `複習完成！這次共作答 ${dueSessionStats.total} 題，答對 ${dueSessionStats.correct} 題，畢業 ${dueSessionStats.graduated} 個單字進入拉長間隔。`;
+    showToast('📅 今日複習完成！');
+    return;
+  }
+  const word = dueQueue.shift();
+  updateDueProgress();
+  renderDueCard(word);
+}
+
+function renderDueCard(word) {
+  const entry = srs.words[word];
+  if (!entry) { showNextDueCard(); return; }
 
   const allZh = Object.values(srs.words).map((w) => w.zh);
-  const quizArray = due.map((entry) => {
-    const distractorPool = allZh.filter((zh) => zh !== entry.zh);
-    const distractors = [];
-    while (distractors.length < 3 && distractorPool.length) {
-      const idx = Math.floor(Math.random() * distractorPool.length);
-      distractors.push(distractorPool.splice(idx, 1)[0]);
-    }
-    const options = [...distractors, entry.zh].sort(() => Math.random() - 0.5);
-    return {
-      question: `"${entry.word.split('/')[0]}" 是什麼意思？`,
-      options,
-      answer: options.indexOf(entry.zh),
-      _word: entry.word
+  const distractorPool = allZh.filter((zh) => zh !== entry.zh);
+  const distractors = [];
+  while (distractors.length < 3 && distractorPool.length) {
+    const idx = Math.floor(Math.random() * distractorPool.length);
+    distractors.push(distractorPool.splice(idx, 1)[0]);
+  }
+  const options = [...distractors, entry.zh].sort(() => Math.random() - 0.5);
+  const answerIdx = options.indexOf(entry.zh);
+  let answered = false;
+
+  const container = $('dueReviewQuiz');
+  container.innerHTML = `
+    <div class="quiz-item">
+      <div class="q">"${escapeHtml(entry.word.split('/')[0])}" 是什麼意思？</div>
+      ${options.map((opt, oi) => `<label id="dueOpt${oi}"><input type="radio" name="dueCard">${escapeHtml(opt)}</label>`).join('')}
+    </div>
+    <button class="primary-btn" id="dueNextBtn" style="margin-top:12px" hidden>下一張 →</button>
+  `;
+
+  options.forEach((opt, oi) => {
+    $(`dueOpt${oi}`).onclick = () => {
+      if (answered) return;
+      answered = true;
+      const correct = oi === answerIdx;
+      for (let k = 0; k < options.length; k++) $(`dueOpt${k}`).classList.remove('correct', 'wrong');
+      if (correct) {
+        $(`dueOpt${oi}`).classList.add('correct');
+      } else {
+        $(`dueOpt${oi}`).classList.add('wrong');
+        $(`dueOpt${answerIdx}`).classList.add('correct');
+      }
+
+      gradeSRSWord(word, correct);
+      dueSessionStats.total++;
+      if (correct) dueSessionStats.correct++;
+
+      if (srs.words[word].box === 0) {
+        const insertPos = Math.min(dueQueue.length, 3);
+        dueQueue.splice(insertPos, 0, word);
+      } else {
+        dueSessionStats.graduated++;
+      }
+      updateDueProgress();
+
+      const nextBtn = $('dueNextBtn');
+      nextBtn.hidden = false;
+      nextBtn.onclick = () => showNextDueCard();
     };
   });
-
-  renderQuizBlock(
-    quizEl,
-    quizArray,
-    (score, total) => {
-      showToast(`📅 今日複習完成！答對 ${score}/${total}`);
-    },
-    (qi, correct, q) => {
-      gradeSRSWord(q._word, correct);
-    }
-  );
 }
 
 // ---------- word popup / favorites ----------
