@@ -5,7 +5,7 @@ let streak = { visits: [] };
 let prefs = { fontSize: 'md', darkMode: false };
 let srs = { words: {} };
 
-const SRS_INTERVALS = [1, 3, 7, 14, 30];
+const SRS_INTERVALS = [0, 3, 7, 14, 30];
 const SRS_SESSION_LIMIT = 20;
 
 let currentLevelNum = null;
@@ -497,7 +497,7 @@ function renderDueReview() {
     return;
   }
   emptyEl.hidden = true;
-  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。答對會拉長下次複習間隔，答錯會明天再考一次。`;
+  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。答對會拉長下次複習間隔，答錯會安排稍後再複習一次。`;
 
   const allZh = Object.values(srs.words).map((w) => w.zh);
   const quizArray = due.map((entry) => {
