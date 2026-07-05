@@ -272,15 +272,13 @@ async function loadAllChaptersForLevel(levelNum) {
 function renderHome() {
   const streakDays = computeStreak();
   const banner = $('streakBanner');
-  banner.innerHTML = streakDays > 0
-    ? `${icon('flame', { size: 18 })}<span>連續閱讀 ${streakDays} 天，保持下去！</span>`
-    : `${icon('wave', { size: 18 })}<span>開始今天的第一章故事吧！</span>`;
+  banner.textContent = streakDays > 0 ? `🔥 連續閱讀 ${streakDays} 天，保持下去！` : '👋 開始今天的第一章故事吧！';
 
   const dueCount = getDueSRSWords().length;
   const dueBanner = $('dueReviewBanner');
   if (dueCount > 0) {
     dueBanner.hidden = false;
-    dueBanner.innerHTML = `<span>${icon('calendar', { size: 18 })}今天有 ${dueCount} 個單字要複習</span><span>去複習 ${icon('chevronRight', { size: 16 })}</span>`;
+    dueBanner.innerHTML = `<span>📅 今天有 ${dueCount} 個單字要複習</span><span>去複習 →</span>`;
     dueBanner.onclick = () => { location.hash = '#/review-due'; };
   } else {
     dueBanner.hidden = true;
@@ -295,21 +293,17 @@ function renderHome() {
       const lp = getLevelProgress(lvl.level);
       const doneCount = Object.keys(lp.readChapters).length;
       const total = lvl.chapters.length;
-      const pct = total ? Math.round((doneCount / total) * 100) : 0;
       card.innerHTML = `
-        <div class="lv-icon">${icon('book', { size: 22 })}</div>
-        <div class="lv-body">
+        <div>
           <div class="lv-name">${escapeHtml(lvl.name)}</div>
           <div class="lv-sub">${doneCount}/${total} 章已完成${lp.reviewQuizDone ? ' · 已結業' : ''}</div>
-          <div class="lv-progress"><div class="lv-progress-fill" style="width:${pct}%"></div></div>
         </div>
-        ${lp.reviewQuizDone ? `<div class="badge-check">${icon('trophy', { size: 20 })}</div>` : `<div class="lv-chevron">${icon('chevronRight', { size: 18 })}</div>`}
+        ${lp.reviewQuizDone ? '<div class="badge-check">🏆</div>' : ''}
       `;
       card.onclick = () => { location.hash = `#/level/${lvl.level}`; };
     } else {
       card.innerHTML = `
-        <div class="lv-icon">${icon('book', { size: 22 })}</div>
-        <div class="lv-body">
+        <div>
           <div class="lv-name">${escapeHtml(lvl.name)}</div>
           <div class="lv-sub">尚未推出，敬請期待</div>
         </div>
@@ -435,7 +429,7 @@ async function renderChapter(levelNum, chapterNum) {
 
   document.body.classList.remove('show-zh');
   $('translateToggleBtn').classList.remove('active');
-  setPlayBtnLabel(false);
+  $('playBtn').textContent = '▶ 自動朗讀';
   $('playBtn').classList.remove('active');
 
   bindChapterNotes(levelNum, chapterNum, data.title);
@@ -448,13 +442,6 @@ function noteKey(levelNum, chapterNum) {
 }
 
 let notesSaveDebounce = null;
-
-function setPlayBtnLabel(playing) {
-  const btn = $('playBtn');
-  btn.innerHTML = playing
-    ? '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span>停止朗讀</span>'
-    : '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4.5v15l13-7.5-13-7.5Z" fill="currentColor" stroke="none"/></svg><span>自動朗讀</span>';
-}
 
 function bindChapterNotes(levelNum, chapterNum, chapterTitle) {
   const key = noteKey(levelNum, chapterNum);
@@ -999,12 +986,12 @@ function bindGlobalEvents() {
     const btn = $('playBtn');
     if (ttsState.playing) {
       stopSpeak();
-      setPlayBtnLabel(false);
+      btn.textContent = '▶ 自動朗讀';
       btn.classList.remove('active');
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
       return;
     }
-    setPlayBtnLabel(true);
+    btn.textContent = '⏸ 停止朗讀';
     btn.classList.add('active');
     const sentences = currentChapterData.sentences.map(s => s.en);
     speakChapter(sentences, (i) => {
@@ -1012,7 +999,7 @@ function bindGlobalEvents() {
       const el = $(`sentence-${i}`);
       if (el) { el.classList.add('reading'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
     }, () => {
-      setPlayBtnLabel(false);
+      btn.textContent = '▶ 自動朗讀';
       btn.classList.remove('active');
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
     });

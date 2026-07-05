@@ -1,10 +1,9 @@
-const CACHE_NAME = 'vocab-story-v14';
+const CACHE_NAME = 'vocab-story-v15';
 const CORE_ASSETS = [
   './',
   './index.html',
   './css/style.css',
   './js/db.js',
-  './js/icons.js',
   './js/tts.js',
   './js/highlight.js',
   './js/app.js',
