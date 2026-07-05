@@ -1,0 +1,143 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "name": "Level 1",
+      "available": true,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Ten Minutes Slow, Every Single Day"
+        },
+        {
+          "chapter": 2,
+          "title": "The Watch at the Gate"
+        },
+        {
+          "chapter": 3,
+          "title": "The Habit Nobody Forgot"
+        },
+        {
+          "chapter": 4,
+          "title": "The Light That Comes On By Itself"
+        },
+        {
+          "chapter": 5,
+          "title": "The Room That Used to Stay Open"
+        },
+        {
+          "chapter": 6,
+          "title": "A Story Worth Keeping"
+        },
+        {
+          "chapter": 7,
+          "title": "A Case With Snacks"
+        },
+        {
+          "chapter": 8,
+          "title": "Not Every Mystery Has a Hero"
+        },
+        {
+          "chapter": 9,
+          "title": "The Stairs Nobody Uses"
+        },
+        {
+          "chapter": 10,
+          "title": "The Step That Used to Be Damaged"
+        },
+        {
+          "chapter": 11,
+          "title": "Fourteen Steps"
+        },
+        {
+          "chapter": 12,
+          "title": "Room 306"
+        },
+        {
+          "chapter": 13,
+          "title": "Not Really a Secret"
+        },
+        {
+          "chapter": 14,
+          "title": "Five Cases, One Notebook"
+        },
+        {
+          "chapter": 15,
+          "title": "Locker 113"
+        },
+        {
+          "chapter": 16,
+          "title": "Kindness Without an Owner"
+        },
+        {
+          "chapter": 17,
+          "title": "3:33, Every Afternoon"
+        },
+        {
+          "chapter": 18,
+          "title": "A Very Good Sense of Smell"
+        },
+        {
+          "chapter": 19,
+          "title": "The Ten Minute Club"
+        },
+        {
+          "chapter": 20,
+          "title": "The Quiet Boy"
+        },
+        {
+          "chapter": 21,
+          "title": "The Third Try"
+        },
+        {
+          "chapter": 22,
+          "title": "The List"
+        },
+        {
+          "chapter": 23,
+          "title": "Small Changes"
+        },
+        {
+          "chapter": 24,
+          "title": "The Right Question"
+        }
+      ],
+      "hasReviewQuiz": true
+    },
+    {
+      "level": 2,
+      "name": "Level 2",
+      "available": false,
+      "chapters": [],
+      "hasReviewQuiz": false
+    },
+    {
+      "level": 3,
+      "name": "Level 3",
+      "available": false,
+      "chapters": [],
+      "hasReviewQuiz": false
+    },
+    {
+      "level": 4,
+      "name": "Level 4",
+      "available": false,
+      "chapters": [],
+      "hasReviewQuiz": false
+    },
+    {
+      "level": 5,
+      "name": "Level 5",
+      "available": false,
+      "chapters": [],
+      "hasReviewQuiz": false
+    },
+    {
+      "level": 6,
+      "name": "Level 6",
+      "available": false,
+      "chapters": [],
+      "hasReviewQuiz": false
+    }
+  ]
+}
