@@ -189,7 +189,8 @@ input:checked + .slider:before { transform: translateX(20px); }
   padding: 20px; width: 100%; max-width: 480px; position: relative;
 }
 .word-popup-close { position: absolute; top: 12px; right: 14px; background: none; border: none; font-size: 1rem; color: var(--muted); cursor: pointer; }
-.word-popup-card h3 { margin: 0 0 6px; }
+.word-popup-card h3 { margin: 0 0 6px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.word-popup-card h3 .chip-btn { font-size: .8rem; }
 .word-popup-card .pos { color: var(--muted); font-size: .85rem; margin-bottom: 8px; }
 .word-popup-card .tenses { margin-top: 10px; font-size: .88rem; color: var(--muted); }
 

@@ -58,6 +58,20 @@ function stopSpeak() {
   speechSynthesis.cancel();
 }
 
+function speakSingleWord(word) {
+  ttsToken++;
+  ttsState.playing = false;
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(word);
+  utter.lang = 'en-US';
+  const v = pickEnglishVoice();
+  if (v) utter.voice = v;
+  speechSynthesis.speak(utter);
+}
+
 if ('speechSynthesis' in window) {
-  speechSynthesis.onvoiceschanged = () => {};
+  // Some browsers (notably iOS Safari) populate getVoices() asynchronously
+  // after the voiceschanged event; call once early so later picks aren't empty.
+  speechSynthesis.getVoices();
+  speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); };
 }

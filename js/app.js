@@ -423,7 +423,7 @@ function onWordClick(regId) {
   if (!entry) return;
   currentPopupEntry = entry;
   const bases = entry.word.split('/').map(s => s.trim());
-  let html = `<h3>${escapeHtml(bases.join(' / '))}</h3>`;
+  let html = `<h3>${escapeHtml(bases.join(' / '))} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
   html += `<div class="pos">${escapeHtml(entry.pos || '')}${entry.phonetic ? ' · ' + escapeHtml(entry.phonetic) : ''}</div>`;
   html += `<div>${escapeHtml(entry.zh || '')}</div>`;
   const posTokens = (entry.pos || '').split('/').map(t => t.trim());
@@ -432,6 +432,7 @@ function onWordClick(regId) {
   }
   $('wordPopupBody').innerHTML = html;
   $('wordPopup').hidden = false;
+  $('wordPopupSpeakBtn').onclick = () => speakSingleWord(bases[0]);
 }
 
 function closeWordPopup() {
