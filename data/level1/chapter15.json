@@ -4,58 +4,12 @@
   "title": "The Library Pen-Pal Project",
   "targetWords": [
     {
-      "word": "today",
-      "pos": "adv./n.",
-      "zh": "今天",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "todayed",
-      "pastParticipleForm": "todayed"
-    },
-    {
       "word": "lesson",
       "pos": "n.",
       "zh": "課",
       "phonetic": "",
       "level": 1,
       "firstOccurrenceSentenceIndex": 0
-    },
-    {
-      "word": "teacher",
-      "pos": "n.",
-      "zh": "老師",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0
-    },
-    {
-      "word": "whole",
-      "pos": "adj./n.",
-      "zh": "所有的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 0
-    },
-    {
-      "word": "class",
-      "pos": "n./v.",
-      "zh": "班級",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "classed",
-      "pastParticipleForm": "classed"
-    },
-    {
-      "word": "school",
-      "pos": "n./v.",
-      "zh": "學校",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "schooled",
-      "pastParticipleForm": "schooled"
     },
     {
       "word": "library",
@@ -66,122 +20,12 @@
       "firstOccurrenceSentenceIndex": 0
     },
     {
-      "word": "start",
-      "pos": "v./n.",
-      "zh": "開始",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "started",
-      "pastParticipleForm": "started"
-    },
-    {
-      "word": "pen",
-      "pos": "n./v.",
-      "zh": "筆",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "pened",
-      "pastParticipleForm": "pened"
-    },
-    {
-      "word": "write",
-      "pos": "v.",
-      "zh": "寫",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "wrote",
-      "pastParticipleForm": "written"
-    },
-    {
-      "word": "project",
-      "pos": "n.",
-      "zh": "專案",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 0
-    },
-    {
-      "word": "take",
-      "pos": "v.",
-      "zh": "拿",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 0,
-      "pastForm": "took",
-      "pastParticipleForm": "taken"
-    },
-    {
-      "word": "each",
-      "pos": "pron./adj./adv.",
-      "zh": "每個",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1,
-      "pastForm": "eached",
-      "pastParticipleForm": "eached"
-    },
-    {
-      "word": "we (us, our, ours, ourselves)",
-      "pos": "pron.",
-      "zh": "我們（我們，我們的，我們的，我們自己）",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "real",
-      "pos": "adj.",
-      "zh": "真實的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "paper",
-      "pos": "n./v.",
-      "zh": "紙",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1,
-      "pastForm": "papered",
-      "pastParticipleForm": "papered"
-    },
-    {
       "word": "letter",
       "pos": "n.",
       "zh": "信",
       "phonetic": "",
       "level": 1,
       "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "student",
-      "pos": "n.",
-      "zh": "學生",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "another",
-      "pos": "adj./pron.",
-      "zh": "其他",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "put",
-      "pos": "v.",
-      "zh": "放",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1,
-      "pastForm": "put",
-      "pastParticipleForm": "put"
     },
     {
       "word": "envelope",
@@ -202,71 +46,11 @@
       "pastParticipleForm": "mailed"
     },
     {
-      "word": "we (us, our, ours, ourselves)",
-      "pos": "pron.",
-      "zh": "我們（我們，我們的，我們的，我們自己）",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 1
-    },
-    {
-      "word": "show",
-      "pos": "v./n.",
-      "zh": "展示",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 2,
-      "pastForm": "showed",
-      "pastParticipleForm": "showed"
-    },
-    {
-      "word": "find",
-      "pos": "v./n.",
-      "zh": "尋找",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 2,
-      "pastForm": "found",
-      "pastParticipleForm": "found"
-    },
-    {
-      "word": "word",
-      "pos": "n.",
-      "zh": "單字",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 2
-    },
-    {
-      "word": "exact",
-      "pos": "adj.",
-      "zh": "精確的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 2
-    },
-    {
       "word": "meaning",
       "pos": "n.",
       "zh": "意義",
       "phonetic": "",
       "level": 2,
-      "firstOccurrenceSentenceIndex": 2
-    },
-    {
-      "word": "huge",
-      "pos": "adj.",
-      "zh": "巨大的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 2
-    },
-    {
-      "word": "heavy",
-      "pos": "adj.",
-      "zh": "重的",
-      "phonetic": "",
-      "level": 1,
       "firstOccurrenceSentenceIndex": 2
     },
     {
@@ -276,16 +60,6 @@
       "phonetic": "",
       "level": 1,
       "firstOccurrenceSentenceIndex": 2
-    },
-    {
-      "word": "instead",
-      "pos": "adv.",
-      "zh": "反而",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 2,
-      "pastForm": "insteaded",
-      "pastParticipleForm": "insteaded"
     },
     {
       "word": "guess",
@@ -308,64 +82,6 @@
       "pastParticipleForm": "defined"
     },
     {
-      "word": "diary",
-      "pos": "n.",
-      "zh": "日記",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 3
-    },
-    {
-      "word": "out",
-      "pos": "adv./prep./adj./n./v.",
-      "zh": "出去",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 3,
-      "pastForm": "outed",
-      "pastParticipleForm": "outed"
-    },
-    {
-      "word": "loud",
-      "pos": "adv./adj.",
-      "zh": "大聲",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 3,
-      "pastForm": "louded",
-      "pastParticipleForm": "louded"
-    },
-    {
-      "word": "before",
-      "pos": "prep./conj./adv.",
-      "zh": "前",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 3,
-      "pastForm": "befored",
-      "pastParticipleForm": "befored"
-    },
-    {
-      "word": "check",
-      "pos": "v./n.",
-      "zh": "查看",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 3,
-      "pastForm": "checked",
-      "pastParticipleForm": "checked"
-    },
-    {
-      "word": "both",
-      "pos": "pron./adv./adj.",
-      "zh": "兩個都",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 3,
-      "pastForm": "bothed",
-      "pastParticipleForm": "bothed"
-    },
-    {
       "word": "confident",
       "pos": "adj.",
       "zh": "自信的",
@@ -382,26 +98,6 @@
       "firstOccurrenceSentenceIndex": 3,
       "pastForm": "wronged",
       "pastParticipleForm": "wronged"
-    },
-    {
-      "word": "give",
-      "pos": "v.",
-      "zh": "給",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4,
-      "pastForm": "gave",
-      "pastParticipleForm": "given"
-    },
-    {
-      "word": "clear",
-      "pos": "adj./v./adv.",
-      "zh": "清除",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4,
-      "pastForm": "cleared",
-      "pastParticipleForm": "cleared"
     },
     {
       "word": "example",
@@ -422,14 +118,6 @@
       "pastParticipleForm": "described"
     },
     {
-      "word": "you (your, yours, yourself, yourselves)",
-      "pos": "pron.",
-      "zh": "你（你的，你的，你自己，你自己）",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4
-    },
-    {
       "word": "town",
       "pos": "n.",
       "zh": "鎮",
@@ -438,70 +126,12 @@
       "firstOccurrenceSentenceIndex": 4
     },
     {
-      "word": "small",
-      "pos": "adj./n./adv.",
-      "zh": "小的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4,
-      "pastForm": "smalled",
-      "pastParticipleForm": "smalled"
-    },
-    {
-      "word": "daily",
-      "pos": "adj./adv./n.",
-      "zh": "日常的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 4,
-      "pastForm": "dailyed",
-      "pastParticipleForm": "dailyed"
-    },
-    {
       "word": "habit",
       "pos": "n.",
       "zh": "習慣",
       "phonetic": "",
       "level": 1,
       "firstOccurrenceSentenceIndex": 4
-    },
-    {
-      "word": "nothing",
-      "pos": "pron./n.",
-      "zh": "沒有什麼",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4
-    },
-    {
-      "word": "more",
-      "pos": "adj./pron./adv.",
-      "zh": "更多的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 4,
-      "pastForm": "mored",
-      "pastParticipleForm": "mored"
-    },
-    {
-      "word": "make",
-      "pos": "v.",
-      "zh": "製作",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "made",
-      "pastParticipleForm": "made"
-    },
-    {
-      "word": "sure",
-      "pos": "adj./adv.",
-      "zh": "當然",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "sured",
-      "pastParticipleForm": "sured"
     },
     {
       "word": "dot",
@@ -514,130 +144,6 @@
       "pastParticipleForm": "doted"
     },
     {
-      "word": "end",
-      "pos": "n./v.",
-      "zh": "結尾",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "ended",
-      "pastParticipleForm": "ended"
-    },
-    {
-      "word": "every",
-      "pos": "adj.",
-      "zh": "每一個",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5
-    },
-    {
-      "word": "single",
-      "pos": "adj./n./v.",
-      "zh": "單身的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "singled",
-      "pastParticipleForm": "singled"
-    },
-    {
-      "word": "sentence",
-      "pos": "n./v.",
-      "zh": "句子",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "sentenced",
-      "pastParticipleForm": "sentenced"
-    },
-    {
-      "word": "like",
-      "pos": "prep./v./n.",
-      "zh": "喜歡",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 5,
-      "pastForm": "liked",
-      "pastParticipleForm": "liked"
-    },
-    {
-      "word": "yet",
-      "pos": "adv./conj.",
-      "zh": "然而",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "yeted",
-      "pastParticipleForm": "yeted"
-    },
-    {
-      "word": "own",
-      "pos": "adj./pron./v.",
-      "zh": "自己的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "owned",
-      "pastParticipleForm": "owned"
-    },
-    {
-      "word": "still",
-      "pos": "adv./adj.",
-      "zh": "仍然",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "stilled",
-      "pastParticipleForm": "stilled"
-    },
-    {
-      "word": "want",
-      "pos": "v./n.",
-      "zh": "想",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "wanted",
-      "pastParticipleForm": "wanted"
-    },
-    {
-      "word": "add",
-      "pos": "v.",
-      "zh": "添加",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "added",
-      "pastParticipleForm": "added"
-    },
-    {
-      "word": "drawing",
-      "pos": "n.",
-      "zh": "繪畫",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 6
-    },
-    {
-      "word": "good",
-      "pos": "adj./adv./n.",
-      "zh": "好的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 6,
-      "pastForm": "gooded",
-      "pastParticipleForm": "gooded"
-    },
-    {
-      "word": "luck",
-      "pos": "n.",
-      "zh": "運氣",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 6
-    },
-    {
       "word": "draw",
       "pos": "v./n.",
       "zh": "畫",
@@ -646,58 +152,6 @@
       "firstOccurrenceSentenceIndex": 6,
       "pastForm": "drawed",
       "pastParticipleForm": "drawed"
-    },
-    {
-      "word": "let",
-      "pos": "v.",
-      "zh": "讓",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 7,
-      "pastForm": "leted",
-      "pastParticipleForm": "leted"
-    },
-    {
-      "word": "tiny",
-      "pos": "adj.",
-      "zh": "微小的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 7
-    },
-    {
-      "word": "robot",
-      "pos": "n.",
-      "zh": "機器人",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 7
-    },
-    {
-      "word": "corner",
-      "pos": "n.",
-      "zh": "角落",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 7
-    },
-    {
-      "word": "look",
-      "pos": "v./n.",
-      "zh": "看",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 7,
-      "pastForm": "looked",
-      "pastParticipleForm": "looked"
-    },
-    {
-      "word": "interesting",
-      "pos": "adj.",
-      "zh": "有趣的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 7
     },
     {
       "word": "double",
@@ -720,50 +174,12 @@
       "pastParticipleForm": "addressed"
     },
     {
-      "word": "front",
-      "pos": "adj./n.",
-      "zh": "正面",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 8
-    },
-    {
-      "word": "since",
-      "pos": "conj./prep./adv.",
-      "zh": "自從",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 8,
-      "pastForm": "sinced",
-      "pastParticipleForm": "sinced"
-    },
-    {
-      "word": "number",
-      "pos": "n./v.",
-      "zh": "數位",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 8,
-      "pastForm": "numbered",
-      "pastParticipleForm": "numbered"
-    },
-    {
       "word": "means",
       "pos": "n.",
       "zh": "方法",
       "phonetic": "",
       "level": 2,
       "firstOccurrenceSentenceIndex": 8
-    },
-    {
-      "word": "never",
-      "pos": "adv.",
-      "zh": "絕不",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 8,
-      "pastForm": "nevered",
-      "pastParticipleForm": "nevered"
     },
     {
       "word": "arrive",
@@ -796,26 +212,6 @@
       "pastParticipleForm": "spelled"
     },
     {
-      "word": "name",
-      "pos": "n./v.",
-      "zh": "姓名",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 9,
-      "pastForm": "named",
-      "pastParticipleForm": "named"
-    },
-    {
-      "word": "first",
-      "pos": "n./adv./adj.",
-      "zh": "第一的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 9,
-      "pastForm": "firsted",
-      "pastParticipleForm": "firsted"
-    },
-    {
       "word": "attempt",
       "pos": "n./v.",
       "zh": "試圖",
@@ -826,87 +222,9 @@
       "pastParticipleForm": "attempted"
     },
     {
-      "word": "over",
-      "pos": "prep./adv.",
-      "zh": "超過",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 9,
-      "pastForm": "overed",
-      "pastParticipleForm": "overed"
-    },
-    {
-      "word": "some",
-      "pos": "adj./pron.",
-      "zh": "一些",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
-      "word": "time",
-      "pos": "n./v.",
-      "zh": "時間",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10,
-      "pastForm": "timed",
-      "pastParticipleForm": "timed"
-    },
-    {
-      "word": "read",
-      "pos": "v.",
-      "zh": "讀",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10,
-      "pastForm": "read",
-      "pastParticipleForm": "read"
-    },
-    {
-      "word": "newspaper",
-      "pos": "n.",
-      "zh": "報紙",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
-      "word": "day",
-      "pos": "n.",
-      "zh": "天",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
       "word": "news",
       "pos": "n.",
       "zh": "訊息",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
-      "word": "article",
-      "pos": "n.",
-      "zh": "文章",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
-      "word": "simple",
-      "pos": "adj.",
-      "zh": "簡單的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 10
-    },
-    {
-      "word": "new",
-      "pos": "adj.",
-      "zh": "新的",
       "phonetic": "",
       "level": 1,
       "firstOccurrenceSentenceIndex": 10
@@ -920,70 +238,6 @@
       "firstOccurrenceSentenceIndex": 11
     },
     {
-      "word": "about",
-      "pos": "prep./adv.",
-      "zh": "關於",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 11,
-      "pastForm": "abouted",
-      "pastParticipleForm": "abouted"
-    },
-    {
-      "word": "local",
-      "pos": "adj./n.",
-      "zh": "當地的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 11
-    },
-    {
-      "word": "building",
-      "pos": "n.",
-      "zh": "大樓",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 11
-    },
-    {
-      "word": "brand",
-      "pos": "n.",
-      "zh": "品牌",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 11
-    },
-    {
-      "word": "after",
-      "pos": "prep./conj./adv.",
-      "zh": "後",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "aftered",
-      "pastParticipleForm": "aftered"
-    },
-    {
-      "word": "finish",
-      "pos": "v./n.",
-      "zh": "結束",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "finished",
-      "pastParticipleForm": "finished"
-    },
-    {
-      "word": "walk",
-      "pos": "v./n.",
-      "zh": "走",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "walked",
-      "pastParticipleForm": "walked"
-    },
-    {
       "word": "post",
       "pos": "n./v./adv.",
       "zh": "郵政",
@@ -994,34 +248,6 @@
       "pastParticipleForm": "posted"
     },
     {
-      "word": "office",
-      "pos": "n.",
-      "zh": "辦公室",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12
-    },
-    {
-      "word": "near",
-      "pos": "prep./adj./adv./v.",
-      "zh": "靠近",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "neared",
-      "pastParticipleForm": "neared"
-    },
-    {
-      "word": "send",
-      "pos": "v.",
-      "zh": "傳送",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "sended",
-      "pastParticipleForm": "sended"
-    },
-    {
       "word": "package",
       "pos": "n.",
       "zh": "包裹",
@@ -1030,29 +256,11 @@
       "firstOccurrenceSentenceIndex": 12
     },
     {
-      "word": "photograph/photo",
-      "pos": "n./v.",
-      "zh": "照片/照片",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 12,
-      "pastForm": "photoed",
-      "pastParticipleForm": "photoed"
-    },
-    {
       "word": "worker",
       "pos": "n.",
       "zh": "勞工",
       "phonetic": "",
       "level": 1,
-      "firstOccurrenceSentenceIndex": 13
-    },
-    {
-      "word": "used",
-      "pos": "adj.",
-      "zh": "用過的",
-      "phonetic": "",
-      "level": 2,
       "firstOccurrenceSentenceIndex": 13
     },
     {
@@ -1074,14 +282,6 @@
       "pastParticipleForm": "pressed"
     },
     {
-      "word": "official",
-      "pos": "adj./n.",
-      "zh": "官方的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 13
-    },
-    {
       "word": "stamp",
       "pos": "n./v.",
       "zh": "郵票",
@@ -1090,144 +290,6 @@
       "firstOccurrenceSentenceIndex": 13,
       "pastForm": "stamped",
       "pastParticipleForm": "stamped"
-    },
-    {
-      "word": "mark",
-      "pos": "n./v.",
-      "zh": "標記",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 13,
-      "pastForm": "marked",
-      "pastParticipleForm": "marked"
-    },
-    {
-      "word": "into",
-      "pos": "prep.",
-      "zh": "進入",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 13
-    },
-    {
-      "word": "large",
-      "pos": "adj.",
-      "zh": "大的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 13
-    },
-    {
-      "word": "bag",
-      "pos": "n.",
-      "zh": "包包",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 13
-    },
-    {
-      "word": "ask",
-      "pos": "v.",
-      "zh": "問",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 14,
-      "pastForm": "asked",
-      "pastParticipleForm": "asked"
-    },
-    {
-      "word": "long",
-      "pos": "adj./adv./v.",
-      "zh": "長的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 14,
-      "pastForm": "longed",
-      "pastParticipleForm": "longed"
-    },
-    {
-      "word": "depend",
-      "pos": "v.",
-      "zh": "依賴",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 14,
-      "pastForm": "depended",
-      "pastParticipleForm": "depended"
-    },
-    {
-      "word": "wait",
-      "pos": "v./n.",
-      "zh": "等待",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15,
-      "pastForm": "waited",
-      "pastParticipleForm": "waited"
-    },
-    {
-      "word": "see",
-      "pos": "v.",
-      "zh": "看",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15,
-      "pastForm": "saw",
-      "pastParticipleForm": "seen"
-    },
-    {
-      "word": "other",
-      "pos": "adj./pron.",
-      "zh": "其他",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15
-    },
-    {
-      "word": "somewhere",
-      "pos": "adv.",
-      "zh": "某處",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15,
-      "pastForm": "somewhered",
-      "pastParticipleForm": "somewhered"
-    },
-    {
-      "word": "else",
-      "pos": "adv.",
-      "zh": "別的",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15,
-      "pastForm": "elsed",
-      "pastParticipleForm": "elsed"
-    },
-    {
-      "word": "back",
-      "pos": "adv./n./v./adj.",
-      "zh": "後退",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15,
-      "pastForm": "backed",
-      "pastParticipleForm": "backed"
-    },
-    {
-      "word": "ordinary",
-      "pos": "adj.",
-      "zh": "普通的",
-      "phonetic": "",
-      "level": 2,
-      "firstOccurrenceSentenceIndex": 15
-    },
-    {
-      "word": "I (me, my, mine, myself)",
-      "pos": "pron.",
-      "zh": "我（我，我的，我的，我自己）",
-      "phonetic": "",
-      "level": 1,
-      "firstOccurrenceSentenceIndex": 15
     }
   ],
   "extraHighlightWords": [],
