@@ -1,14 +1,21 @@
 const ttsState = { queue: [], idx: 0, playing: false, onSentence: null, onDone: null };
 let ttsToken = 0;
 
+// WebKit (Safari / iOS Chrome, which is Safari under the hood) silently drops
+// speak() if it's called in the same tick as a preceding cancel(). A short
+// delay after cancel() avoids this — a well-known iOS Web Speech API quirk.
+const CANCEL_SETTLE_MS = 80;
+
 function speakChapter(sentences, onSentenceStart, onDone) {
-  stopSpeak();
+  ttsToken++;
+  ttsState.playing = false;
+  speechSynthesis.cancel();
   ttsState.queue = sentences;
   ttsState.idx = 0;
   ttsState.playing = true;
   ttsState.onSentence = onSentenceStart;
   ttsState.onDone = onDone;
-  speakNext();
+  setTimeout(speakNext, CANCEL_SETTLE_MS);
 }
 
 function speakNext() {
@@ -39,7 +46,7 @@ function advanceOneSentence() {
   ttsToken++;
   ttsState.idx++;
   speechSynthesis.cancel();
-  speakNext();
+  setTimeout(speakNext, CANCEL_SETTLE_MS);
 }
 
 function stopSpeak() {
@@ -52,7 +59,9 @@ function speakSingleWord(word) {
   ttsToken++;
   ttsState.playing = false;
   speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(word);
-  utter.lang = 'en-US';
-  speechSynthesis.speak(utter);
+  setTimeout(() => {
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = 'en-US';
+    speechSynthesis.speak(utter);
+  }, CANCEL_SETTLE_MS);
 }
