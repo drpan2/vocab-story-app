@@ -200,12 +200,13 @@ input:checked + .slider:before { transform: translateX(20px); }
   position: fixed; bottom: 0; left: 0; right: 0; background: var(--card-bg);
   border-top: 1px solid var(--border); display: flex; z-index: 20;
 }
-.bottom-nav a {
+.bottom-nav a, .bottom-nav button {
   flex: 1; text-align: center; padding: 8px 0 6px; text-decoration: none; color: var(--muted);
   font-size: 1.1rem; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  background: none; border: none; font-family: inherit; cursor: pointer;
 }
-.bottom-nav a span { font-size: .68rem; }
-.bottom-nav a.active { color: var(--accent); }
+.bottom-nav a span, .bottom-nav button span { font-size: .68rem; }
+.bottom-nav a.active, .bottom-nav button.active { color: var(--accent); }
 
 .word-popup {
   position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 50;
