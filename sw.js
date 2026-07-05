@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vocab-story-v1';
+const CACHE_NAME = 'vocab-story-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -29,21 +29,20 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Network-first: always prefer the live version so code/content fixes reach
+// users immediately when online. Cache is only a fallback for offline use.
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
   event.respondWith(
-    caches.match(req).then((cached) => {
-      const fetchPromise = fetch(req)
-        .then((networkRes) => {
-          if (networkRes && networkRes.status === 200) {
-            const clone = networkRes.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
-          }
-          return networkRes;
-        })
-        .catch(() => cached);
-      return cached || fetchPromise;
-    })
+    fetch(req)
+      .then((networkRes) => {
+        if (networkRes && networkRes.status === 200) {
+          const clone = networkRes.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
+        }
+        return networkRes;
+      })
+      .catch(() => caches.match(req))
   );
 });
