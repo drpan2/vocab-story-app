@@ -566,16 +566,20 @@ function renderDueCard(word) {
   }
   const options = [...distractors, entry.zh].sort(() => Math.random() - 0.5);
   const answerIdx = options.indexOf(entry.zh);
+  const headword = entry.word.split('/')[0];
   let answered = false;
 
   const container = $('dueReviewQuiz');
   container.innerHTML = `
     <div class="quiz-item">
-      <div class="q">"${escapeHtml(entry.word.split('/')[0])}" 是什麼意思？</div>
+      <div class="q">"${escapeHtml(headword)}" 是什麼意思？ <button class="chip-btn" id="dueSpeakBtn" type="button">🔊</button></div>
       ${options.map((opt, oi) => `<label id="dueOpt${oi}"><input type="radio" name="dueCard">${escapeHtml(opt)}</label>`).join('')}
     </div>
     <button class="primary-btn" id="dueNextBtn" style="margin-top:12px" hidden>下一張 →</button>
   `;
+
+  $('dueSpeakBtn').onclick = () => speakSingleWord(headword);
+  speakSingleWord(headword);
 
   options.forEach((opt, oi) => {
     $(`dueOpt${oi}`).onclick = () => {
