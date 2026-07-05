@@ -560,26 +560,40 @@ function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered, wo
       item.appendChild(favBtn);
     }
 
-    q.options.forEach((opt, oi) => {
+    // Shuffle the display order of options per question. A lot of the quiz
+    // content was authored with the correct answer always listed first
+    // (answer: 0), which made every question trivially "always pick A" — so
+    // this can't rely on the source data being pre-shuffled; it has to
+    // happen here at render time, every time, regardless of how the JSON
+    // was written.
+    const displayOrder = q.options.map((_, oi) => oi);
+    for (let i = displayOrder.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [displayOrder[i], displayOrder[j]] = [displayOrder[j], displayOrder[i]];
+    }
+
+    displayOrder.forEach((originalIdx, displayIdx) => {
+      const opt = q.options[originalIdx];
       const label = document.createElement('label');
-      const id = `quiz-${container.id}-${qi}-${oi}`;
+      const id = `quiz-${container.id}-${qi}-${displayIdx}`;
       label.id = id;
       label.innerHTML = `<input type="radio" name="quiz-${container.id}-${qi}">${escapeHtml(opt)}`;
       label.onclick = () => {
         if (answers[qi] !== null) return;
-        answers[qi] = oi;
-        for (let k = 0; k < q.options.length; k++) {
+        answers[qi] = originalIdx;
+        for (let k = 0; k < displayOrder.length; k++) {
           const el = $(`quiz-${container.id}-${qi}-${k}`);
           if (el) el.classList.remove('correct', 'wrong');
         }
-        if (oi === q.answer) {
+        if (originalIdx === q.answer) {
           label.classList.add('correct');
         } else {
           label.classList.add('wrong');
-          const correctEl = $(`quiz-${container.id}-${qi}-${q.answer}`);
+          const correctDisplayIdx = displayOrder.indexOf(q.answer);
+          const correctEl = $(`quiz-${container.id}-${qi}-${correctDisplayIdx}`);
           if (correctEl) correctEl.classList.add('correct');
         }
-        onItemAnswered && onItemAnswered(qi, oi === q.answer, q);
+        onItemAnswered && onItemAnswered(qi, originalIdx === q.answer, q);
         if (answers.every(a => a !== null)) {
           const score = answers.filter((a, i2) => a === quizArray[i2].answer).length;
           onAllAnswered && onAllAnswered(score, quizArray.length);
