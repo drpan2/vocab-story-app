@@ -795,6 +795,14 @@ function bindGlobalEvents() {
     searchDebounce = setTimeout(() => doSearch(val), 150);
   });
 
+  $('forceRefreshBtn').onclick = async () => {
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.getRegistration();
+      if (reg) await reg.update();
+    }
+    location.reload();
+  };
+
   $('exportBtn').onclick = () => exportProgress();
   $('importBtn').onclick = () => $('importFile').click();
   $('importFile').onchange = async (e) => {
