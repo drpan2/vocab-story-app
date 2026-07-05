@@ -5,102 +5,45 @@
       "name": "Level 1",
       "available": true,
       "chapters": [
-        {
-          "chapter": 1,
-          "title": "Ten Minutes Slow, Every Single Day"
-        },
-        {
-          "chapter": 2,
-          "title": "The Watch at the Gate"
-        },
-        {
-          "chapter": 3,
-          "title": "The Habit Nobody Forgot"
-        },
-        {
-          "chapter": 4,
-          "title": "The Light That Comes On By Itself"
-        },
-        {
-          "chapter": 5,
-          "title": "The Room That Used to Stay Open"
-        },
-        {
-          "chapter": 6,
-          "title": "A Story Worth Keeping"
-        },
-        {
-          "chapter": 7,
-          "title": "A Case With Snacks"
-        },
-        {
-          "chapter": 8,
-          "title": "Not Every Mystery Has a Hero"
-        },
-        {
-          "chapter": 9,
-          "title": "The Stairs Nobody Uses"
-        },
-        {
-          "chapter": 10,
-          "title": "The Step That Used to Be Damaged"
-        },
-        {
-          "chapter": 11,
-          "title": "Fourteen Steps"
-        },
-        {
-          "chapter": 12,
-          "title": "Room 306"
-        },
-        {
-          "chapter": 13,
-          "title": "Not Really a Secret"
-        },
-        {
-          "chapter": 14,
-          "title": "Five Cases, One Notebook"
-        },
-        {
-          "chapter": 15,
-          "title": "Locker 113"
-        },
-        {
-          "chapter": 16,
-          "title": "Kindness Without an Owner"
-        },
-        {
-          "chapter": 17,
-          "title": "3:33, Every Afternoon"
-        },
-        {
-          "chapter": 18,
-          "title": "A Very Good Sense of Smell"
-        },
-        {
-          "chapter": 19,
-          "title": "The Ten Minute Club"
-        },
-        {
-          "chapter": 20,
-          "title": "The Quiet Boy"
-        },
-        {
-          "chapter": 21,
-          "title": "The Third Try"
-        },
-        {
-          "chapter": 22,
-          "title": "The List"
-        },
-        {
-          "chapter": 23,
-          "title": "Small Changes"
-        },
-        {
-          "chapter": 24,
-          "title": "The Right Question"
-        }
+        { "chapter": 1, "title": "The First Page of My Whole Life" },
+        { "chapter": 2, "title": "William and the Giant Robot Factory" },
+        { "chapter": 3, "title": "A Whole Chapter About Perry, Because He Deserves It" },
+        { "chapter": 4, "title": "Sophia's Surprise Room Inspection" },
+        { "chapter": 5, "title": "Saturday Market Trip With Sophia" },
+        { "chapter": 6, "title": "Sophia's Rules for the Dinner Table" },
+        { "chapter": 7, "title": "School Health Check-Up Day" },
+        { "chapter": 8, "title": "My One-Week Weather Diary (For Science Class)" },
+        { "chapter": 9, "title": "The Great Closet Clean-Out" },
+        { "chapter": 10, "title": "My Actual Class Schedule (Finally Written Down)" },
+        { "chapter": 11, "title": "Zoo Field Trip (Before the High Schoolers Get the Better Animals)" },
+        { "chapter": 12, "title": "How I Actually Get to School Every Day" },
+        { "chapter": 13, "title": "Career Day: Guess the Job" },
+        { "chapter": 14, "title": "Talent Show Tryouts (A Disaster, Mostly)" },
+        { "chapter": 15, "title": "The Library Pen-Pal Project" },
+        { "chapter": 16, "title": "The Personality Quiz Mr. Pan Made Us Take" },
+        { "chapter": 17, "title": "Drawing My Family Tree" },
+        { "chapter": 18, "title": "Night Market Weekend, Every Booth Reviewed" },
+        { "chapter": 19, "title": "The Recess Baseball League (Very Unofficial)" },
+        { "chapter": 20, "title": "Our Very Last-Minute Beach Camping Trip" },
+        { "chapter": 21, "title": "Sophia's Bedtime Story: The Lonely Queen and the Rose Garden" },
+        { "chapter": 22, "title": "Field Trip to a Real Farm" },
+        { "chapter": 23, "title": "Goodbye, Bubbles (Our Classroom Fish)" },
+        { "chapter": 24, "title": "Family Movie Night Turns Into a Documentary Marathon" },
+        { "chapter": 25, "title": "Math Class: Measure Absolutely Everything" },
+        { "chapter": 26, "title": "Debate Class: Should Recess Be Longer?" },
+        { "chapter": 27, "title": "Old Town Field Trip: Temples, Trains, and Tourists" },
+        { "chapter": 28, "title": "Club Fair Day: Too Many Choices" },
+        { "chapter": 29, "title": "Running Errands Downtown With Dad" },
+        { "chapter": 30, "title": "Looking Back at My First Semester" },
+        { "chapter": 31, "title": "Grandpa's Surprise Birthday Party" },
+        { "chapter": 32, "title": "Report Card Day (Not My Best Moment)" },
+        { "chapter": 33, "title": "Random Notes I Forgot to Write Down Earlier" },
+        { "chapter": 34, "title": "A Big Family Affair: My Aunt Is Getting Married" },
+        { "chapter": 35, "title": "Dad's DIY Home Repair Weekend" },
+        { "chapter": 36, "title": "The Pre-Wedding Photo Shoot (A Full Circus)" },
+        { "chapter": 37, "title": "The Last-Day-Before-Summer Vocabulary Game" },
+        { "chapter": 38, "title": "The Very Last Entry: We're Getting a Pet Rat" },
+        { "chapter": 39, "title": "One Last Page, Stuck to the Back Cover" }
       ],
       "hasReviewQuiz": true
     },

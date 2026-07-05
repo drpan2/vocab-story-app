@@ -3,704 +3,904 @@
   "title": "Level 1 總複習大會考",
   "quiz": [
     {
-      "question": "What does \"quick\" mean?",
+      "question": "What does \"planet\" mean?",
       "options": [
-        "有禮貌的",
-        "停留",
-        "獎",
-        "快的"
+        "行星",
+        "吹",
+        "有趣的",
+        "出色地"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"boss\" mean?",
+      "options": [
+        "船",
+        "工作",
+        "繼續",
+        "老闆"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"escape\" mean?",
+      "question": "What does \"add\" mean?",
       "options": [
-        "推",
-        "裡面",
-        "蛇",
-        "逃脫"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"drum\" mean?",
-      "options": [
-        "家庭作業",
-        "夜晚",
-        "鼓",
-        "用過的"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"umbrella\" mean?",
-      "options": [
-        "傘",
-        "早晨",
-        "獨自的",
-        "野餐"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"simply\" mean?",
-      "options": [
-        "簡單地",
-        "精確的",
-        "邀請",
-        "單身的"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"vegetable\" mean?",
-      "options": [
-        "蔬菜",
-        "司機",
-        "請",
-        "醫院"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"front\" mean?",
-      "options": [
-        "飛機場",
-        "正面",
-        "老虎",
-        "音樂"
+        "關閉",
+        "添加",
+        "堵塞",
+        "感覺"
       ],
       "answer": 1
     },
     {
-      "question": "What does \"shape\" mean?",
+      "question": "What does \"develop\" mean?",
       "options": [
-        "普通的",
-        "忽略",
-        "站立",
-        "形狀"
+        "現在",
+        "發展）",
+        "似乎",
+        "沒有任何"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"quiz\" mean?",
+      "options": [
+        "之間",
+        "醫療的",
+        "成員",
+        "測驗"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"throw\" mean?",
+      "question": "What does \"bit\" mean?",
       "options": [
-        "唱歌",
-        "邀請",
-        "丟",
-        "花園"
+        "機會",
+        "語言",
+        "位元",
+        "口袋"
       ],
       "answer": 2
     },
     {
-      "question": "What does \"mention\" mean?",
+      "question": "What does \"enter\" mean?",
       "options": [
-        "大的",
-        "個人的",
-        "提到",
-        "挑選"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"matter\" mean?",
-      "options": [
-        "提供",
-        "杯子",
-        "事",
-        "舒服的"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"flower\" mean?",
-      "options": [
-        "學習",
-        "光",
-        "花",
-        "爆米花"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"heart\" mean?",
-      "options": [
-        "晚上",
-        "過去的",
-        "官方的",
-        "心"
+        "玩家",
+        "過失",
+        "測量）",
+        "進入"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"half\" mean?",
+      "question": "What does \"prison\" mean?",
       "options": [
-        "水果",
-        "品嚐",
-        "之內",
-        "一半"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"edge\" mean?",
-      "options": [
-        "冷靜的",
-        "然而",
-        "邊緣",
-        "美元"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"sign\" mean?",
-      "options": [
-        "每個人/每個人",
-        "綠色的",
-        "符號",
-        "仍然"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"keep\" mean?",
-      "options": [
-        "居住",
-        "圖片",
-        "日期",
-        "保持"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"catch\" mean?",
-      "options": [
-        "博物館",
-        "豬",
-        "自行車/自行車",
-        "抓住"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"save\" mean?",
-      "options": [
-        "忙碌的",
-        "超過",
-        "音樂",
+        "意外事故",
+        "稅",
+        "監獄",
         "節省"
       ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"visit\" mean?",
-      "options": [
-        "新的",
-        "規則",
-        "訪問",
-        "字典"
-      ],
       "answer": 2
     },
     {
-      "question": "What does \"explain\" mean?",
+      "question": "What does \"tidy\" mean?",
       "options": [
-        "抓住",
-        "銀行",
-        "站立",
-        "解釋"
+        "透過",
+        "黃色的",
+        "天堂",
+        "整齊的"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"clean\" mean?",
+      "question": "What does \"direction\" mean?",
       "options": [
-        "乾淨的",
-        "行動",
-        "最喜歡的",
-        "派"
+        "方向",
+        "某人/某人",
+        "理解",
+        "穿"
       ],
       "answer": 0
     },
     {
-      "question": "What does \"room\" mean?",
+      "question": "What does \"almost\" mean?",
       "options": [
-        "房間",
-        "鐘",
-        "蛋糕",
-        "反正"
+        "對待",
+        "動物園",
+        "幾乎",
+        "父親"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"sky\" mean?",
+      "options": [
+        "海洋",
+        "年齡",
+        "齒",
+        "天空"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"loud\" mean?",
+      "options": [
+        "結婚",
+        "大聲",
+        "村莊",
+        "稅"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"rainbow\" mean?",
+      "options": [
+        "擁有者",
+        "彩虹",
+        "外部",
+        "筷子）"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"hole\" mean?",
+      "options": [
+        "地球",
+        "馬鈴薯",
+        "洞",
+        "飢餓的"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"kind\" mean?",
+      "options": [
+        "種類",
+        "客人",
+        "基礎",
+        "觀點"
       ],
       "answer": 0
     },
     {
-      "question": "What does \"extra\" mean?",
+      "question": "What does \"throat\" mean?",
       "options": [
-        "虛弱的",
-        "淋浴",
-        "額外的",
-        "廚師"
+        "爭論（爭論）",
+        "喉",
+        "低的",
+        "錯誤"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"page\" mean?",
+      "options": [
+        "嚇",
+        "腿",
+        "前",
+        "頁"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"cousin\" mean?",
+      "options": [
+        "不/不",
+        "時間",
+        "表哥",
+        "木板"
       ],
       "answer": 2
     },
     {
-      "question": "What does \"run\" mean?",
+      "question": "What does \"height\" mean?",
       "options": [
-        "信封",
-        "後退",
-        "跑步",
-        "一對"
+        "成員",
+        "高度",
+        "努力",
+        "蜜蜂"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"confident\" mean?",
+      "options": [
+        "服務",
+        "門",
+        "自信的",
+        "小路"
       ],
       "answer": 2
+    },
+    {
+      "question": "What does \"primary\" mean?",
+      "options": [
+        "基本的",
+        "明亮的",
+        "擔心",
+        "運動"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"ball\" mean?",
+      "options": [
+        "高度",
+        "番茄",
+        "牆",
+        "球"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"hard\" mean?",
+      "options": [
+        "難的",
+        "沒有人",
+        "考慮",
+        "顏色"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"factory\" mean?",
+      "options": [
+        "邊",
+        "爆裂",
+        "雪",
+        "工廠"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"bar\" mean?",
+      "options": [
+        "吉他",
+        "死亡",
+        "酒吧",
+        "願意的"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"energy\" mean?",
+      "options": [
+        "派",
+        "活力",
+        "工廠",
+        "睡覺"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"mood\" mean?",
+      "options": [
+        "寫",
+        "每當",
+        "四分之一",
+        "情緒"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"principle\" mean?",
+      "options": [
+        "原則",
+        "恥辱",
+        "害怕",
+        "儘管"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"argue\" mean?",
+      "options": [
+        "姓名",
+        "解決方案",
+        "沒有什麼",
+        "爭論（爭論）"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"weak\" mean?",
+      "options": [
+        "尺寸",
+        "觀點",
+        "頭髮",
+        "虛弱的"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"relative\" mean?",
+      "options": [
+        "面試",
+        "相對的",
+        "飢餓的",
+        "嬰兒"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"cover\" mean?",
+      "options": [
+        "建議",
+        "覆蓋",
+        "同胞",
+        "自由主義"
+      ],
+      "answer": 1
     },
     {
       "question": "What does \"guess\" mean?",
       "options": [
-        "檸檬",
-        "手指",
-        "筆",
+        "現實",
+        "鎮",
+        "教",
         "猜測"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"grandmother\" mean?",
+      "question": "What does \"open\" mean?",
       "options": [
-        "祖母",
-        "城市",
-        "消失",
-        "國家"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"however\" mean?",
-      "options": [
-        "醫院",
-        "邊緣",
-        "許多",
-        "然而"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"worry\" mean?",
-      "options": [
-        "相對的",
-        "頂部",
-        "小時",
-        "擔心"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"reporter\" mean?",
-      "options": [
-        "高的",
-        "記者",
-        "西瓜",
-        "運動"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"country\" mean?",
-      "options": [
-        "鼻子",
-        "快樂的",
-        "國家",
-        "戒指"
+        "過失",
+        "傻子",
+        "打開",
+        "眼鏡"
       ],
       "answer": 2
     },
     {
-      "question": "What does \"sick\" mean?",
+      "question": "What does \"combine\" mean?",
       "options": [
-        "在後面",
-        "生病的",
-        "天",
-        "葉子"
+        "部門",
+        "結合",
+        "不/不",
+        "藝術"
       ],
       "answer": 1
-    },
-    {
-      "question": "What does \"health\" mean?",
-      "options": [
-        "男生",
-        "青少年",
-        "允許",
-        "健康"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"sense\" mean?",
-      "options": [
-        "餵食",
-        "鼓",
-        "感覺",
-        "忽略"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"cage\" mean?",
-      "options": [
-        "記住",
-        "空的",
-        "老鼠",
-        "籠"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"lonely\" mean?",
-      "options": [
-        "醫院",
-        "錯誤的",
-        "居住",
-        "孤獨"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"need\" mean?",
-      "options": [
-        "午餐",
-        "需要",
-        "害怕",
-        "春天"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"rabbit\" mean?",
-      "options": [
-        "推",
-        "我（我，我的，我的，我自己）",
-        "場地",
-        "兔子"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"far\" mean?",
-      "options": [
-        "添加",
-        "支付）",
-        "回答",
-        "遠的"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"nurse\" mean?",
-      "options": [
-        "護士",
-        "兔子",
-        "抓住",
-        "命令"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"lie\" mean?",
-      "options": [
-        "市場",
-        "獅子",
-        "必須",
-        "說謊"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"taste\" mean?",
-      "options": [
-        "帶來",
-        "品嚐",
-        "觸碰",
-        "勞工"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"eat\" mean?",
-      "options": [
-        "母親",
-        "太陽",
-        "不同的",
-        "吃"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"park\" mean?",
-      "options": [
-        "紅蘿蔔",
-        "附近",
-        "更遠",
-        "公園"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"butterfly\" mean?",
-      "options": [
-        "需要",
-        "狗",
-        "蝴蝶",
-        "常規的"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"bath\" mean?",
-      "options": [
-        "節慶",
-        "吉他",
-        "車",
-        "洗澡"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"business\" mean?",
-      "options": [
-        "兩個都",
-        "商業",
-        "因為",
-        "銀行"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"climb\" mean?",
-      "options": [
-        "拿",
-        "爬",
-        "其他",
-        "告訴"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"street\" mean?",
-      "options": [
-        "寫",
-        "包括",
-        "報紙",
-        "街道"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"switch\" mean?",
-      "options": [
-        "日期",
-        "有用",
-        "外部",
-        "轉變"
-      ],
-      "answer": 3
-    },
-    {
-      "question": "What does \"rock\" mean?",
-      "options": [
-        "朝向/朝向",
-        "岩石",
-        "交通",
-        "相對的"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"friend\" mean?",
-      "options": [
-        "騎",
-        "照片/照片",
-        "朋友",
-        "叉"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"brother\" mean?",
-      "options": [
-        "跳",
-        "之後",
-        "兄弟",
-        "學期"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"most\" mean?",
-      "options": [
-        "國外",
-        "後退",
-        "最多",
-        "繩索"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"hear\" mean?",
-      "options": [
-        "聽到",
-        "冷靜的",
-        "嬰兒",
-        "鼻子"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"chapter\" mean?",
-      "options": [
-        "架子",
-        "興趣",
-        "章",
-        "喝"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"shower\" mean?",
-      "options": [
-        "淋浴",
-        "有",
-        "開始",
-        "弓"
-      ],
-      "answer": 0
     },
     {
       "question": "What does \"never\" mean?",
       "options": [
         "絕不",
-        "丟",
-        "例子",
-        "警衛"
+        "蔬菜",
+        "難的",
+        "盒"
       ],
       "answer": 0
     },
     {
-      "question": "What does \"tell\" mean?",
+      "question": "What does \"file\" mean?",
       "options": [
-        "告訴",
-        "眼睛",
-        "電腦",
-        "老的"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"chicken\" mean?",
-      "options": [
-        "希望",
-        "借",
-        "雞",
-        "小心"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"figure\" mean?",
-      "options": [
-        "數位",
-        "藍色的",
-        "精彩的",
-        "地球"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"parent(s)\" mean?",
-      "options": [
-        "棕色的",
-        "父母）",
-        "籠",
-        "圓形的"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"cup\" mean?",
-      "options": [
-        "杯子",
-        "取消",
-        "片",
-        "瘡"
-      ],
-      "answer": 0
-    },
-    {
-      "question": "What does \"sock(s)\" mean?",
-      "options": [
-        "樓下",
-        "晚上",
-        "襪子）",
-        "地面"
-      ],
-      "answer": 2
-    },
-    {
-      "question": "What does \"return\" mean?",
-      "options": [
-        "直的",
+        "文件",
+        "曾經",
         "秘書",
-        "稱呼",
-        "返回"
+        "按"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"third\" mean?",
+      "options": [
+        "盤子",
+        "車",
+        "慢的",
+        "第三"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"damage\" mean?",
+      "question": "What does \"different\" mean?",
       "options": [
-        "麵條",
-        "爆米花",
-        "損害",
-        "跳"
+        "魔法",
+        "北",
+        "不同的",
+        "傳統的"
       ],
       "answer": 2
     },
     {
-      "question": "What does \"entire\" mean?",
+      "question": "What does \"dozen\" mean?",
       "options": [
-        "夜晚",
-        "真的",
-        "細節",
-        "全部的"
+        "甚至",
+        "變得",
+        "勝利",
+        "打"
       ],
       "answer": 3
     },
     {
-      "question": "What does \"party\" mean?",
+      "question": "What does \"medium\" mean?",
       "options": [
-        "大象",
-        "派對",
-        "允許",
-        "吉他"
-      ],
-      "answer": 1
-    },
-    {
-      "question": "What does \"patient\" mean?",
-      "options": [
-        "行動",
-        "複製",
-        "病人",
-        "每個人/每個人"
+        "中心",
+        "害羞的",
+        "中等的",
+        "居住"
       ],
       "answer": 2
     },
     {
-      "question": "What does \"doubt\" mean?",
+      "question": "What does \"education\" mean?",
       "options": [
-        "照片/照片",
-        "懷疑",
-        "詩",
-        "餵食"
+        "返回",
+        "零",
+        "教育",
+        "眼鏡"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"guitar\" mean?",
+      "options": [
+        "吉他",
+        "至少",
+        "草莓",
+        "假期"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"actual\" mean?",
+      "options": [
+        "蘋果",
+        "實際的",
+        "歡呼",
+        "歡迎"
       ],
       "answer": 1
+    },
+    {
+      "question": "What does \"opinion\" mean?",
+      "options": [
+        "民眾",
+        "觀點",
+        "球",
+        "健康"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"polite\" mean?",
+      "options": [
+        "有禮貌的",
+        "標題",
+        "事件",
+        "農民"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"every\" mean?",
+      "options": [
+        "發展）",
+        "友誼",
+        "每一個",
+        "進步"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"today\" mean?",
+      "options": [
+        "成立",
+        "線",
+        "今天",
+        "收音機"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"plain\" mean?",
+      "options": [
+        "手臂",
+        "清楚的",
+        "打",
+        "管子"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"excited\" mean?",
+      "options": [
+        "興奮的",
+        "通常",
+        "雪",
+        "特別的"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"mathematics\" mean?",
+      "options": [
+        "卷",
+        "下午/下午",
+        "數學/數學",
+        "樓下"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"until\" mean?",
+      "options": [
+        "直到",
+        "刀",
+        "熱",
+        "耳朵"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"swallow\" mean?",
+      "options": [
+        "激動）",
+        "吞",
+        "腰帶",
+        "說謊"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"many\" mean?",
+      "options": [
+        "許多",
+        "追趕",
+        "肉",
+        "懸掛"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"door\" mean?",
+      "options": [
+        "門",
+        "物品",
+        "停止",
+        "傳送"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"useful\" mean?",
+      "options": [
+        "特別的",
+        "有用",
+        "獅子",
+        "其他"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"quarter\" mean?",
+      "options": [
+        "四分之一",
+        "方法",
+        "咬",
+        "誰"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"earn\" mean?",
+      "options": [
+        "場地",
+        "贏",
+        "自由主義",
+        "賺"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"king\" mean?",
+      "options": [
+        "筆記",
+        "種子",
+        "停止",
+        "國王"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"simply\" mean?",
+      "options": [
+        "月亮",
+        "外套",
+        "信封",
+        "簡單地"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"gymnasium\" mean?",
+      "options": [
+        "一切",
+        "慶祝",
+        "體育館/體育館",
+        "力量"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"cellphone\" mean?",
+      "options": [
+        "讀",
+        "雪",
+        "圖片",
+        "智慧型手機"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"brand\" mean?",
+      "options": [
+        "有些",
+        "寶藏",
+        "餵食",
+        "品牌"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"proper\" mean?",
+      "options": [
+        "恰當的",
+        "其他",
+        "課程",
+        "合法的"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"town\" mean?",
+      "options": [
+        "學習",
+        "鎮",
+        "蘋果",
+        "孤獨"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"break\" mean?",
+      "options": [
+        "帆",
+        "房間",
+        "休息",
+        "任何一個"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"tired\" mean?",
+      "options": [
+        "難的",
+        "疲勞的",
+        "航班",
+        "在後面"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What does \"bag\" mean?",
+      "options": [
+        "天堂",
+        "損失",
+        "包包",
+        "誰"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"style\" mean?",
+      "options": [
+        "風格",
+        "帶來",
+        "鬼",
+        "早晨"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"image\" mean?",
+      "options": [
+        "影像",
+        "曾經",
+        "獅子",
+        "遊戲"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"black\" mean?",
+      "options": [
+        "外國人",
+        "吹",
+        "黑色的",
+        "超市場"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"swim\" mean?",
+      "options": [
+        "盒子",
+        "沒有人",
+        "按",
+        "游泳"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"wonderful\" mean?",
+      "options": [
+        "需要",
+        "品嚐",
+        "精彩的",
+        "信封"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"love\" mean?",
+      "options": [
+        "成本",
+        "美元",
+        "愛",
+        "種類"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"last\" mean?",
+      "options": [
+        "最後的",
+        "寒冷的",
+        "清楚的",
+        "審查"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"station\" mean?",
+      "options": [
+        "車站",
+        "積極的",
+        "頂部",
+        "學校"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"total\" mean?",
+      "options": [
+        "全部的",
+        "齒",
+        "頭痛",
+        "特點"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"after\" mean?",
+      "options": [
+        "後",
+        "洗澡",
+        "吞",
+        "很多"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"pot\" mean?",
+      "options": [
+        "鍋",
+        "總是",
+        "他們（他們，他們的，他們的，他們自己）",
+        "特別的"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"desk\" mean?",
+      "options": [
+        "桌子",
+        "完美的",
+        "寬的",
+        "很多"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"childhood\" mean?",
+      "options": [
+        "童年",
+        "巨大的",
+        "收集",
+        "就業（就業）"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"without\" mean?",
+      "options": [
+        "傳統的",
+        "橋",
+        "粉紅色的",
+        "沒有"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"sunny\" mean?",
+      "options": [
+        "陽光明媚",
+        "船",
+        "別的",
+        "管子"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"forget\" mean?",
+      "options": [
+        "節慶",
+        "著名的",
+        "忘記",
+        "窗戶"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"way\" mean?",
+      "options": [
+        "風箏",
+        "別針",
+        "吵雜",
+        "方式"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"friend\" mean?",
+      "options": [
+        "郵政",
+        "牛肉",
+        "朋友",
+        "窗戶"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does \"often\" mean?",
+      "options": [
+        "常",
+        "盤子",
+        "自從",
+        "成功的"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"some\" mean?",
+      "options": [
+        "出租車/出租車/出租車",
+        "獨立的",
+        "聯繫",
+        "一些"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What does \"common\" mean?",
+      "options": [
+        "常見的",
+        "每當",
+        "屬於",
+        "細繩"
+      ],
+      "answer": 0
     }
   ]
 }
