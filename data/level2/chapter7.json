@@ -1,0 +1,1628 @@
+{
+  "level": 2,
+  "chapter": 7,
+  "title": "Sophia's Bedtime Story Hour (Rated: Surprisingly Violent)",
+  "targetWords": [
+    {
+      "word": "night",
+      "pos": "n.",
+      "zh": "夜晚",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "refuse",
+      "pos": "v.",
+      "zh": "拒絕",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "refused",
+      "pastParticipleForm": "refused"
+    },
+    {
+      "word": "sleep",
+      "pos": "n./v.",
+      "zh": "睡覺",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "sleeped",
+      "pastParticipleForm": "sleeped"
+    },
+    {
+      "word": "unless",
+      "pos": "conj.",
+      "zh": "除非",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "real",
+      "pos": "adj.",
+      "zh": "真實的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "means",
+      "pos": "n.",
+      "zh": "方法",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "old",
+      "pos": "adj.",
+      "zh": "老的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "folk",
+      "pos": "n.",
+      "zh": "民間",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "tale",
+      "pos": "n.",
+      "zh": "故事",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "castle",
+      "pos": "n.",
+      "zh": "城堡",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "hill",
+      "pos": "n.",
+      "zh": "爬坡道",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "tell",
+      "pos": "v.",
+      "zh": "告訴",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "told",
+      "pastParticipleForm": "told"
+    },
+    {
+      "word": "have",
+      "pos": "aux./v.",
+      "zh": "有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "had",
+      "pastParticipleForm": "had"
+    },
+    {
+      "word": "hear",
+      "pos": "v.",
+      "zh": "聽到",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "heard",
+      "pastParticipleForm": "heard"
+    },
+    {
+      "word": "dozen",
+      "pos": "n.",
+      "zh": "打",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "time",
+      "pos": "n./v.",
+      "zh": "時間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "timed",
+      "pastParticipleForm": "timed"
+    },
+    {
+      "word": "floor",
+      "pos": "n./v.",
+      "zh": "地面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "floored",
+      "pastParticipleForm": "floored"
+    },
+    {
+      "word": "anyway",
+      "pos": "adv.",
+      "zh": "反正",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "anywayed",
+      "pastParticipleForm": "anywayed"
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "zh": "因為",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "single",
+      "pos": "adj./n./v.",
+      "zh": "單身的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "singled",
+      "pastParticipleForm": "singled"
+    },
+    {
+      "word": "long",
+      "pos": "adj./adv./v.",
+      "zh": "長的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "longed",
+      "pastParticipleForm": "longed"
+    },
+    {
+      "word": "ago",
+      "pos": "adv.",
+      "zh": "前",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "agoed",
+      "pastParticipleForm": "agoed"
+    },
+    {
+      "word": "many",
+      "pos": "adj./pron.",
+      "zh": "許多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "century",
+      "pos": "n.",
+      "zh": "世紀",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "before",
+      "pos": "prep./conj./adv.",
+      "zh": "前",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "befored",
+      "pastParticipleForm": "befored"
+    },
+    {
+      "word": "either",
+      "pos": "adv./pron./adj./conj.",
+      "zh": "任何一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "eithered",
+      "pastParticipleForm": "eithered"
+    },
+    {
+      "word": "born",
+      "pos": "adj.",
+      "zh": "出生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "begin",
+      "pos": "v.",
+      "zh": "開始",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "began",
+      "pastParticipleForm": "begun"
+    },
+    {
+      "word": "rule",
+      "pos": "n./v.",
+      "zh": "規則",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "ruled",
+      "pastParticipleForm": "ruled"
+    },
+    {
+      "word": "king",
+      "pos": "n.",
+      "zh": "國王",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "white",
+      "pos": "adj./n.",
+      "zh": "白色的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "beard",
+      "pos": "n.",
+      "zh": "鬍鬚",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "daughter",
+      "pos": "n.",
+      "zh": "女兒",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "prince/princess",
+      "pos": "n.",
+      "zh": "王子/公主",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "soldier",
+      "pos": "n.",
+      "zh": "士兵",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "royal",
+      "pos": "adj.",
+      "zh": "皇家的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "army",
+      "pos": "n.",
+      "zh": "軍隊",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "combine",
+      "pos": "v.",
+      "zh": "結合",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "combined",
+      "pastParticipleForm": "combined"
+    },
+    {
+      "word": "queen",
+      "pos": "n.",
+      "zh": "女王",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "die",
+      "pos": "v.",
+      "zh": "死",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "died",
+      "pastParticipleForm": "died"
+    },
+    {
+      "word": "year",
+      "pos": "n.",
+      "zh": "年",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "up",
+      "pos": "adv./prep./adj./v./n.",
+      "zh": "向上",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "uped",
+      "pastParticipleForm": "uped"
+    },
+    {
+      "word": "learn",
+      "pos": "v.",
+      "zh": "學習",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "learned",
+      "pastParticipleForm": "learned"
+    },
+    {
+      "word": "both",
+      "pos": "pron./adv./adj.",
+      "zh": "兩個都",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "bothed",
+      "pastParticipleForm": "bothed"
+    },
+    {
+      "word": "manner",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "use",
+      "pos": "v./n.",
+      "zh": "使用",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "used",
+      "pastParticipleForm": "used"
+    },
+    {
+      "word": "dragon",
+      "pos": "n.",
+      "zh": "龍",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "promise",
+      "pos": "n./v.",
+      "zh": "承諾",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "promised",
+      "pastParticipleForm": "promised"
+    },
+    {
+      "word": "good",
+      "pos": "adj./adv./n.",
+      "zh": "好的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "gooded",
+      "pastParticipleForm": "gooded"
+    },
+    {
+      "word": "take",
+      "pos": "v.",
+      "zh": "拿",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "took",
+      "pastParticipleForm": "taken"
+    },
+    {
+      "word": "it (its, itself)",
+      "pos": "pron.",
+      "zh": "它（它的，它本身）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "soup",
+      "pos": "n.",
+      "zh": "湯",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "say",
+      "pos": "v.",
+      "zh": "說",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "said",
+      "pastParticipleForm": "said"
+    },
+    {
+      "word": "beyond",
+      "pos": "prep./adv.",
+      "zh": "超過",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "beyonded",
+      "pastParticipleForm": "beyonded"
+    },
+    {
+      "word": "mountain",
+      "pos": "n.",
+      "zh": "山",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "live",
+      "pos": "v./adj.",
+      "zh": "居住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "lived",
+      "pastParticipleForm": "lived"
+    },
+    {
+      "word": "enemy",
+      "pos": "n.",
+      "zh": "敵人",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "between",
+      "pos": "prep./adv.",
+      "zh": "之間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "betweened",
+      "pastParticipleForm": "betweened"
+    },
+    {
+      "word": "evil",
+      "pos": "n./adj.",
+      "zh": "邪惡的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "guard",
+      "pos": "n./v.",
+      "zh": "警衛",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "guarded",
+      "pastParticipleForm": "guarded"
+    },
+    {
+      "word": "treasure",
+      "pos": "n./v.",
+      "zh": "寶藏",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "treasured",
+      "pastParticipleForm": "treasured"
+    },
+    {
+      "word": "gold",
+      "pos": "n./adj.",
+      "zh": "金子",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "silver",
+      "pos": "n./adj.",
+      "zh": "銀",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "diamond",
+      "pos": "n.",
+      "zh": "鑽石",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "want",
+      "pos": "v./n.",
+      "zh": "想",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "wanted",
+      "pastParticipleForm": "wanted"
+    },
+    {
+      "word": "he (him, his, himself)",
+      "pos": "pron.",
+      "zh": "他（他，他的，他自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "ready",
+      "pos": "adj./v.",
+      "zh": "準備好",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "readyed",
+      "pastParticipleForm": "readyed"
+    },
+    {
+      "word": "start",
+      "pos": "v./n.",
+      "zh": "開始",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "started",
+      "pastParticipleForm": "started"
+    },
+    {
+      "word": "war",
+      "pos": "n.",
+      "zh": "戰爭",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "believe",
+      "pos": "v.",
+      "zh": "相信",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "believed",
+      "pastParticipleForm": "believed"
+    },
+    {
+      "word": "path",
+      "pos": "n.",
+      "zh": "小路",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "victory",
+      "pos": "n.",
+      "zh": "勝利",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "justice",
+      "pos": "n.",
+      "zh": "正義",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "zh": "總是",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "alwaysed",
+      "pastParticipleForm": "alwaysed"
+    },
+    {
+      "word": "another",
+      "pos": "adj./pron.",
+      "zh": "其他",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "instead",
+      "pos": "adv.",
+      "zh": "反而",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "insteaded",
+      "pastParticipleForm": "insteaded"
+    },
+    {
+      "word": "lead",
+      "pos": "v./n.",
+      "zh": "帶領",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "leaded",
+      "pastParticipleForm": "leaded"
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "zh": "進入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "battle",
+      "pos": "n./v.",
+      "zh": "戰鬥",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "battled",
+      "pastParticipleForm": "battled"
+    },
+    {
+      "word": "climb",
+      "pos": "v./n.",
+      "zh": "爬",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "climbed",
+      "pastParticipleForm": "climbed"
+    },
+    {
+      "word": "alone",
+      "pos": "adv./adj.",
+      "zh": "獨自的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "aloned",
+      "pastParticipleForm": "aloned"
+    },
+    {
+      "word": "carry",
+      "pos": "v.",
+      "zh": "攜帶",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "carryed",
+      "pastParticipleForm": "carryed"
+    },
+    {
+      "word": "lantern",
+      "pos": "n.",
+      "zh": "燈籠",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "small",
+      "pos": "adj./n./adv.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "smalled",
+      "pastParticipleForm": "smalled"
+    },
+    {
+      "word": "offer",
+      "pos": "v./n.",
+      "zh": "提供",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "offered",
+      "pastParticipleForm": "offered"
+    },
+    {
+      "word": "bread",
+      "pos": "n.",
+      "zh": "麵包",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "found",
+      "pos": "v.",
+      "zh": "成立",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "founded",
+      "pastParticipleForm": "founded"
+    },
+    {
+      "word": "around",
+      "pos": "prep./adv.",
+      "zh": "大約",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "arounded",
+      "pastParticipleForm": "arounded"
+    },
+    {
+      "word": "attack",
+      "pos": "n./v.",
+      "zh": "攻擊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "attacked",
+      "pastParticipleForm": "attacked"
+    },
+    {
+      "word": "simply",
+      "pos": "adv.",
+      "zh": "簡單地",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "simplyed",
+      "pastParticipleForm": "simplyed"
+    },
+    {
+      "word": "down",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "向下",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "downed",
+      "pastParticipleForm": "downed"
+    },
+    {
+      "word": "nobody",
+      "pos": "pron./n.",
+      "zh": "沒有人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "ever",
+      "pos": "adv.",
+      "zh": "曾經",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "evered",
+      "pastParticipleForm": "evered"
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "zh": "問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "asked",
+      "pastParticipleForm": "asked"
+    },
+    {
+      "word": "surprised",
+      "pos": "adj.",
+      "zh": "驚訝",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "everyone/everybody",
+      "pos": "pron.",
+      "zh": "每個人/每個人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "never",
+      "pos": "adv.",
+      "zh": "絕不",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "nevered",
+      "pastParticipleForm": "nevered"
+    },
+    {
+      "word": "fate",
+      "pos": "n.",
+      "zh": "命運",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "turn",
+      "pos": "v./n.",
+      "zh": "轉動",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "turned",
+      "pastParticipleForm": "turned"
+    },
+    {
+      "word": "out",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "出去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "outed",
+      "pastParticipleForm": "outed"
+    },
+    {
+      "word": "lonely",
+      "pos": "adj.",
+      "zh": "孤獨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "eat",
+      "pos": "v.",
+      "zh": "吃",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "ate",
+      "pastParticipleForm": "eaten"
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "world",
+      "pos": "n.",
+      "zh": "世界",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "hundred",
+      "pos": "n./adj.",
+      "zh": "百",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "home",
+      "pos": "n./adv./v./adj.",
+      "zh": "家",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "homed",
+      "pastParticipleForm": "homed"
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "garden",
+      "pos": "n./v.",
+      "zh": "花園",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "gardened",
+      "pastParticipleForm": "gardened"
+    },
+    {
+      "word": "servant",
+      "pos": "n.",
+      "zh": "僕人",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "visit",
+      "pos": "v./n.",
+      "zh": "訪問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "visited",
+      "pastParticipleForm": "visited"
+    },
+    {
+      "word": "remember",
+      "pos": "v.",
+      "zh": "記住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "remembered",
+      "pastParticipleForm": "remembered"
+    },
+    {
+      "word": "name",
+      "pos": "n./v.",
+      "zh": "姓名",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "named",
+      "pastParticipleForm": "named"
+    },
+    {
+      "word": "agree",
+      "pos": "v.",
+      "zh": "同意",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "agreed",
+      "pastParticipleForm": "agreed"
+    },
+    {
+      "word": "border",
+      "pos": "n./v.",
+      "zh": "邊界",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "bordered",
+      "pastParticipleForm": "bordered"
+    },
+    {
+      "word": "peace",
+      "pos": "n.",
+      "zh": "和平",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "silence",
+      "pos": "n./v.",
+      "zh": "沉默",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "silenced",
+      "pastParticipleForm": "silenced"
+    },
+    {
+      "word": "arrive",
+      "pos": "v.",
+      "zh": "到達",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "arrived",
+      "pastParticipleForm": "arrived"
+    },
+    {
+      "word": "expect",
+      "pos": "v.",
+      "zh": "預計",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "expected",
+      "pastParticipleForm": "expected"
+    },
+    {
+      "word": "peaceful",
+      "pos": "adj.",
+      "zh": "和平",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "temple",
+      "pos": "n.",
+      "zh": "寺廟",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "priest",
+      "pos": "n.",
+      "zh": "牧師",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "stranger",
+      "pos": "n.",
+      "zh": "陌生人",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "better",
+      "pos": "adj./adv./n./v.",
+      "zh": "更好的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "bettered",
+      "pastParticipleForm": "bettered"
+    },
+    {
+      "word": "kind",
+      "pos": "adj./n.",
+      "zh": "種類",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "close",
+      "pos": "adj./adv./v./n.",
+      "zh": "關閉",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "closed",
+      "pastParticipleForm": "closed"
+    },
+    {
+      "word": "story",
+      "pos": "n.",
+      "zh": "故事",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "family",
+      "pos": "n.",
+      "zh": "家庭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "nothing",
+      "pos": "pron./n.",
+      "zh": "沒有什麼",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "you (your, yours, yourself, yourselves)",
+      "pos": "pron.",
+      "zh": "你（你的，你的，你自己，你自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "already",
+      "pos": "adv.",
+      "zh": "已經",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "alreadyed",
+      "pastParticipleForm": "alreadyed"
+    },
+    {
+      "word": "half",
+      "pos": "n./adv./adj.",
+      "zh": "一半",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "halfed",
+      "pastParticipleForm": "halfed"
+    },
+    {
+      "word": "asleep",
+      "pos": "adj.",
+      "zh": "睡著了",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "wish",
+      "pos": "v./n.",
+      "zh": "希望",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "wished",
+      "pastParticipleForm": "wished"
+    },
+    {
+      "word": "least",
+      "pos": "adv./pron./adj.",
+      "zh": "至少",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "leasted",
+      "pastParticipleForm": "leasted"
+    },
+    {
+      "word": "proper",
+      "pos": "adj.",
+      "zh": "恰當的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "fight",
+      "pos": "v./n.",
+      "zh": "鬥爭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "fighted",
+      "pastParticipleForm": "fighted"
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "best",
+      "pos": "adj./adv./v./n.",
+      "zh": "最好的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "bested",
+      "pastParticipleForm": "bested"
+    },
+    {
+      "word": "need",
+      "pos": "v./n./aux.",
+      "zh": "需要",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "needed",
+      "pastParticipleForm": "needed"
+    },
+    {
+      "word": "off",
+      "pos": "adv./prep./adj.",
+      "zh": "離開",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "offed",
+      "pastParticipleForm": "offed"
+    },
+    {
+      "word": "light",
+      "pos": "n./adj./v./adv.",
+      "zh": "光",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "lighted",
+      "pastParticipleForm": "lighted"
+    },
+    {
+      "word": "house",
+      "pos": "n./v.",
+      "zh": "房子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "housed",
+      "pastParticipleForm": "housed"
+    },
+    {
+      "word": "street",
+      "pos": "n.",
+      "zh": "街道",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21
+    },
+    {
+      "word": "maybe",
+      "pos": "adv.",
+      "zh": "或許",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "maybed",
+      "pastParticipleForm": "maybed"
+    },
+    {
+      "word": "town",
+      "pos": "n.",
+      "zh": "鎮",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21
+    },
+    {
+      "word": "know",
+      "pos": "v.",
+      "zh": "知道",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "knew",
+      "pastParticipleForm": "known"
+    },
+    {
+      "word": "really",
+      "pos": "adv.",
+      "zh": "真的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "reallyed",
+      "pastParticipleForm": "reallyed"
+    },
+    {
+      "word": "exist",
+      "pos": "v.",
+      "zh": "存在",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "existed",
+      "pastParticipleForm": "existed"
+    },
+    {
+      "word": "little",
+      "pos": "adj./adv./n.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "littled",
+      "pastParticipleForm": "littled"
+    },
+    {
+      "word": "bit",
+      "pos": "n.",
+      "zh": "位元",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 22
+    },
+    {
+      "word": "truth",
+      "pos": "n.",
+      "zh": "真相",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 22
+    },
+    {
+      "word": "inside",
+      "pos": "prep./adv./n./adj.",
+      "zh": "裡面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "insided",
+      "pastParticipleForm": "insided"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 23
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 23
+    },
+    {
+      "word": "sometimes",
+      "pos": "adv.",
+      "zh": "有時",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 23,
+      "pastForm": "sometimesed",
+      "pastParticipleForm": "sometimesed"
+    },
+    {
+      "word": "thing",
+      "pos": "n.",
+      "zh": "事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 23
+    },
+    {
+      "word": "anybody/anyone",
+      "pos": "pron.",
+      "zh": "任何人/任何人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 23
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Sunday night. William refused to sleep unless Sophia told him \"the real one,\" which means the old folk tale about the castle on the hill.",
+      "zh": "星期天晚上。William 說什麼都不肯睡，除非 Sophia 講「那個真正的故事」，也就是那個關於山丘上城堡的古老民間故事。"
+    },
+    {
+      "en": "I have heard this tale about a dozen times, but I sat on the floor anyway, because honestly, Sophia tells it differently every single time.",
+      "zh": "這個故事我已經聽過十幾次了，但我還是坐在地板上聽，因為老實說，Sophia 每次講的版本都不太一樣。"
+    },
+    {
+      "en": "\"A long time ago, many centuries before either of you were born,\" she began, \"there was a kingdom ruled by an old king with a long white beard.\"",
+      "zh": "「很久很久以前，好幾個世紀以前，你們倆都還沒出生，」她開始說：「有一個王國，統治者是一位留著長長白鬍子的老國王。」"
+    },
+    {
+      "en": "\"The king had one daughter, a princess who was braver than every soldier in his royal army combined.\"",
+      "zh": "「國王有一位女兒，一位比他皇家軍隊裡每一位士兵加起來都還勇敢的公主。」"
+    },
+    {
+      "en": "\"The queen had died many years before, so the princess grew up learning both royal manners and how to use a sword.\"",
+      "zh": "「王后早在許多年前就過世了，所以這位公主從小同時學會了皇家禮儀，以及怎麼使劍。」"
+    },
+    {
+      "en": "William interrupted immediately. \"Where is the dragon? You promised a dragon!\"",
+      "zh": "William 馬上打斷：「龍呢？你說過會有龍的！」"
+    },
+    {
+      "en": "\"Patience,\" Sophia said. \"Every good tale takes its time, just like every good soup.\"",
+      "zh": "「耐心點，」Sophia 說：「每個好故事都需要時間醞釀，就跟每一碗好湯一樣。」"
+    },
+    {
+      "en": "\"Beyond the mountains lived an enemy kingdom, and between the two kingdoms sat an old evil dragon who guarded a mountain of treasure: gold, silver, and diamonds.\"",
+      "zh": "「群山之外住著一個敵對的王國，而兩個王國之間，住著一隻邪惡的老龍，守著一整座黃金、白銀和鑽石堆成的寶藏山。」"
+    },
+    {
+      "en": "\"The enemy king wanted the treasure for himself, and he was ready to start a war to take it.\"",
+      "zh": "「敵國的國王想要獨吞那座寶藏，他準備發動戰爭來奪取它。」"
+    },
+    {
+      "en": "\"But the princess believed war was not the only path to victory. She believed in justice, and she believed there was always another way.\"",
+      "zh": "「但公主相信，戰爭並不是通往勝利唯一的道路。她相信正義，也相信一定還有別的辦法。」"
+    },
+    {
+      "en": "\"So instead of leading her army into battle, the princess climbed the mountain alone, carrying only a lantern and a small offering of bread.\"",
+      "zh": "「所以公主沒有帶著軍隊上戰場，反而獨自一人爬上那座山，只帶著一盞燈籠和一小份麵包當作獻禮。」"
+    },
+    {
+      "en": "\"She found the dragon curled around his treasure, and instead of attacking him, she simply sat down and offered him the bread.\"",
+      "zh": "「她找到那隻盤踞在寶藏上的龍，卻沒有攻擊牠，只是坐了下來，把麵包遞給牠。」"
+    },
+    {
+      "en": "\"'Nobody has ever asked what I wanted,' the dragon said, surprised. 'Everyone only wants my treasure. They never ask about my fate.'\"",
+      "zh": "「『從來沒有人問過我想要什麼，』龍驚訝地說：『大家只想要我的寶藏，從來沒有人關心過我的命運。』」"
+    },
+    {
+      "en": "\"It turned out the dragon was terribly lonely, guarding gold and silver he could not even eat, forgotten by the whole world for a hundred years.\"",
+      "zh": "「原來這隻龍非常孤單，牠守著吃不下肚的黃金白銀，被整個世界遺忘了一百年。」"
+    },
+    {
+      "en": "\"The princess promised the dragon a home in her own royal garden, where servants would visit him and remember his name.\"",
+      "zh": "「公主答應要在自己皇家的花園裡給龍一個家，讓僕人們會去探望他，記得他的名字。」"
+    },
+    {
+      "en": "\"In exchange, the dragon agreed to guard the border in peace instead of guarding a pile of gold in silence.\"",
+      "zh": "「作為交換，龍答應要平靜地守護邊境，而不是安靜地守著一堆黃金。」"
+    },
+    {
+      "en": "\"When the enemy king arrived expecting a battle, he found the princess, the dragon, and a peaceful border instead of a war.\"",
+      "zh": "「當敵國國王抵達，準備打一場仗的時候，他看到的卻是公主、龍，還有一片和平的邊境，而不是戰爭。」"
+    },
+    {
+      "en": "\"Even the old temple priest, who had predicted war for years, admitted he had never seen a stranger or better kind of victory.\"",
+      "zh": "「就連多年來一直預言會爆發戰爭的老祭司，都承認他從沒見過這麼奇特、這麼美好的勝利方式。」"
+    },
+    {
+      "en": "\"And that,\" Sophia said, closing the story, \"is why our family always says treasure means nothing if nobody remembers your name.\"",
+      "zh": "「而這，」Sophia 說完故事收尾：「就是為什麼我們家一直說，如果沒有人記得你的名字，寶藏根本什麼都不是。」"
+    },
+    {
+      "en": "William, already half asleep, mumbled that he still wished there had been at least one proper sword fight.",
+      "zh": "William 已經半睡半醒，嘴裡還喃喃說著他還是希望至少有一場正式的劍鬥場面。"
+    },
+    {
+      "en": "I told him some of the best stories in the world do not need a fight to have a victory in them.",
+      "zh": "我跟他說，世界上有些最棒的故事，根本不需要打鬥也能有一場勝利。"
+    },
+    {
+      "en": "Sophia turned off the light and said this tale was older than this house, this street, maybe even this whole town.",
+      "zh": "Sophia 關了燈，說這個故事比這棟房子、這條街，甚至比整個小鎮都還要古老。"
+    },
+    {
+      "en": "I do not know if a lonely treasure dragon ever really existed, but I like believing some old folk tales carry a little bit of truth inside them.",
+      "zh": "我不知道那隻孤單守寶藏的龍是不是真的存在過，但我喜歡相信，有些古老的民間故事裡，多少藏著一點真實。"
+    },
+    {
+      "en": "Lesson of the day: sometimes the bravest thing a princess, or anyone, can do is offer bread instead of a sword.",
+      "zh": "今日心得：有時候一位公主，或任何人，能做最勇敢的事，就是遞出一塊麵包，而不是一把劍。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does the princess offer the dragon instead of attacking him?",
+      "options": [
+        "A lantern and a small offering of bread.",
+        "Gold and silver.",
+        "A sword.",
+        "A letter from the king."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"treasure\" mean?",
+      "options": [
+        "寶藏",
+        "軍隊",
+        "命運",
+        "正義"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why was the dragon so lonely?",
+      "options": [
+        "He guarded treasure he could not eat, forgotten by everyone for a hundred years.",
+        "He was too fierce for anyone to visit.",
+        "He lived too far from the kingdom.",
+        "He had been banished by the king."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the family say treasure means nothing without?",
+      "options": [
+        "Someone remembering your name.",
+        "A crown.",
+        "A castle.",
+        "A big army."
+      ],
+      "answer": 0
+    }
+  ]
+}

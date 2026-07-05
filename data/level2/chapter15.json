@@ -1,0 +1,1304 @@
+{
+  "level": 2,
+  "chapter": 15,
+  "title": "The Great Password Disaster of Wednesday Night",
+  "targetWords": [
+    {
+      "word": "night",
+      "pos": "n.",
+      "zh": "夜晚",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "school",
+      "pos": "n./v.",
+      "zh": "學校",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "schooled",
+      "pastParticipleForm": "schooled"
+    },
+    {
+      "word": "project",
+      "pos": "n.",
+      "zh": "專案",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "due",
+      "pos": "adj./adv./n.",
+      "zh": "到期的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "dued",
+      "pastParticipleForm": "dued"
+    },
+    {
+      "word": "tomorrow",
+      "pos": "adv./n.",
+      "zh": "明天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "tomorrowed",
+      "pastParticipleForm": "tomorrowed"
+    },
+    {
+      "word": "course",
+      "pos": "n./v.",
+      "zh": "課程",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "coursed",
+      "pastParticipleForm": "coursed"
+    },
+    {
+      "word": "exact",
+      "pos": "adj.",
+      "zh": "精確的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "home",
+      "pos": "n./adv./v./adj.",
+      "zh": "家",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "homed",
+      "pastParticipleForm": "homed"
+    },
+    {
+      "word": "network",
+      "pos": "n./v.",
+      "zh": "網路",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "networked",
+      "pastParticipleForm": "networked"
+    },
+    {
+      "word": "decide",
+      "pos": "v.",
+      "zh": "決定",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "decided",
+      "pastParticipleForm": "decided"
+    },
+    {
+      "word": "stop",
+      "pos": "v./n.",
+      "zh": "停止",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "stoped",
+      "pastParticipleForm": "stoped"
+    },
+    {
+      "word": "work",
+      "pos": "n./v.",
+      "zh": "工作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "worked",
+      "pastParticipleForm": "worked"
+    },
+    {
+      "word": "have",
+      "pos": "aux./v.",
+      "zh": "有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "had",
+      "pastParticipleForm": "had"
+    },
+    {
+      "word": "search",
+      "pos": "n./v.",
+      "zh": "搜尋",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "searched",
+      "pastParticipleForm": "searched"
+    },
+    {
+      "word": "simple",
+      "pos": "adj.",
+      "zh": "簡單的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "fact",
+      "pos": "n.",
+      "zh": "事實",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "online",
+      "pos": "adj.",
+      "zh": "在線的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "screen",
+      "pos": "n.",
+      "zh": "螢幕",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "refuse",
+      "pos": "v.",
+      "zh": "拒絕",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "refused",
+      "pastParticipleForm": "refused"
+    },
+    {
+      "word": "load",
+      "pos": "n./v.",
+      "zh": "載入",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "loaded",
+      "pastParticipleForm": "loaded"
+    },
+    {
+      "word": "anything",
+      "pos": "pron.",
+      "zh": "任何事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "all",
+      "pos": "adj./adv./pron./n.",
+      "zh": "全部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "alled",
+      "pastParticipleForm": "alled"
+    },
+    {
+      "word": "helpful",
+      "pos": "adj.",
+      "zh": "有幫助的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "suggest",
+      "pos": "v.",
+      "zh": "建議",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "suggested",
+      "pastParticipleForm": "suggested"
+    },
+    {
+      "word": "type",
+      "pos": "n./v.",
+      "zh": "類型",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "typed",
+      "pastParticipleForm": "typed"
+    },
+    {
+      "word": "password",
+      "pos": "n.",
+      "zh": "密碼",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "again",
+      "pos": "adv.",
+      "zh": "再次",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "agained",
+      "pastParticipleForm": "agained"
+    },
+    {
+      "word": "time",
+      "pos": "n./v.",
+      "zh": "時間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "timed",
+      "pastParticipleForm": "timed"
+    },
+    {
+      "word": "different",
+      "pos": "adj.",
+      "zh": "不同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "each",
+      "pos": "pron./adj./adv.",
+      "zh": "每個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "eached",
+      "pastParticipleForm": "eached"
+    },
+    {
+      "word": "attempt",
+      "pos": "n./v.",
+      "zh": "試圖",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "attempted",
+      "pastParticipleForm": "attempted"
+    },
+    {
+      "word": "none",
+      "pos": "pron./adv.",
+      "zh": "沒有任何",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "noned",
+      "pastParticipleForm": "noned"
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "zh": "製作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "made",
+      "pastParticipleForm": "made"
+    },
+    {
+      "word": "more",
+      "pos": "adj./pron./adv.",
+      "zh": "更多的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "mored",
+      "pastParticipleForm": "mored"
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "zh": "問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "asked",
+      "pastParticipleForm": "asked"
+    },
+    {
+      "word": "turn",
+      "pos": "v./n.",
+      "zh": "轉動",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "turned",
+      "pastParticipleForm": "turned"
+    },
+    {
+      "word": "off",
+      "pos": "adv./prep./adj.",
+      "zh": "離開",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "offed",
+      "pastParticipleForm": "offed"
+    },
+    {
+      "word": "technology",
+      "pos": "n.",
+      "zh": "科技",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "problem",
+      "pos": "n.",
+      "zh": "問題",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "connection",
+      "pos": "n.",
+      "zh": "聯繫",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "back",
+      "pos": "adv./n./v./adj.",
+      "zh": "後退",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "backed",
+      "pastParticipleForm": "backed"
+    },
+    {
+      "word": "long",
+      "pos": "adj./adv./v.",
+      "zh": "長的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "longed",
+      "pastParticipleForm": "longed"
+    },
+    {
+      "word": "enough",
+      "pos": "adv./adj./n.",
+      "zh": "足夠的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "enoughed",
+      "pastParticipleForm": "enoughed"
+    },
+    {
+      "word": "topic",
+      "pos": "n.",
+      "zh": "話題",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "download",
+      "pos": "v.",
+      "zh": "下載",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "downloaded",
+      "pastParticipleForm": "downloaded"
+    },
+    {
+      "word": "article",
+      "pos": "n.",
+      "zh": "文章",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "lose",
+      "pos": "v.",
+      "zh": "失去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "losed",
+      "pastParticipleForm": "losed"
+    },
+    {
+      "word": "minute",
+      "pos": "n.",
+      "zh": "分分鐘",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "later",
+      "pos": "adv.",
+      "zh": "之後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "latered",
+      "pastParticipleForm": "latered"
+    },
+    {
+      "word": "finally",
+      "pos": "adv.",
+      "zh": "最後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "finallyed",
+      "pastParticipleForm": "finallyed"
+    },
+    {
+      "word": "finish",
+      "pos": "v./n.",
+      "zh": "結束",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "finished",
+      "pastParticipleForm": "finished"
+    },
+    {
+      "word": "report",
+      "pos": "n./v.",
+      "zh": "報告",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "reported",
+      "pastParticipleForm": "reported"
+    },
+    {
+      "word": "need",
+      "pos": "v./n./aux.",
+      "zh": "需要",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "needed",
+      "pastParticipleForm": "needed"
+    },
+    {
+      "word": "print",
+      "pos": "n./v.",
+      "zh": "列印",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "printed",
+      "pastParticipleForm": "printed"
+    },
+    {
+      "word": "fight",
+      "pos": "v./n.",
+      "zh": "鬥爭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "fighted",
+      "pastParticipleForm": "fighted"
+    },
+    {
+      "word": "ancient",
+      "pos": "adj.",
+      "zh": "古老的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "family",
+      "pos": "n.",
+      "zh": "家庭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "printer",
+      "pos": "n.",
+      "zh": "印表機",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "machine",
+      "pos": "n./v.",
+      "zh": "機器",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "machined",
+      "pastParticipleForm": "machined"
+    },
+    {
+      "word": "hate",
+      "pos": "v./n.",
+      "zh": "恨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "hated",
+      "pastParticipleForm": "hated"
+    },
+    {
+      "word": "we (us, our, ours, ourselves)",
+      "pos": "pron.",
+      "zh": "我們（我們，我們的，我們的，我們自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "it (its, itself)",
+      "pos": "pron.",
+      "zh": "它（它的，它本身）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "reason",
+      "pos": "n./v.",
+      "zh": "原因",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "reasoned",
+      "pastParticipleForm": "reasoned"
+    },
+    {
+      "word": "blank",
+      "pos": "adj./n.",
+      "zh": "空白的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "page",
+      "pos": "n.",
+      "zh": "頁",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "before",
+      "pos": "prep./conj./adv.",
+      "zh": "前",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "befored",
+      "pastParticipleForm": "befored"
+    },
+    {
+      "word": "actual",
+      "pos": "adj.",
+      "zh": "實際的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "while",
+      "pos": "conj./n./v.",
+      "zh": "儘管",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "whiled",
+      "pastParticipleForm": "whiled"
+    },
+    {
+      "word": "computer",
+      "pos": "n.",
+      "zh": "電腦",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "upload",
+      "pos": "v.",
+      "zh": "上傳",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "uploaded",
+      "pastParticipleForm": "uploaded"
+    },
+    {
+      "word": "video",
+      "pos": "n./v./adj.",
+      "zh": "影片",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "videoed",
+      "pastParticipleForm": "videoed"
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "found",
+      "pos": "v.",
+      "zh": "成立",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "founded",
+      "pastParticipleForm": "founded"
+    },
+    {
+      "word": "without",
+      "pos": "prep./adv.",
+      "zh": "沒有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "withouted",
+      "pastParticipleForm": "withouted"
+    },
+    {
+      "word": "anybody/anyone",
+      "pos": "pron.",
+      "zh": "任何人/任何人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "first",
+      "pos": "n./adv./adj.",
+      "zh": "第一的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "firsted",
+      "pastParticipleForm": "firsted"
+    },
+    {
+      "word": "out",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "出去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "outed",
+      "pastParticipleForm": "outed"
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "user",
+      "pos": "n.",
+      "zh": "使用者",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "Internet/internet",
+      "pos": "n.",
+      "zh": "互聯網/互聯網",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "see",
+      "pos": "v.",
+      "zh": "看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "saw",
+      "pastParticipleForm": "seen"
+    },
+    {
+      "word": "dog",
+      "pos": "n.",
+      "zh": "狗",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "try",
+      "pos": "v./n.",
+      "zh": "嘗試",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "tryed",
+      "pastParticipleForm": "tryed"
+    },
+    {
+      "word": "eat",
+      "pos": "v.",
+      "zh": "吃",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "ate",
+      "pastParticipleForm": "eaten"
+    },
+    {
+      "word": "slipper(s)",
+      "pos": "n.",
+      "zh": "拖鞋）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "argue(argument)",
+      "pos": "v./(n.)",
+      "zh": "爭論（爭論）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "argued",
+      "pastParticipleForm": "argued"
+    },
+    {
+      "word": "disagree(ment)",
+      "pos": "v./(n.)",
+      "zh": "不同意（意見）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "disagreed",
+      "pastParticipleForm": "disagreed"
+    },
+    {
+      "word": "particular",
+      "pos": "adj.",
+      "zh": "特別的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "contact",
+      "pos": "n./v.",
+      "zh": "接觸",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "contacted",
+      "pastParticipleForm": "contacted"
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "homework",
+      "pos": "n.",
+      "zh": "家庭作業",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "text",
+      "pos": "n.",
+      "zh": "文字",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "message",
+      "pos": "n.",
+      "zh": "訊息",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "seem",
+      "pos": "v.",
+      "zh": "似乎",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "seemed",
+      "pastParticipleForm": "seemed"
+    },
+    {
+      "word": "disappear",
+      "pos": "v.",
+      "zh": "消失",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "disappeared",
+      "pastParticipleForm": "disappeared"
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "zh": "進入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "reply",
+      "pos": "n./v.",
+      "zh": "回覆",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "replyed",
+      "pastParticipleForm": "replyed"
+    },
+    {
+      "word": "same",
+      "pos": "adj./pron./adv.",
+      "zh": "相同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "samed",
+      "pastParticipleForm": "samed"
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "together",
+      "pos": "adv.",
+      "zh": "一起",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "togethered",
+      "pastParticipleForm": "togethered"
+    },
+    {
+      "word": "link",
+      "pos": "n./v.",
+      "zh": "關聯",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "linked",
+      "pastParticipleForm": "linked"
+    },
+    {
+      "word": "wire",
+      "pos": "n.",
+      "zh": "金屬絲",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "behind",
+      "pos": "prep./adv.",
+      "zh": "在後面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "behinded",
+      "pastParticipleForm": "behinded"
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "evening",
+      "pos": "n.",
+      "zh": "晚上",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "depend",
+      "pos": "v.",
+      "zh": "依賴",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "depended",
+      "pastParticipleForm": "depended"
+    },
+    {
+      "word": "many",
+      "pos": "adj./pron.",
+      "zh": "許多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "tiny",
+      "pos": "adj.",
+      "zh": "微小的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "place",
+      "pos": "n./v.",
+      "zh": "地方",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "placed",
+      "pastParticipleForm": "placed"
+    },
+    {
+      "word": "small",
+      "pos": "adj./n./adv.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "smalled",
+      "pastParticipleForm": "smalled"
+    },
+    {
+      "word": "system",
+      "pos": "n.",
+      "zh": "系統",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "everything",
+      "pos": "pron.",
+      "zh": "一切",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "almost",
+      "pos": "adv.",
+      "zh": "幾乎",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "almosted",
+      "pastParticipleForm": "almosted"
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "change",
+      "pos": "n./v.",
+      "zh": "改變",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "changed",
+      "pastParticipleForm": "changed"
+    },
+    {
+      "word": "something",
+      "pos": "pron./n.",
+      "zh": "某物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "guess",
+      "pos": "v./n.",
+      "zh": "猜測",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "guessed",
+      "pastParticipleForm": "guessed"
+    },
+    {
+      "word": "pick",
+      "pos": "v./n.",
+      "zh": "挑選",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "picked",
+      "pastParticipleForm": "picked"
+    },
+    {
+      "word": "new",
+      "pos": "adj.",
+      "zh": "新的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "twice",
+      "pos": "adv.",
+      "zh": "兩次",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "twiced",
+      "pastParticipleForm": "twiced"
+    },
+    {
+      "word": "sure",
+      "pos": "adj./adv.",
+      "zh": "當然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "sured",
+      "pastParticipleForm": "sured"
+    },
+    {
+      "word": "end",
+      "pos": "n./v.",
+      "zh": "結尾",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "ended",
+      "pastParticipleForm": "ended"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "survive",
+      "pos": "v.",
+      "zh": "存活",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "survived",
+      "pastParticipleForm": "survived"
+    },
+    {
+      "word": "now",
+      "pos": "adv./n.",
+      "zh": "現在",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "nowed",
+      "pastParticipleForm": "nowed"
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Wednesday night. I had a school project due tomorrow, and of course, this was the exact night our home network decided to stop working.",
+      "zh": "星期三晚上。我明天有一份作業要交，當然，就偏偏是今晚，我們家的網路決定罷工。"
+    },
+    {
+      "en": "I tried to search for one simple fact online, and the screen just spun and spun, refusing to load anything at all.",
+      "zh": "我想搜尋一個很簡單的事實，結果螢幕就一直轉圈圈，什麼都載不出來。"
+    },
+    {
+      "en": "William, being extremely helpful in his own chaotic way, suggested I just type the password again, slower this time.",
+      "zh": "William 用他自己那種混亂的方式非常「熱心」地建議我，再打一次密碼，這次慢一點打。"
+    },
+    {
+      "en": "I typed the password four different times, each attempt slightly different, none of them working, all of them making me more annoyed.",
+      "zh": "我打了四次密碼，每次都稍微打得不太一樣，沒有一次成功，每次都讓我更煩躁。"
+    },
+    {
+      "en": "Eventually Dad came in, restarted the router, and asked if I had tried turning it off and on again, which apparently fixes ninety percent of technology problems.",
+      "zh": "後來爸爸進來，重開了路由器，問我有沒有試過關掉再重開，這招顯然能解決九成的科技問題。"
+    },
+    {
+      "en": "The connection came back just long enough for me to search for my topic, download one article, and lose the network again five minutes later.",
+      "zh": "網路連線恢復了，剛好夠我搜尋主題、下載一篇文章，然後五分鐘後又斷線了。"
+    },
+    {
+      "en": "When I finally finished my report, I needed to print it, which meant fighting our ancient family printer, a machine that hates all of us equally.",
+      "zh": "終於寫完報告後，我需要把它印出來，這代表要跟我們家那台古董印表機搏鬥，那台機器對我們每個人都一視同仁地討厭。"
+    },
+    {
+      "en": "The printer connected to my laptop, disconnected itself for no reason, and then printed three blank pages before finally printing my actual report.",
+      "zh": "印表機先連上我的筆電，然後莫名其妙自己斷線，接著印出三張空白紙，最後才總算印出我真正的報告。"
+    },
+    {
+      "en": "While I fought with the printer, William was on the family computer, uploading videos of Perry to some website he found, without asking anyone first.",
+      "zh": "在我跟印表機搏鬥的時候，William 在用家裡的電腦，把 Perry 的影片上傳到他找到的某個網站，事先完全沒問過任何人。"
+    },
+    {
+      "en": "When Mom found out, she reminded him that not every user on the internet needs to see our dog trying to eat a slipper.",
+      "zh": "媽媽發現後，提醒他，網路上不是每個使用者都需要看到我們家的狗努力想吃拖鞋的影片。"
+    },
+    {
+      "en": "William argued that Perry deserved an audience, and honestly, I could not fully disagree with that particular argument.",
+      "zh": "William 辯稱 Perry 值得擁有觀眾，老實說，這個論點我還真的沒辦法完全反駁。"
+    },
+    {
+      "en": "Later, I tried to contact Bernice to ask about tomorrow's homework, but every text message I sent seemed to disappear into the internet without a reply.",
+      "zh": "後來，我試著聯絡 Bernice 問明天的作業，但我傳的每一則簡訊，好像都消失在網路裡，沒有得到任何回覆。"
+    },
+    {
+      "en": "It turned out her family's network was having the exact same problem, which felt oddly comforting, like we were suffering together.",
+      "zh": "結果她家的網路也遇到一模一樣的問題，這感覺莫名地讓人安心，好像我們是一起在受苦。"
+    },
+    {
+      "en": "Dad eventually found a broken link in the wiring behind the router, which apparently was the whole reason our connection kept dropping all evening.",
+      "zh": "爸爸最後在路由器後面的電線裡找到一條斷掉的線路，顯然這就是我們整晚連線一直斷掉的真正原因。"
+    },
+    {
+      "en": "\"Technology depends on so many tiny connections,\" he said, twisting the wire back into place. \"One small broken link can ruin the whole system.\"",
+      "zh": "「科技靠的是無數細小的連結，」他一邊把電線接回原位一邊說：「一條小小斷掉的線，就能毀掉整個系統。」"
+    },
+    {
+      "en": "By the time everything worked again, it was almost my bedtime, and I still needed to change my password to something William could not guess.",
+      "zh": "等一切終於恢復正常，都快到我睡覺時間了，我還是得把密碼改成一個 William 猜不到的組合。"
+    },
+    {
+      "en": "I picked a new password, typed it twice to be sure, and immediately forgot it, which felt like a fitting way to end this particular night.",
+      "zh": "我選了一個新密碼，打了兩次確認，結果馬上就忘記了，這感覺很適合為今晚做個總結。"
+    },
+    {
+      "en": "Lesson of the day: our home network survived the night, my report got printed, and Perry now has a small, slightly embarrassing audience online.",
+      "zh": "今日心得：我們家的網路撐過了這一晚，我的報告印出來了，而 Perry 現在在網路上有了一小群、有點丟臉的觀眾。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does Dad eventually find causing the network problems?",
+      "options": [
+        "A broken link in the wiring behind the router.",
+        "A virus on the computer.",
+        "A forgotten password.",
+        "A problem with the printer."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"connection\" mean?",
+      "options": [
+        "連接；連線",
+        "密碼",
+        "使用者",
+        "螢幕"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does William do without asking anyone first?",
+      "options": [
+        "Upload videos of Perry to a website.",
+        "Change the family Wi-Fi password.",
+        "Print William's own homework.",
+        "Delete Coco's school report."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Why can't Coco and Bernice reach each other by text that night?",
+      "options": [
+        "Both of their families' networks are having the same problem.",
+        "Bernice's phone is broken.",
+        "Coco forgot Bernice's number.",
+        "The school blocked messaging apps."
+      ],
+      "answer": 0
+    }
+  ]
+}

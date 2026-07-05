@@ -1,0 +1,1524 @@
+{
+  "level": 2,
+  "chapter": 11,
+  "title": "The Day My Body Betrayed Me (Flu Edition)",
+  "targetWords": [
+    {
+      "word": "up",
+      "pos": "adv./prep./adj./v./n.",
+      "zh": "向上",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "uped",
+      "pastParticipleForm": "uped"
+    },
+    {
+      "word": "feeling",
+      "pos": "n.",
+      "zh": "感覺",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "ill",
+      "pos": "adj./adv./n.",
+      "zh": "患病的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "illed",
+      "pastParticipleForm": "illed"
+    },
+    {
+      "word": "fever",
+      "pos": "n.",
+      "zh": "發燒",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "high",
+      "pos": "adj./adv./n.",
+      "zh": "高的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "highed",
+      "pastParticipleForm": "highed"
+    },
+    {
+      "word": "feel",
+      "pos": "v./n.",
+      "zh": "感覺",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "felt",
+      "pastParticipleForm": "felt"
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "eyebrow/brow",
+      "pos": "n.",
+      "zh": "眉毛/眉毛",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "possible",
+      "pos": "adj.",
+      "zh": "可能的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "throat",
+      "pos": "n.",
+      "zh": "喉",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "hurt",
+      "pos": "v./n.",
+      "zh": "傷害",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "hurted",
+      "pastParticipleForm": "hurted"
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "body",
+      "pos": "n.",
+      "zh": "身體",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "thirsty",
+      "pos": "adj.",
+      "zh": "渴",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "entire",
+      "pos": "adj.",
+      "zh": "全部的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "cup",
+      "pos": "n.",
+      "zh": "杯子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "water",
+      "pos": "n./v.",
+      "zh": "水",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "watered",
+      "pastParticipleForm": "watered"
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "second",
+      "pos": "adj./n./adv.",
+      "zh": "第二",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "seconded",
+      "pastParticipleForm": "seconded"
+    },
+    {
+      "word": "look",
+      "pos": "v./n.",
+      "zh": "看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "looked",
+      "pastParticipleForm": "looked"
+    },
+    {
+      "word": "doctor/doc",
+      "pos": "n.",
+      "zh": "醫生/醫生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "flu",
+      "pos": "n.",
+      "zh": "流感",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "straight",
+      "pos": "adv./adj./n.",
+      "zh": "直的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "straighted",
+      "pastParticipleForm": "straighted"
+    },
+    {
+      "word": "back",
+      "pos": "adv./n./v./adj.",
+      "zh": "後退",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "backed",
+      "pastParticipleForm": "backed"
+    },
+    {
+      "word": "bed",
+      "pos": "n.",
+      "zh": "床",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "bring",
+      "pos": "v.",
+      "zh": "帶來",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "brought",
+      "pastParticipleForm": "brought"
+    },
+    {
+      "word": "medicine",
+      "pos": "n.",
+      "zh": "藥物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "bowl",
+      "pos": "n.",
+      "zh": "碗",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "hot",
+      "pos": "adj.",
+      "zh": "熱的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "soup",
+      "pos": "n.",
+      "zh": "湯",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "insist",
+      "pos": "v.",
+      "zh": "堅持",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "insisted",
+      "pastParticipleForm": "insisted"
+    },
+    {
+      "word": "cure",
+      "pos": "n./v.",
+      "zh": "治癒",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "cured",
+      "pastParticipleForm": "cured"
+    },
+    {
+      "word": "almost",
+      "pos": "adv.",
+      "zh": "幾乎",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "almosted",
+      "pastParticipleForm": "almosted"
+    },
+    {
+      "word": "anything",
+      "pos": "pron.",
+      "zh": "任何事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "real",
+      "pos": "adj.",
+      "zh": "真實的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "common",
+      "pos": "adj./n.",
+      "zh": "常見的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "cold",
+      "pos": "adj./n.",
+      "zh": "寒冷的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "have",
+      "pos": "aux./v.",
+      "zh": "有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "had",
+      "pastParticipleForm": "had"
+    },
+    {
+      "word": "rest",
+      "pos": "n./v.",
+      "zh": "休息",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "rested",
+      "pastParticipleForm": "rested"
+    },
+    {
+      "word": "until",
+      "pos": "conj./prep.",
+      "zh": "直到",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "you (your, yours, yourself, yourselves)",
+      "pos": "pron.",
+      "zh": "你（你的，你的，你自己，你自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "fight",
+      "pos": "v./n.",
+      "zh": "鬥爭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "fighted",
+      "pastParticipleForm": "fighted"
+    },
+    {
+      "word": "off",
+      "pos": "adv./prep./adj.",
+      "zh": "離開",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "offed",
+      "pastParticipleForm": "offed"
+    },
+    {
+      "word": "worse",
+      "pos": "adj./adv./n.",
+      "zh": "更糟",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "worsed",
+      "pastParticipleForm": "worsed"
+    },
+    {
+      "word": "thing",
+      "pos": "n.",
+      "zh": "事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "simple",
+      "pos": "adj.",
+      "zh": "簡單的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "strange",
+      "pos": "adj.",
+      "zh": "奇怪的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "somewhere",
+      "pos": "adv.",
+      "zh": "某處",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "somewhered",
+      "pastParticipleForm": "somewhered"
+    },
+    {
+      "word": "between",
+      "pos": "prep./adv.",
+      "zh": "之間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "betweened",
+      "pastParticipleForm": "betweened"
+    },
+    {
+      "word": "stomachache",
+      "pos": "n.",
+      "zh": "腹痛",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "general",
+      "pos": "adj./n.",
+      "zh": "一般的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "disease",
+      "pos": "n.",
+      "zh": "疾病",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "relate",
+      "pos": "v.",
+      "zh": "涉及",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "related",
+      "pastParticipleForm": "related"
+    },
+    {
+      "word": "sensitive",
+      "pos": "adj.",
+      "zh": "敏感的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "car",
+      "pos": "n.",
+      "zh": "車",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "brother",
+      "pos": "n.",
+      "zh": "兄弟",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "zh": "問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "asked",
+      "pastParticipleForm": "asked"
+    },
+    {
+      "word": "through",
+      "pos": "prep./adv.",
+      "zh": "透過",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "throughed",
+      "pastParticipleForm": "throughed"
+    },
+    {
+      "word": "video",
+      "pos": "n./v./adj.",
+      "zh": "影片",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "videoed",
+      "pastParticipleForm": "videoed"
+    },
+    {
+      "word": "game",
+      "pos": "n.",
+      "zh": "遊戲",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "speak",
+      "pos": "v.",
+      "zh": "說話",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "spoke",
+      "pastParticipleForm": "spoken"
+    },
+    {
+      "word": "tired",
+      "pos": "adj.",
+      "zh": "疲勞的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "explain",
+      "pos": "v.",
+      "zh": "解釋",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "explained",
+      "pastParticipleForm": "explained"
+    },
+    {
+      "word": "difference",
+      "pos": "n.",
+      "zh": "不同之處",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "year",
+      "pos": "n.",
+      "zh": "年",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "old",
+      "pos": "adj.",
+      "zh": "老的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "down",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "向下",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "downed",
+      "pastParticipleForm": "downed"
+    },
+    {
+      "word": "strong",
+      "pos": "adj.",
+      "zh": "強的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "enough",
+      "pos": "adv./adj./n.",
+      "zh": "足夠的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "enoughed",
+      "pastParticipleForm": "enoughed"
+    },
+    {
+      "word": "recover",
+      "pos": "v.",
+      "zh": "恢復",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "recovered",
+      "pastParticipleForm": "recovered"
+    },
+    {
+      "word": "couch",
+      "pos": "n./v.",
+      "zh": "長椅",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "couched",
+      "pastParticipleForm": "couched"
+    },
+    {
+      "word": "blanket",
+      "pos": "n./v.",
+      "zh": "毯子",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "blanketed",
+      "pastParticipleForm": "blanketed"
+    },
+    {
+      "word": "go",
+      "pos": "v./n.",
+      "zh": "去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "went",
+      "pastParticipleForm": "gone"
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "school",
+      "pos": "n./v.",
+      "zh": "學校",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "schooled",
+      "pastParticipleForm": "schooled"
+    },
+    {
+      "word": "call",
+      "pos": "v./n.",
+      "zh": "稱呼",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "called",
+      "pastParticipleForm": "called"
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "tiny",
+      "pos": "adj.",
+      "zh": "微小的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "piece",
+      "pos": "n./v.",
+      "zh": "片",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "pieced",
+      "pastParticipleForm": "pieced"
+    },
+    {
+      "word": "news",
+      "pos": "n.",
+      "zh": "訊息",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "miss",
+      "pos": "v./n.",
+      "zh": "錯過",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "missed",
+      "pastParticipleForm": "missed"
+    },
+    {
+      "word": "pick",
+      "pos": "v./n.",
+      "zh": "挑選",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "picked",
+      "pastParticipleForm": "picked"
+    },
+    {
+      "word": "bad",
+      "pos": "adj.",
+      "zh": "壞的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "week",
+      "pos": "n.",
+      "zh": "星期",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "sick",
+      "pos": "adj.",
+      "zh": "生病的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "today",
+      "pos": "adv./n.",
+      "zh": "今天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "todayed",
+      "pastParticipleForm": "todayed"
+    },
+    {
+      "word": "health",
+      "pos": "n.",
+      "zh": "健康",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "nurse",
+      "pos": "n./v.",
+      "zh": "護士",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "nursed",
+      "pastParticipleForm": "nursed"
+    },
+    {
+      "word": "check",
+      "pos": "v./n.",
+      "zh": "查看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "checked",
+      "pastParticipleForm": "checked"
+    },
+    {
+      "word": "everyone/everybody",
+      "pos": "pron.",
+      "zh": "每個人/每個人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "weight",
+      "pos": "n.",
+      "zh": "重量",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "measure(ment)",
+      "pos": "v./(n.)",
+      "zh": "測量）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "measured",
+      "pastParticipleForm": "measured"
+    },
+    {
+      "word": "ankle",
+      "pos": "n.",
+      "zh": "踝",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "rubber",
+      "pos": "n.",
+      "zh": "橡皮",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "zh": "進入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "ear",
+      "pos": "n.",
+      "zh": "耳朵",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "eye",
+      "pos": "n.",
+      "zh": "眼睛",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "boy",
+      "pos": "n.",
+      "zh": "男生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "jump",
+      "pos": "v./n.",
+      "zh": "跳",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "jumped",
+      "pastParticipleForm": "jumped"
+    },
+    {
+      "word": "hard",
+      "pos": "adj./adv.",
+      "zh": "難的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "harded",
+      "pastParticipleForm": "harded"
+    },
+    {
+      "word": "test",
+      "pos": "n./v.",
+      "zh": "測試",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "tested",
+      "pastParticipleForm": "tested"
+    },
+    {
+      "word": "nearly",
+      "pos": "adv.",
+      "zh": "幾乎",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "nearlyed",
+      "pastParticipleForm": "nearlyed"
+    },
+    {
+      "word": "chair",
+      "pos": "n./v.",
+      "zh": "椅子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "chaired",
+      "pastParticipleForm": "chaired"
+    },
+    {
+      "word": "found",
+      "pos": "v.",
+      "zh": "成立",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "founded",
+      "pastParticipleForm": "founded"
+    },
+    {
+      "word": "funny",
+      "pos": "adj.",
+      "zh": "有趣的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "find",
+      "pos": "v./n.",
+      "zh": "尋找",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "found",
+      "pastParticipleForm": "found"
+    },
+    {
+      "word": "tongue",
+      "pos": "n.",
+      "zh": "舌頭",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "skin",
+      "pos": "n.",
+      "zh": "皮膚",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "nail",
+      "pos": "n.",
+      "zh": "指甲",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "anybody/anyone",
+      "pos": "pron.",
+      "zh": "任何人/任何人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "any",
+      "pos": "pron./adj./adv.",
+      "zh": "任何",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "anyed",
+      "pastParticipleForm": "anyed"
+    },
+    {
+      "word": "pain",
+      "pos": "n./v.",
+      "zh": "疼痛",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "pained",
+      "pastParticipleForm": "pained"
+    },
+    {
+      "word": "anywhere/anyplace",
+      "pos": "adv.",
+      "zh": "任何地方/任何地方",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "anywhered",
+      "pastParticipleForm": "anywhered"
+    },
+    {
+      "word": "kid",
+      "pos": "n./v.",
+      "zh": "孩子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "kided",
+      "pastParticipleForm": "kided"
+    },
+    {
+      "word": "mention",
+      "pos": "v./n.",
+      "zh": "提到",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "mentioned",
+      "pastParticipleForm": "mentioned"
+    },
+    {
+      "word": "painful",
+      "pos": "adj.",
+      "zh": "痛苦",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "toothache",
+      "pos": "n.",
+      "zh": "牙痛",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "see",
+      "pos": "v.",
+      "zh": "看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "saw",
+      "pastParticipleForm": "seen"
+    },
+    {
+      "word": "dentist",
+      "pos": "n.",
+      "zh": "牙醫",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "soon",
+      "pos": "adv.",
+      "zh": "很快",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "sooned",
+      "pastParticipleForm": "sooned"
+    },
+    {
+      "word": "class",
+      "pos": "n./v.",
+      "zh": "班級",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "classed",
+      "pastParticipleForm": "classed"
+    },
+    {
+      "word": "watch",
+      "pos": "v./n.",
+      "zh": "手錶",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "watched",
+      "pastParticipleForm": "watched"
+    },
+    {
+      "word": "short",
+      "pos": "adj.",
+      "zh": "短的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "human",
+      "pos": "adj./n.",
+      "zh": "人類",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "organ",
+      "pos": "n.",
+      "zh": "器官",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "liver",
+      "pos": "n.",
+      "zh": "肝",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "clean",
+      "pos": "adj./v./adv./n.",
+      "zh": "乾淨的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "cleaned",
+      "pastParticipleForm": "cleaned"
+    },
+    {
+      "word": "blood",
+      "pos": "n.",
+      "zh": "血",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "single",
+      "pos": "adj./n./v.",
+      "zh": "單身的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "singled",
+      "pastParticipleForm": "singled"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "cancer",
+      "pos": "n.",
+      "zh": "癌症",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "around",
+      "pos": "prep./adv.",
+      "zh": "大約",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "arounded",
+      "pastParticipleForm": "arounded"
+    },
+    {
+      "word": "world",
+      "pos": "n.",
+      "zh": "世界",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "work",
+      "pos": "n./v.",
+      "zh": "工作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "worked",
+      "pastParticipleForm": "worked"
+    },
+    {
+      "word": "better",
+      "pos": "adj./adv./n./v.",
+      "zh": "更好的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "bettered",
+      "pastParticipleForm": "bettered"
+    },
+    {
+      "word": "little",
+      "pos": "adj./adv./n.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "littled",
+      "pastParticipleForm": "littled"
+    },
+    {
+      "word": "nervous",
+      "pos": "adj.",
+      "zh": "緊張的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "pretty",
+      "pos": "adv./adj.",
+      "zh": "漂亮的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "prettyed",
+      "pastParticipleForm": "prettyed"
+    },
+    {
+      "word": "well",
+      "pos": "adv./adj./n.",
+      "zh": "出色地",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "welled",
+      "pastParticipleForm": "welled"
+    },
+    {
+      "word": "most",
+      "pos": "adv./pron./adj.",
+      "zh": "最多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "mosted",
+      "pastParticipleForm": "mosted"
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "zh": "製作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "made",
+      "pastParticipleForm": "made"
+    },
+    {
+      "word": "time",
+      "pos": "n./v.",
+      "zh": "時間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "timed",
+      "pastParticipleForm": "timed"
+    },
+    {
+      "word": "lucky",
+      "pos": "adj.",
+      "zh": "幸運的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "more",
+      "pos": "adj./pron./adv.",
+      "zh": "更多的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "mored",
+      "pastParticipleForm": "mored"
+    },
+    {
+      "word": "serious",
+      "pos": "adj.",
+      "zh": "嚴肅的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "few",
+      "pos": "adj./pron.",
+      "zh": "很少",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "nothing",
+      "pos": "pron./n.",
+      "zh": "沒有什麼",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "appreciate",
+      "pos": "v.",
+      "zh": "欣賞",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "appreciated",
+      "pastParticipleForm": "appreciated"
+    },
+    {
+      "word": "healthy",
+      "pos": "adj.",
+      "zh": "健康",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "spend",
+      "pos": "v.",
+      "zh": "花費",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "spended",
+      "pastParticipleForm": "spended"
+    },
+    {
+      "word": "trust",
+      "pos": "v./n.",
+      "zh": "相信",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "trusted",
+      "pastParticipleForm": "trusted"
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Thursday. I woke up feeling ill, with a fever so high I could feel it in my own eyebrows, if that is even medically possible.",
+      "zh": "星期四。我一早醒來就覺得很不舒服，發燒燒到我連自己的眉毛都能感覺到熱，如果這在醫學上真的可能的話。"
+    },
+    {
+      "en": "My throat hurt, my whole body ached, and I was so thirsty I drank an entire cup of water in about four seconds.",
+      "zh": "我喉嚨痛，全身痠痛，還渴到一杯水大概四秒鐘就喝光了。"
+    },
+    {
+      "en": "Mom took one look at me and announced, with the confidence of a doctor, \"That is the flu. Straight back to bed.\"",
+      "zh": "媽媽看了我一眼，就用醫生般的自信宣布：「這是流感，馬上回床上去。」"
+    },
+    {
+      "en": "Dad brought medicine and a thermometer, and Sophia brought a bowl of hot soup that she insisted would cure almost anything.",
+      "zh": "爸爸拿來藥和溫度計，Sophia 則端來一碗熱湯，她堅持這碗湯幾乎什麼病都能治。"
+    },
+    {
+      "en": "\"There is no real cure for a common cold or the flu,\" Dad said gently. \"You just have to rest until your body fights it off.\"",
+      "zh": "「一般感冒或流感其實沒有真正的特效藥，」爸爸溫柔地說：「你只能休息，讓身體自己把它打敗。」"
+    },
+    {
+      "en": "Sophia looked personally offended by that comment and insisted her soup had cured worse things than a simple fever.",
+      "zh": "Sophia 一臉像被冒犯了一樣，堅持她這碗湯治好過比一個小小發燒還嚴重的病。"
+    },
+    {
+      "en": "My stomach felt strange too, somewhere between a stomachache and just general disease-related misery.",
+      "zh": "我的胃也怪怪的，介於胃痛跟一般生病帶來的難受感之間。"
+    },
+    {
+      "en": "William, being a very sensitive and caring brother, stood at my doorway and asked if the flu was contagious through video games.",
+      "zh": "William 這位非常貼心又體貼的哥哥，站在我房門口，問流感會不會透過電動傳染。"
+    },
+    {
+      "en": "I told him medically speaking, no, but emotionally speaking, I was too tired to explain the difference to an eight-year-old.",
+      "zh": "我跟他說，就醫學來說不會，但就情緒層面來說，我實在太累了，沒力氣跟一個八歲小孩解釋這中間的差別。"
+    },
+    {
+      "en": "By Friday, my fever had gone down and I felt strong enough to recover slowly on the couch, wrapped in three blankets.",
+      "zh": "到了星期五，我的燒退了，感覺自己有力氣可以慢慢在沙發上恢復，裹著三條毯子。"
+    },
+    {
+      "en": "I still could not go to school, so Bernice video-called me and updated me on every tiny piece of school news I had missed.",
+      "zh": "我還是不能去上學，所以 Bernice 打視訊電話給我，把我錯過的每一件學校小事都更新給我聽。"
+    },
+    {
+      "en": "\"You picked a bad week to be sick,\" she said. \"Today was the annual health checkup, and it was chaos.\"",
+      "zh": "「你挑了一個生病的壞時機，」她說：「今天是年度健康檢查，超級混亂。」"
+    },
+    {
+      "en": "According to Bernice, the school nurse checked everyone's weight, measured their ankle reflex with a tiny rubber hammer, and looked into their ears and eyes.",
+      "zh": "根據 Bernice 的說法，校護量了每個人的體重，用一支小小的橡皮槌測了大家的腳踝反射，還檢查了大家的耳朵和眼睛。"
+    },
+    {
+      "en": "One boy apparently jumped so hard when his ankle was tested that he nearly fell off the chair, which Bernice found extremely funny.",
+      "zh": "有個男生腳踝被測反射的時候彈跳得太用力，差點從椅子上摔下去，Bernice 覺得這超級好笑。"
+    },
+    {
+      "en": "The nurse also checked their tongues, skin, and nails for anything unusual, and gently asked if anyone was having any pain anywhere.",
+      "zh": "校護也檢查了大家的舌頭、皮膚跟指甲有沒有異常，還輕聲問大家有沒有哪裡覺得疼痛。"
+    },
+    {
+      "en": "One kid mentioned a painful toothache, and the nurse recommended he see a dentist as soon as possible.",
+      "zh": "有個孩子提到牙齒很痛，校護建議他儘快去看牙醫。"
+    },
+    {
+      "en": "The class also watched a short health video about the human body, mentioning how organs like the liver quietly clean the blood every single day.",
+      "zh": "班上還看了一段關於人體的短片，提到肝臟這類器官每天都默默地在清理血液。"
+    },
+    {
+      "en": "The video briefly mentioned diseases like cancer, explaining that scientists around the world are still working hard to find better treatments and cures.",
+      "zh": "影片也簡短提到癌症之類的疾病，說明全世界的科學家仍在努力尋找更好的治療方法和藥物。"
+    },
+    {
+      "en": "Bernice admitted the video made her a little nervous, but also weirdly grateful that her own body works pretty well most days.",
+      "zh": "Bernice 坦白說這段影片讓她有點緊張，但也讓她意外地感激自己的身體大部分時候都運作得還不錯。"
+    },
+    {
+      "en": "By the time we hung up, I felt lucky my flu was just a flu, and not anything more serious than a few days on the couch.",
+      "zh": "掛掉電話的時候，我覺得自己很幸運，我的流感就只是流感，沒有比在沙發上躺幾天更嚴重的問題。"
+    },
+    {
+      "en": "Lesson of the day: nothing makes you appreciate a healthy body like spending three days unable to trust your own stomach.",
+      "zh": "今日心得：沒有什麼比連續三天連自己的胃都不能信任，更能讓人懂得珍惜健康的身體了。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does Dad say about curing the flu?",
+      "options": [
+        "There is no real cure; you just have to rest.",
+        "Sophia's soup cures it instantly.",
+        "Medicine cures it in one hour.",
+        "Sleeping outside helps the most."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"recover\" mean?",
+      "options": [
+        "恢復",
+        "疼痛的",
+        "發燒",
+        "傳染"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the school nurse test using a tiny rubber hammer?",
+      "options": [
+        "Ankle reflex.",
+        "Blood pressure.",
+        "Eyesight.",
+        "Hearing."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What organ does the health video mention as quietly cleaning the blood every day?",
+      "options": [
+        "The liver.",
+        "The tongue.",
+        "The skin.",
+        "The ankle."
+      ],
+      "answer": 0
+    }
+  ]
+}

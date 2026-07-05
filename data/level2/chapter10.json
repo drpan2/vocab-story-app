@@ -1,0 +1,1322 @@
+{
+  "level": 2,
+  "chapter": 10,
+  "title": "Science Class Almost Blows Up (Slight Exaggeration)",
+  "targetWords": [
+    {
+      "word": "science",
+      "pos": "n.",
+      "zh": "科學",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "class",
+      "pos": "n./v.",
+      "zh": "班級",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "classed",
+      "pastParticipleForm": "classed"
+    },
+    {
+      "word": "today",
+      "pos": "adv./n.",
+      "zh": "今天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "todayed",
+      "pastParticipleForm": "todayed"
+    },
+    {
+      "word": "activity",
+      "pos": "n.",
+      "zh": "活動",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "pack",
+      "pos": "n./v.",
+      "zh": "盒",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "packed",
+      "pastParticipleForm": "packed"
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "zh": "進入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "hour",
+      "pos": "n.",
+      "zh": "小時",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "brain",
+      "pos": "n.",
+      "zh": "腦",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "try",
+      "pos": "v./n.",
+      "zh": "嘗試",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "tryed",
+      "pastParticipleForm": "tryed"
+    },
+    {
+      "word": "recover",
+      "pos": "v.",
+      "zh": "恢復",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "recovered",
+      "pastParticipleForm": "recovered"
+    },
+    {
+      "word": "first",
+      "pos": "n./adv./adj.",
+      "zh": "第一的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "firsted",
+      "pastParticipleForm": "firsted"
+    },
+    {
+      "word": "simple",
+      "pos": "adj.",
+      "zh": "簡單的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "chemical",
+      "pos": "adj./n.",
+      "zh": "化學",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "mix",
+      "pos": "n./v.",
+      "zh": "混合",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "mixed",
+      "pastParticipleForm": "mixed"
+    },
+    {
+      "word": "liquid",
+      "pos": "n.",
+      "zh": "液體",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "together",
+      "pos": "adv.",
+      "zh": "一起",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "togethered",
+      "pastParticipleForm": "togethered"
+    },
+    {
+      "word": "see",
+      "pos": "v.",
+      "zh": "看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "saw",
+      "pastParticipleForm": "seen"
+    },
+    {
+      "word": "happen",
+      "pos": "v.",
+      "zh": "發生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "happened",
+      "pastParticipleForm": "happened"
+    },
+    {
+      "word": "moment",
+      "pos": "n.",
+      "zh": "片刻",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "mixture",
+      "pos": "n.",
+      "zh": "混合物",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "turn",
+      "pos": "v./n.",
+      "zh": "轉動",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "turned",
+      "pastParticipleForm": "turned"
+    },
+    {
+      "word": "bright",
+      "pos": "adj./adv.",
+      "zh": "明亮的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "brighted",
+      "pastParticipleForm": "brighted"
+    },
+    {
+      "word": "blue",
+      "pos": "adj./n.",
+      "zh": "藍色的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "half",
+      "pos": "n./adv./adj.",
+      "zh": "一半",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "halfed",
+      "pastParticipleForm": "halfed"
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "discover",
+      "pos": "v.",
+      "zh": "發現",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "discovered",
+      "pastParticipleForm": "discovered"
+    },
+    {
+      "word": "magic",
+      "pos": "adj./n.",
+      "zh": "魔法",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "teacher",
+      "pos": "n.",
+      "zh": "老師",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "smile",
+      "pos": "n./v.",
+      "zh": "微笑",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "smiled",
+      "pastParticipleForm": "smiled"
+    },
+    {
+      "word": "cause",
+      "pos": "n./v.",
+      "zh": "原因",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "caused",
+      "pastParticipleForm": "caused"
+    },
+    {
+      "word": "effect",
+      "pos": "n./v.",
+      "zh": "影響",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "effected",
+      "pastParticipleForm": "effected"
+    },
+    {
+      "word": "color",
+      "pos": "n./v.",
+      "zh": "顏色",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "colored",
+      "pastParticipleForm": "colored"
+    },
+    {
+      "word": "change",
+      "pos": "n./v.",
+      "zh": "改變",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "changed",
+      "pastParticipleForm": "changed"
+    },
+    {
+      "word": "result",
+      "pos": "n./v.",
+      "zh": "結果",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "resulted",
+      "pastParticipleForm": "resulted"
+    },
+    {
+      "word": "explain",
+      "pos": "v.",
+      "zh": "解釋",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "explained",
+      "pastParticipleForm": "explained"
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "something",
+      "pos": "pron./n.",
+      "zh": "某物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "small",
+      "pos": "adj./n./adv.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "smalled",
+      "pastParticipleForm": "smalled"
+    },
+    {
+      "word": "temperature",
+      "pos": "n.",
+      "zh": "溫度",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "factor",
+      "pos": "n.",
+      "zh": "因素",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "fast",
+      "pos": "adv./adj.",
+      "zh": "快速地",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "fasted",
+      "pastParticipleForm": "fasted"
+    },
+    {
+      "word": "next",
+      "pos": "adj./adv.",
+      "zh": "下一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "nexted",
+      "pastParticipleForm": "nexted"
+    },
+    {
+      "word": "move(ment)",
+      "pos": "v./(n.)",
+      "zh": "移動）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "moved",
+      "pastParticipleForm": "moved"
+    },
+    {
+      "word": "station",
+      "pos": "n.",
+      "zh": "車站",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "electric",
+      "pos": "adj.",
+      "zh": "電的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "energy",
+      "pos": "n.",
+      "zh": "活力",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "tiny",
+      "pos": "adj.",
+      "zh": "微小的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "we (us, our, ours, ourselves)",
+      "pos": "pron.",
+      "zh": "我們（我們，我們的，我們的，我們自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "wire",
+      "pos": "n.",
+      "zh": "金屬絲",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "electrical",
+      "pos": "adj.",
+      "zh": "電力",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "little",
+      "pos": "adj./adv./n.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "littled",
+      "pastParticipleForm": "littled"
+    },
+    {
+      "word": "engine",
+      "pos": "n.",
+      "zh": "引擎",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "life",
+      "pos": "n.",
+      "zh": "生活",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "proud",
+      "pos": "adj.",
+      "zh": "自豪的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "I (me, my, mine, myself)",
+      "pos": "pron.",
+      "zh": "我（我，我的，我的，我自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "second",
+      "pos": "adj./n./adv.",
+      "zh": "第二",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "seconded",
+      "pastParticipleForm": "seconded"
+    },
+    {
+      "word": "work",
+      "pos": "n./v.",
+      "zh": "工作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "worked",
+      "pastParticipleForm": "worked"
+    },
+    {
+      "word": "same",
+      "pos": "adj./pron./adv.",
+      "zh": "相同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "samed",
+      "pastParticipleForm": "samed"
+    },
+    {
+      "word": "basic",
+      "pos": "adj.",
+      "zh": "基本的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "much",
+      "pos": "adj./pron./adv.",
+      "zh": "很多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "muched",
+      "pastParticipleForm": "muched"
+    },
+    {
+      "word": "machine",
+      "pos": "n./v.",
+      "zh": "機器",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "machined",
+      "pastParticipleForm": "machined"
+    },
+    {
+      "word": "size",
+      "pos": "n./v.",
+      "zh": "尺寸",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "sized",
+      "pastParticipleForm": "sized"
+    },
+    {
+      "word": "technology",
+      "pos": "n.",
+      "zh": "科技",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "different",
+      "pos": "adj.",
+      "zh": "不同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "matter",
+      "pos": "n./v.",
+      "zh": "事",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "mattered",
+      "pastParticipleForm": "mattered"
+    },
+    {
+      "word": "advance",
+      "pos": "n./v.",
+      "zh": "進步",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "advanced",
+      "pastParticipleForm": "advanced"
+    },
+    {
+      "word": "it (its, itself)",
+      "pos": "pron.",
+      "zh": "它（它的，它本身）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "need",
+      "pos": "v./n./aux.",
+      "zh": "需要",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "needed",
+      "pastParticipleForm": "needed"
+    },
+    {
+      "word": "kind",
+      "pos": "adj./n.",
+      "zh": "種類",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "system",
+      "pos": "n.",
+      "zh": "系統",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "zh": "製作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "made",
+      "pastParticipleForm": "made"
+    },
+    {
+      "word": "function",
+      "pos": "n./v.",
+      "zh": "功能",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "functioned",
+      "pastParticipleForm": "functioned"
+    },
+    {
+      "word": "third",
+      "pos": "adj./n./adv.",
+      "zh": "第三",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "thirded",
+      "pastParticipleForm": "thirded"
+    },
+    {
+      "word": "quick",
+      "pos": "adj./adv.",
+      "zh": "快的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "quicked",
+      "pastParticipleForm": "quicked"
+    },
+    {
+      "word": "review",
+      "pos": "n./v.",
+      "zh": "審查",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "reviewed",
+      "pastParticipleForm": "reviewed"
+    },
+    {
+      "word": "human",
+      "pos": "adj./n.",
+      "zh": "人類",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "body",
+      "pos": "n.",
+      "zh": "身體",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "cell",
+      "pos": "n.",
+      "zh": "細胞",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "unit",
+      "pos": "n.",
+      "zh": "單元",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "organ",
+      "pos": "n.",
+      "zh": "器官",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "many",
+      "pos": "adj./pron.",
+      "zh": "許多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "zh": "總是",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "alwaysed",
+      "pastParticipleForm": "alwaysed"
+    },
+    {
+      "word": "know",
+      "pos": "v.",
+      "zh": "知道",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "knew",
+      "pastParticipleForm": "known"
+    },
+    {
+      "word": "exist",
+      "pos": "v.",
+      "zh": "存在",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "existed",
+      "pastParticipleForm": "existed"
+    },
+    {
+      "word": "someone/somebody",
+      "pos": "pron./n.",
+      "zh": "某人/某人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "early",
+      "pos": "adj./adv.",
+      "zh": "早期的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "earlyed",
+      "pastParticipleForm": "earlyed"
+    },
+    {
+      "word": "discovery",
+      "pos": "n.",
+      "zh": "發現",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "doctor/doc",
+      "pos": "n.",
+      "zh": "醫生/醫生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "inside",
+      "pos": "prep./adv./n./adj.",
+      "zh": "裡面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "insided",
+      "pastParticipleForm": "insided"
+    },
+    {
+      "word": "finally",
+      "pos": "adv.",
+      "zh": "最後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "finallyed",
+      "pastParticipleForm": "finallyed"
+    },
+    {
+      "word": "last",
+      "pos": "n./v./adv./adj.",
+      "zh": "最後的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "lasted",
+      "pastParticipleForm": "lasted"
+    },
+    {
+      "word": "environment",
+      "pos": "n.",
+      "zh": "環境",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "collect",
+      "pos": "v.",
+      "zh": "收集",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "collected",
+      "pastParticipleForm": "collected"
+    },
+    {
+      "word": "data",
+      "pos": "n.",
+      "zh": "數據",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "paper",
+      "pos": "n./v.",
+      "zh": "紙",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "papered",
+      "pastParticipleForm": "papered"
+    },
+    {
+      "word": "throw",
+      "pos": "v./n.",
+      "zh": "丟",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "throwed",
+      "pastParticipleForm": "throwed"
+    },
+    {
+      "word": "away",
+      "pos": "adv.",
+      "zh": "離開",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "awayed",
+      "pastParticipleForm": "awayed"
+    },
+    {
+      "word": "single",
+      "pos": "adj./n./v.",
+      "zh": "單身的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "singled",
+      "pastParticipleForm": "singled"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "similar",
+      "pos": "adj.",
+      "zh": "相似的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "environmental",
+      "pos": "adj.",
+      "zh": "環境的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "school",
+      "pos": "n./v.",
+      "zh": "學校",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "schooled",
+      "pastParticipleForm": "schooled"
+    },
+    {
+      "word": "project",
+      "pos": "n.",
+      "zh": "專案",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "good",
+      "pos": "adj./adv./n.",
+      "zh": "好的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "gooded",
+      "pastParticipleForm": "gooded"
+    },
+    {
+      "word": "lie",
+      "pos": "v./n.",
+      "zh": "說謊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "lied",
+      "pastParticipleForm": "lied"
+    },
+    {
+      "word": "produce",
+      "pos": "v./n.",
+      "zh": "生產",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "produced",
+      "pastParticipleForm": "produced"
+    },
+    {
+      "word": "waste",
+      "pos": "n./v.",
+      "zh": "浪費",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "wasted",
+      "pastParticipleForm": "wasted"
+    },
+    {
+      "word": "suggest",
+      "pos": "v.",
+      "zh": "建議",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "suggested",
+      "pastParticipleForm": "suggested"
+    },
+    {
+      "word": "create",
+      "pos": "v.",
+      "zh": "創造",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "created",
+      "pastParticipleForm": "created"
+    },
+    {
+      "word": "right",
+      "pos": "adv./adj./n.",
+      "zh": "正確的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "righted",
+      "pastParticipleForm": "righted"
+    },
+    {
+      "word": "outside",
+      "pos": "prep./adv./adj./n.",
+      "zh": "外部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "outsided",
+      "pastParticipleForm": "outsided"
+    },
+    {
+      "word": "seem",
+      "pos": "v.",
+      "zh": "似乎",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "seemed",
+      "pastParticipleForm": "seemed"
+    },
+    {
+      "word": "idea",
+      "pos": "n.",
+      "zh": "主意",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "end",
+      "pos": "n./v.",
+      "zh": "結尾",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "ended",
+      "pastParticipleForm": "ended"
+    },
+    {
+      "word": "notebook",
+      "pos": "n.",
+      "zh": "筆記本",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "full",
+      "pos": "adj.",
+      "zh": "滿的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "all",
+      "pos": "adj./adv./pron./n.",
+      "zh": "全部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "alled",
+      "pastParticipleForm": "alled"
+    },
+    {
+      "word": "page",
+      "pos": "n.",
+      "zh": "頁",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "less",
+      "pos": "pron./adv./adj./prep.",
+      "zh": "較少的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "lessed",
+      "pastParticipleForm": "lessed"
+    },
+    {
+      "word": "subject",
+      "pos": "n.",
+      "zh": "主題",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "more",
+      "pos": "adj./pron./adv.",
+      "zh": "更多的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "mored",
+      "pastParticipleForm": "mored"
+    },
+    {
+      "word": "wear",
+      "pos": "v.",
+      "zh": "穿",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "wore",
+      "pastParticipleForm": "worn"
+    },
+    {
+      "word": "coat",
+      "pos": "n./v.",
+      "zh": "外套",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "coated",
+      "pastParticipleForm": "coated"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "trash",
+      "pos": "n./v.",
+      "zh": "垃圾",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "trashed",
+      "pastParticipleForm": "trashed"
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Wednesday. Science class today had four activities packed into one hour, and my brain is still trying to recover.",
+      "zh": "星期三。今天理化課一個小時裡塞了四個活動，我的腦子到現在還在努力恢復。"
+    },
+    {
+      "en": "First, we did a simple chemical experiment: mixing two colorless liquids together to see what would happen.",
+      "zh": "第一項，我們做了一個簡單的化學實驗：把兩種無色的液體混合在一起，看看會發生什麼事。"
+    },
+    {
+      "en": "The moment I stirred the mixture, it turned a bright, glowing blue, and half the class gasped like we had discovered magic.",
+      "zh": "我一攪拌那個混合物，它馬上變成一種鮮豔發亮的藍色，全班有一半的人倒吸一口氣，好像我們發現了魔法一樣。"
+    },
+    {
+      "en": "\"This is not magic,\" our teacher said, smiling. \"This is cause and effect. One chemical causes a reaction, and the color change is the result.\"",
+      "zh": "「這不是魔法，」老師笑著說：「這是因果關係，一種化學物質造成反應，顏色改變就是結果。」"
+    },
+    {
+      "en": "She explained that even something as small as temperature can be a factor that changes how fast the reaction happens.",
+      "zh": "她解釋，就連溫度這種小小的東西，都可能是影響反應速度快慢的一個因素。"
+    },
+    {
+      "en": "Next, we moved on to a station about electric energy, where we built a tiny circuit using a battery, some wire, and a small electrical motor.",
+      "zh": "接著，我們移到電力能量的站，用電池、電線，還有一顆小小的電動馬達，組了一個小電路。"
+    },
+    {
+      "en": "When I connected the wires correctly, the little engine spun to life, and I felt genuinely proud of myself for two whole seconds.",
+      "zh": "當我把電線接對的時候，那顆小小的引擎就轉了起來，我真的為自己感到驕傲了整整兩秒鐘。"
+    },
+    {
+      "en": "\"This tiny engine works the same basic way as much bigger machines,\" the teacher said. \"Only the size and the technology are different.\"",
+      "zh": "「這顆小小的引擎，運作原理跟更大型的機器基本上一樣，」老師說：「只是大小跟科技不一樣而已。」"
+    },
+    {
+      "en": "She reminded us that every machine, no matter how advanced its technology, still needs some kind of system to make it function properly.",
+      "zh": "她提醒我們，不管一台機器的科技多先進，它還是需要某種系統，才能正常運作。"
+    },
+    {
+      "en": "Third came a quick review of the human body: cells, the tiny basic units of life, and organs, which are made of many cells working together.",
+      "zh": "第三個活動是快速複習人體：細胞，也就是生命最基本的小小單位，以及器官，由許多細胞一起合作組成。"
+    },
+    {
+      "en": "\"Scientists did not always know cells existed,\" she said. \"Someone had to discover them first, using an early kind of microscope.\"",
+      "zh": "「科學家並不是一開始就知道細胞存在，」她說：「一定有人先用早期的顯微鏡發現了它們。」"
+    },
+    {
+      "en": "That discovery, she explained, completely changed how doctors understood the human body and every organ inside it.",
+      "zh": "她解釋，那項發現徹底改變了醫生對人體，以及裡面每一個器官的理解方式。"
+    },
+    {
+      "en": "Finally, our last station was about the environment: we had to collect data on how much paper our class throws away in one single day.",
+      "zh": "最後一站是關於環境：我們要蒐集數據，記錄我們班一天到底丟掉多少紙張。"
+    },
+    {
+      "en": "William's class, apparently, is doing something similar, collecting environmental data on the whole school for a bigger project.",
+      "zh": "顯然 William 那個班級也在做類似的事，蒐集全校的環境數據，做一個更大的專案。"
+    },
+    {
+      "en": "\"Good data does not lie,\" the teacher said. \"If we produce this much paper waste every day, we need a system to reduce it.\"",
+      "zh": "「好的數據不會說謊，」老師說：「如果我們每天製造這麼多紙張垃圾，我們就需要一套系統來減少它。」"
+    },
+    {
+      "en": "Bernice suggested we create a small recycling station right outside our classroom, and the teacher actually seemed to like the idea.",
+      "zh": "Bernice 提議我們在教室外面弄一個小小的回收站，老師似乎真的滿喜歡這個提議。"
+    },
+    {
+      "en": "By the end of class, my notebook was full of chemical reactions, electric circuits, human cells, and recycling data, all crammed onto one page.",
+      "zh": "下課的時候，我的筆記本上塞滿了化學反應、電路、人體細胞跟回收數據，全都擠在同一頁上。"
+    },
+    {
+      "en": "I told Bernice that today's class felt less like one subject and more like four different classes wearing a lab coat.",
+      "zh": "我跟 Bernice 說，今天這堂課感覺不像一門課，比較像四門不同的課穿著同一件實驗衣一起上課。"
+    },
+    {
+      "en": "Lesson of the day: science somehow connects glowing blue liquid, tiny engines, human cells, and our classroom trash can, all in one single hour.",
+      "zh": "今日心得：科學不知怎麼地，能把發亮的藍色液體、小小的引擎、人體細胞，還有我們教室的垃圾桶，全部連結在同一個小時裡。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What causes the liquid mixture to turn bright blue?",
+      "options": [
+        "A chemical reaction between the two liquids.",
+        "Adding sugar to it.",
+        "Stirring it with a metal spoon.",
+        "Leaving it in sunlight."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"discover\" mean?",
+      "options": [
+        "發現",
+        "混合",
+        "產生",
+        "影響"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What do the students collect for the environmental station?",
+      "options": [
+        "Data on how much paper their class throws away.",
+        "Samples of different liquids.",
+        "Photos of the school building.",
+        "Old batteries for recycling."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Bernice suggest after the data collection activity?",
+      "options": [
+        "Creating a small recycling station outside the classroom.",
+        "Cancelling the science experiment.",
+        "Building a bigger engine.",
+        "Asking for less homework."
+      ],
+      "answer": 0
+    }
+  ]
+}

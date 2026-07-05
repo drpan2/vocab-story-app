@@ -1,0 +1,1192 @@
+{
+  "level": 2,
+  "chapter": 21,
+  "title": "New Year's Eve, Sophia's Way",
+  "targetWords": [
+    {
+      "word": "new",
+      "pos": "adj.",
+      "zh": "新的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "year",
+      "pos": "n.",
+      "zh": "年",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "eve",
+      "pos": "n.",
+      "zh": "前夕",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "tonight",
+      "pos": "adv./n.",
+      "zh": "今晚",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "tonighted",
+      "pastParticipleForm": "tonighted"
+    },
+    {
+      "word": "dinner",
+      "pos": "n.",
+      "zh": "晚餐",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "least",
+      "pos": "adv./pron./adj.",
+      "zh": "至少",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "leasted",
+      "pastParticipleForm": "leasted"
+    },
+    {
+      "word": "week",
+      "pos": "n.",
+      "zh": "星期",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "check",
+      "pos": "v./n.",
+      "zh": "查看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "checked",
+      "pastParticipleForm": "checked"
+    },
+    {
+      "word": "calendar",
+      "pos": "n.",
+      "zh": "日曆",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "single",
+      "pos": "adj./n./v.",
+      "zh": "單身的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "singled",
+      "pastParticipleForm": "singled"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "any",
+      "pos": "pron./adj./adv.",
+      "zh": "任何",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "anyed",
+      "pastParticipleForm": "anyed"
+    },
+    {
+      "word": "we (us, our, ours, ourselves)",
+      "pos": "pron.",
+      "zh": "我們（我們，我們的，我們的，我們自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "time",
+      "pos": "n./v.",
+      "zh": "時間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "timed",
+      "pastParticipleForm": "timed"
+    },
+    {
+      "word": "meal",
+      "pos": "n.",
+      "zh": "一頓飯",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "all",
+      "pos": "adj./adv./pron./n.",
+      "zh": "全部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "alled",
+      "pastParticipleForm": "alled"
+    },
+    {
+      "word": "must",
+      "pos": "aux./n.",
+      "zh": "必須",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "grand",
+      "pos": "adj.",
+      "zh": "盛大",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "family",
+      "pos": "n.",
+      "zh": "家庭",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "gather",
+      "pos": "v.",
+      "zh": "收集",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "gathered",
+      "pastParticipleForm": "gathered"
+    },
+    {
+      "word": "house",
+      "pos": "n./v.",
+      "zh": "房子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "housed",
+      "pastParticipleForm": "housed"
+    },
+    {
+      "word": "aunt",
+      "pos": "n.",
+      "zh": "阿姨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "uncle",
+      "pos": "n.",
+      "zh": "叔叔",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "few",
+      "pos": "adj./pron.",
+      "zh": "很少",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "cousin",
+      "pos": "n.",
+      "zh": "表哥",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "married",
+      "pos": "adj.",
+      "zh": "已婚",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "couple",
+      "pos": "n./v.",
+      "zh": "夫妻",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "coupled",
+      "pastParticipleForm": "coupled"
+    },
+    {
+      "word": "everyone/everybody",
+      "pos": "pron.",
+      "zh": "每個人/每個人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "congratulation(s)",
+      "pos": "n.",
+      "zh": "恭喜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "you (your, yours, yourself, yourselves)",
+      "pos": "pron.",
+      "zh": "你（你的，你的，你自己，你自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "marriage",
+      "pos": "n.",
+      "zh": "婚姻",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "greet",
+      "pos": "v.",
+      "zh": "迎接",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "greeted",
+      "pastParticipleForm": "greeted"
+    },
+    {
+      "word": "door",
+      "pos": "n.",
+      "zh": "門",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "before",
+      "pos": "prep./conj./adv.",
+      "zh": "前",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "befored",
+      "pastParticipleForm": "befored"
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "inside",
+      "pos": "prep./adv./n./adj.",
+      "zh": "裡面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "insided",
+      "pastParticipleForm": "insided"
+    },
+    {
+      "word": "say",
+      "pos": "v.",
+      "zh": "說",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "said",
+      "pastParticipleForm": "said"
+    },
+    {
+      "word": "candle",
+      "pos": "n.",
+      "zh": "蠟燭",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "near",
+      "pos": "prep./adj./adv./v.",
+      "zh": "靠近",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "neared",
+      "pastParticipleForm": "neared"
+    },
+    {
+      "word": "little",
+      "pos": "adj./adv./n.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "littled",
+      "pastParticipleForm": "littled"
+    },
+    {
+      "word": "shelf",
+      "pos": "n.",
+      "zh": "架子",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "quiet",
+      "pos": "adj./n./v.",
+      "zh": "安靜的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "quieted",
+      "pastParticipleForm": "quieted"
+    },
+    {
+      "word": "prayer",
+      "pos": "n.",
+      "zh": "禱告",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "same",
+      "pos": "adj./pron./adv.",
+      "zh": "相同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "samed",
+      "pastParticipleForm": "samed"
+    },
+    {
+      "word": "without",
+      "pos": "prep./adv.",
+      "zh": "沒有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "withouted",
+      "pastParticipleForm": "withouted"
+    },
+    {
+      "word": "fail",
+      "pos": "v./n.",
+      "zh": "失敗",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "failed",
+      "pastParticipleForm": "failed"
+    },
+    {
+      "word": "tradition",
+      "pos": "n.",
+      "zh": "傳統",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "origin",
+      "pos": "n.",
+      "zh": "起源",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "back",
+      "pos": "adv./n./v./adj.",
+      "zh": "後退",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "backed",
+      "pastParticipleForm": "backed"
+    },
+    {
+      "word": "further",
+      "pos": "adv./adj./v.",
+      "zh": "更遠",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "furthered",
+      "pastParticipleForm": "furthered"
+    },
+    {
+      "word": "remember",
+      "pos": "v.",
+      "zh": "記住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "remembered",
+      "pastParticipleForm": "remembered"
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "grandmother",
+      "pos": "n.",
+      "zh": "祖母",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "exact",
+      "pos": "adj.",
+      "zh": "精確的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "thing",
+      "pos": "n.",
+      "zh": "事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "zh": "問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "asked",
+      "pastParticipleForm": "asked"
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "zh": "因為",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "repeat",
+      "pos": "v.",
+      "zh": "重複",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "repeated",
+      "pastParticipleForm": "repeated"
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "cycle",
+      "pos": "n./v.",
+      "zh": "循環",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "cycled",
+      "pastParticipleForm": "cycled"
+    },
+    {
+      "word": "season",
+      "pos": "n.",
+      "zh": "季節",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "they (them, their, theirs, themselves)",
+      "pos": "pron.",
+      "zh": "他們（他們，他們的，他們的，他們自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "entire",
+      "pos": "adj.",
+      "zh": "全部的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "table",
+      "pos": "n.",
+      "zh": "桌子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "cover",
+      "pos": "v./n.",
+      "zh": "覆蓋",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "covered",
+      "pastParticipleForm": "covered"
+    },
+    {
+      "word": "each",
+      "pos": "pron./adj./adv.",
+      "zh": "每個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "eached",
+      "pastParticipleForm": "eached"
+    },
+    {
+      "word": "luck",
+      "pos": "n.",
+      "zh": "運氣",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "growth",
+      "pos": "n.",
+      "zh": "生長",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "good",
+      "pos": "adj./adv./n.",
+      "zh": "好的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "gooded",
+      "pastParticipleForm": "gooded"
+    },
+    {
+      "word": "come",
+      "pos": "v.",
+      "zh": "來",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "came",
+      "pastParticipleForm": "come"
+    },
+    {
+      "word": "after",
+      "pos": "prep./conj./adv.",
+      "zh": "後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "aftered",
+      "pastParticipleForm": "aftered"
+    },
+    {
+      "word": "around",
+      "pos": "prep./adv.",
+      "zh": "大約",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "arounded",
+      "pastParticipleForm": "arounded"
+    },
+    {
+      "word": "television/TV",
+      "pos": "n.",
+      "zh": "電視/電視",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "watch",
+      "pos": "v./n.",
+      "zh": "手錶",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "watched",
+      "pastParticipleForm": "watched"
+    },
+    {
+      "word": "small",
+      "pos": "adj./n./adv.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "smalled",
+      "pastParticipleForm": "smalled"
+    },
+    {
+      "word": "stage",
+      "pos": "n./v.",
+      "zh": "階段",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "staged",
+      "pastParticipleForm": "staged"
+    },
+    {
+      "word": "live",
+      "pos": "v./adj.",
+      "zh": "居住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "lived",
+      "pastParticipleForm": "lived"
+    },
+    {
+      "word": "full",
+      "pos": "adj.",
+      "zh": "滿的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "lion",
+      "pos": "n.",
+      "zh": "獅子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "dance",
+      "pos": "n./v.",
+      "zh": "舞蹈",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "danced",
+      "pastParticipleForm": "danced"
+    },
+    {
+      "word": "drum",
+      "pos": "n./v.",
+      "zh": "鼓",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "drumed",
+      "pastParticipleForm": "drumed"
+    },
+    {
+      "word": "share",
+      "pos": "v./n.",
+      "zh": "分享",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "shared",
+      "pastParticipleForm": "shared"
+    },
+    {
+      "word": "story",
+      "pos": "n.",
+      "zh": "故事",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "wedding",
+      "pos": "n.",
+      "zh": "婚禮",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "detail",
+      "pos": "n./v.",
+      "zh": "細節",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "detailed",
+      "pastParticipleForm": "detailed"
+    },
+    {
+      "word": "nod",
+      "pos": "n./v.",
+      "zh": "點點頭",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "noded",
+      "pastParticipleForm": "noded"
+    },
+    {
+      "word": "asleep",
+      "pos": "adj.",
+      "zh": "睡著了",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "couch",
+      "pos": "n./v.",
+      "zh": "長椅",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "couched",
+      "pastParticipleForm": "couched"
+    },
+    {
+      "word": "midnight",
+      "pos": "n.",
+      "zh": "午夜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "hold",
+      "pos": "v./n.",
+      "zh": "抓住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "held",
+      "pastParticipleForm": "held"
+    },
+    {
+      "word": "half",
+      "pos": "n./adv./adj.",
+      "zh": "一半",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "halfed",
+      "pastParticipleForm": "halfed"
+    },
+    {
+      "word": "suppose",
+      "pos": "v.",
+      "zh": "認為",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "supposed",
+      "pastParticipleForm": "supposed"
+    },
+    {
+      "word": "save",
+      "pos": "v.",
+      "zh": "節省",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "saved",
+      "pastParticipleForm": "saved"
+    },
+    {
+      "word": "relative",
+      "pos": "adj./n.",
+      "zh": "相對的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "begin",
+      "pos": "v.",
+      "zh": "開始",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "began",
+      "pastParticipleForm": "begun"
+    },
+    {
+      "word": "goodbye",
+      "pos": "n.",
+      "zh": "再見",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "promise",
+      "pos": "n./v.",
+      "zh": "承諾",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "promised",
+      "pastParticipleForm": "promised"
+    },
+    {
+      "word": "again",
+      "pos": "adv.",
+      "zh": "再次",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "agained",
+      "pastParticipleForm": "agained"
+    },
+    {
+      "word": "soon",
+      "pos": "adv.",
+      "zh": "很快",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "sooned",
+      "pastParticipleForm": "sooned"
+    },
+    {
+      "word": "guest",
+      "pos": "n.",
+      "zh": "客人",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "welcome",
+      "pos": "v./adj./n.",
+      "zh": "歡迎",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "welcomed",
+      "pastParticipleForm": "welcomed"
+    },
+    {
+      "word": "hour",
+      "pos": "n.",
+      "zh": "小時",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "well",
+      "pos": "adv./adj./n.",
+      "zh": "出色地",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "welled",
+      "pastParticipleForm": "welled"
+    },
+    {
+      "word": "past",
+      "pos": "adj./n./prep./adv.",
+      "zh": "過去的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "pasted",
+      "pastParticipleForm": "pasted"
+    },
+    {
+      "word": "brand",
+      "pos": "n.",
+      "zh": "品牌",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "already",
+      "pos": "adv.",
+      "zh": "已經",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "alreadyed",
+      "pastParticipleForm": "alreadyed"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "need",
+      "pos": "v./n./aux.",
+      "zh": "需要",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "needed",
+      "pastParticipleForm": "needed"
+    },
+    {
+      "word": "clear",
+      "pos": "adj./v./adv.",
+      "zh": "清除",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "cleared",
+      "pastParticipleForm": "cleared"
+    },
+    {
+      "word": "reason",
+      "pos": "n./v.",
+      "zh": "原因",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "reasoned",
+      "pastParticipleForm": "reasoned"
+    },
+    {
+      "word": "matter",
+      "pos": "n./v.",
+      "zh": "事",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "mattered",
+      "pastParticipleForm": "mattered"
+    },
+    {
+      "word": "willing",
+      "pos": "adj.",
+      "zh": "願意的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "keep",
+      "pos": "v./n.",
+      "zh": "保持",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "keeped",
+      "pastParticipleForm": "keeped"
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Saturday, New Year's Eve. Sophia has been planning tonight's dinner for at least two weeks, checking her calendar every single day.",
+      "zh": "星期六，除夕夜。Sophia 至少提前兩個星期就開始籌劃今晚的年夜飯，每天都在看她的日曆確認日期。"
+    },
+    {
+      "en": "\"This is not just any dinner,\" she reminded us for the tenth time. \"This is the one meal all year that must be grand.\"",
+      "zh": "「這不只是普通的一餐，」她已經第十次提醒我們了：「這是全年當中唯一一餐必須辦得盛大的晚飯。」"
+    },
+    {
+      "en": "The whole extended family gathered at our house: aunts, uncles, a few cousins, and one very newly married couple everyone kept congratulating.",
+      "zh": "整個大家庭都聚集到我們家：阿姨、叔叔、幾個表親，還有一對剛結婚的新婚夫妻，每個人都不停向他們道賀。"
+    },
+    {
+      "en": "\"Congratulations on your marriage,\" Sophia said warmly, greeting them at the door before they had even fully stepped inside.",
+      "zh": "「恭喜你們結婚，」Sophia 熱情地說，他們都還沒完全踏進門，她就在門口迎接他們了。"
+    },
+    {
+      "en": "Before dinner, Sophia lit a candle near the little shelf and said a quiet prayer, the same one she says every year without fail.",
+      "zh": "晚餐前，Sophia 在小神桌旁點了一根蠟燭，唸了一段安靜的禱詞，每年都是同一段，從不間斷。"
+    },
+    {
+      "en": "\"This tradition's origin goes back further than even I can remember,\" she said. \"My own grandmother did the exact same thing.\"",
+      "zh": "「這個傳統的起源，連我自己都追溯不到，」她說：「我自己的阿嬤當年也是做一模一樣的事。」"
+    },
+    {
+      "en": "William asked why we do the same thing every single year, and Sophia said some things are only meaningful because they repeat, like the cycle of the seasons themselves.",
+      "zh": "William 問我們為什麼每年都要做一樣的事，Sophia 說有些事情之所以有意義，正是因為它們會重複，就像四季本身的循環一樣。"
+    },
+    {
+      "en": "Dinner was enormous: an entire table covered in dishes, each one apparently symbolizing luck, growth, or good fortune for the coming year.",
+      "zh": "晚餐份量驚人：一整桌都是菜，每一道菜顯然都象徵著來年的好運、成長，或是好福氣。"
+    },
+    {
+      "en": "After dinner, the whole family gathered around the television to watch a small stage performance broadcast live from downtown, full of lion dances and drums.",
+      "zh": "晚餐後，全家人聚在電視前，觀看從市區現場直播的一場小型舞台表演，滿滿的舞獅和鼓聲。"
+    },
+    {
+      "en": "The newly married couple shared stories about their own small wedding, and Sophia greeted every detail with approving nods.",
+      "zh": "那對新婚夫妻分享了他們自己小型婚禮的故事，Sophia 對每個細節都點頭表示贊同。"
+    },
+    {
+      "en": "William fell asleep on the couch before midnight, still holding half of a candy he was supposed to be saving for good luck.",
+      "zh": "William 在午夜之前就在沙發上睡著了，手裡還握著半顆本來應該留著討吉利的糖果。"
+    },
+    {
+      "en": "One by one, relatives began saying their goodbyes, promising to gather again soon, the same promise made every single year.",
+      "zh": "親戚們一個接一個開始道別，答應很快會再聚一次，這是每年都會許下的同一個承諺。"
+    },
+    {
+      "en": "Sophia stood at the door greeting each departing guest personally, the same way she had welcomed them hours earlier.",
+      "zh": "Sophia 站在門口，親自向每位離開的客人道別，就跟幾個小時前歡迎他們進門時一樣。"
+    },
+    {
+      "en": "By the time the house was quiet again, it was well past midnight, and a brand-new year had already quietly begun.",
+      "zh": "等家裡再次安靜下來的時候，早已過了午夜，全新的一年已經悄悄開始了。"
+    },
+    {
+      "en": "Lesson of the day: some traditions do not need a clear reason to matter, they just need a family willing to keep repeating them.",
+      "zh": "今日心得：有些傳統不需要明確的理由才有意義，它們只需要一個願意持續傳承下去的家庭。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does Sophia do before dinner, near the little shelf?",
+      "options": [
+        "Lights a candle and says a quiet prayer.",
+        "Sings a traditional song.",
+        "Reads from an old calendar.",
+        "Calls all the relatives on the phone."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"gather\" mean?",
+      "options": [
+        "聚集",
+        "祈禱",
+        "道別",
+        "恭喜"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "According to Sophia, why do some traditions matter even though they repeat every year?",
+      "options": [
+        "Some things are only meaningful because they repeat, like the cycle of the seasons.",
+        "They are required by law.",
+        "They only matter to older people.",
+        "They are meant to be different each time."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Who does everyone congratulate at the family dinner?",
+      "options": [
+        "A newly married couple.",
+        "William, for finishing his homework.",
+        "Sophia, for her cooking.",
+        "A cousin who got a new job."
+      ],
+      "answer": 0
+    }
+  ]
+}

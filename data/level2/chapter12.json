@@ -1,0 +1,1346 @@
+{
+  "level": 2,
+  "chapter": 12,
+  "title": "Sports Day: Where My Pride Went to Die",
+  "targetWords": [
+    {
+      "word": "today",
+      "pos": "adv./n.",
+      "zh": "今天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "todayed",
+      "pastParticipleForm": "todayed"
+    },
+    {
+      "word": "school",
+      "pos": "n./v.",
+      "zh": "學校",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "schooled",
+      "pastParticipleForm": "schooled"
+    },
+    {
+      "word": "sport",
+      "pos": "n./v.",
+      "zh": "運動",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "sported",
+      "pastParticipleForm": "sported"
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "body",
+      "pos": "n.",
+      "zh": "身體",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "file",
+      "pos": "n./v.",
+      "zh": "文件",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "filed",
+      "pastParticipleForm": "filed"
+    },
+    {
+      "word": "several",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "against",
+      "pos": "prep.",
+      "zh": "反對",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "teacher",
+      "pos": "n.",
+      "zh": "老師",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "strict",
+      "pos": "adj.",
+      "zh": "嚴格的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "kind",
+      "pos": "adj./n.",
+      "zh": "種類",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "person",
+      "pos": "n.",
+      "zh": "人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "consider",
+      "pos": "v.",
+      "zh": "考慮",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "considered",
+      "pastParticipleForm": "considered"
+    },
+    {
+      "word": "walk",
+      "pos": "v./n.",
+      "zh": "走",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "walked",
+      "pastParticipleForm": "walked"
+    },
+    {
+      "word": "during",
+      "pos": "prep.",
+      "zh": "期間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "warm",
+      "pos": "adj./v.",
+      "zh": "溫暖的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "warmed",
+      "pastParticipleForm": "warmed"
+    },
+    {
+      "word": "up",
+      "pos": "adv./prep./adj./v./n.",
+      "zh": "向上",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "uped",
+      "pastParticipleForm": "uped"
+    },
+    {
+      "word": "lap",
+      "pos": "n.",
+      "zh": "圈",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "serious",
+      "pos": "adj.",
+      "zh": "嚴肅的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "crime",
+      "pos": "n.",
+      "zh": "犯罪",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "effort",
+      "pos": "n.",
+      "zh": "努力",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "matter",
+      "pos": "n./v.",
+      "zh": "事",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "mattered",
+      "pastParticipleForm": "mattered"
+    },
+    {
+      "word": "more",
+      "pos": "adj./pron./adv.",
+      "zh": "更多的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "mored",
+      "pastParticipleForm": "mored"
+    },
+    {
+      "word": "natural",
+      "pos": "adj.",
+      "zh": "自然的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "shout",
+      "pos": "v./n.",
+      "zh": "喊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "shouted",
+      "pastParticipleForm": "shouted"
+    },
+    {
+      "word": "start",
+      "pos": "v./n.",
+      "zh": "開始",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "started",
+      "pastParticipleForm": "started"
+    },
+    {
+      "word": "general",
+      "pos": "adj./n.",
+      "zh": "一般的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "life",
+      "pos": "n.",
+      "zh": "生活",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "first",
+      "pos": "n./adv./adj.",
+      "zh": "第一的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "firsted",
+      "pastParticipleForm": "firsted"
+    },
+    {
+      "word": "event",
+      "pos": "n.",
+      "zh": "事件",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "badminton",
+      "pos": "n.",
+      "zh": "羽毛球",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "double",
+      "pos": "adj./v./n./adv.",
+      "zh": "雙倍的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "doubled",
+      "pastParticipleForm": "doubled"
+    },
+    {
+      "word": "rapid",
+      "pos": "adj.",
+      "zh": "迅速的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "someone/somebody",
+      "pos": "pron./n.",
+      "zh": "某人/某人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "claim",
+      "pos": "n./v.",
+      "zh": "宣稱",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "claimed",
+      "pastParticipleForm": "claimed"
+    },
+    {
+      "word": "hate",
+      "pos": "v./n.",
+      "zh": "恨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "hated",
+      "pastParticipleForm": "hated"
+    },
+    {
+      "word": "exercise",
+      "pos": "n./v.",
+      "zh": "鍛鍊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "exercised",
+      "pastParticipleForm": "exercised"
+    },
+    {
+      "word": "match",
+      "pos": "n.",
+      "zh": "匹配",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "second",
+      "pos": "adj./n./adv.",
+      "zh": "第二",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "seconded",
+      "pastParticipleForm": "seconded"
+    },
+    {
+      "word": "end",
+      "pos": "n./v.",
+      "zh": "結尾",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "ended",
+      "pastParticipleForm": "ended"
+    },
+    {
+      "word": "victory",
+      "pos": "n.",
+      "zh": "勝利",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "thank",
+      "pos": "v./n.",
+      "zh": "感謝",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "thanked",
+      "pastParticipleForm": "thanked"
+    },
+    {
+      "word": "skill",
+      "pos": "n.",
+      "zh": "技能",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "net",
+      "pos": "n./v.",
+      "zh": "網",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "neted",
+      "pastParticipleForm": "neted"
+    },
+    {
+      "word": "after",
+      "pos": "prep./conj./adv.",
+      "zh": "後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "aftered",
+      "pastParticipleForm": "aftered"
+    },
+    {
+      "word": "join",
+      "pos": "v./n.",
+      "zh": "加入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "joined",
+      "pastParticipleForm": "joined"
+    },
+    {
+      "word": "soccer",
+      "pos": "n.",
+      "zh": "足球",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "main",
+      "pos": "adj./n.",
+      "zh": "主要的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "turn",
+      "pos": "v./n.",
+      "zh": "轉動",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "turned",
+      "pastParticipleForm": "turned"
+    },
+    {
+      "word": "out",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "出去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "outed",
+      "pastParticipleForm": "outed"
+    },
+    {
+      "word": "away",
+      "pos": "adv.",
+      "zh": "離開",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "awayed",
+      "pastParticipleForm": "awayed"
+    },
+    {
+      "word": "ball",
+      "pos": "n./v.",
+      "zh": "球",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "balled",
+      "pastParticipleForm": "balled"
+    },
+    {
+      "word": "great",
+      "pos": "adj./n.",
+      "zh": "偉大的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "team",
+      "pos": "n./v.",
+      "zh": "團隊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "teamed",
+      "pastParticipleForm": "teamed"
+    },
+    {
+      "word": "still",
+      "pos": "adv./adj.",
+      "zh": "仍然",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "stilled",
+      "pastParticipleForm": "stilled"
+    },
+    {
+      "word": "manage(ment)",
+      "pos": "v./(n.)",
+      "zh": "管理）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "managed",
+      "pastParticipleForm": "managed"
+    },
+    {
+      "word": "score",
+      "pos": "n./v.",
+      "zh": "分數",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "scored",
+      "pastParticipleForm": "scored"
+    },
+    {
+      "word": "goal",
+      "pos": "n.",
+      "zh": "目標",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "neither",
+      "pos": "adj./adv./pron./conj.",
+      "zh": "兩者都不",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "neithered",
+      "pastParticipleForm": "neithered"
+    },
+    {
+      "word": "responsible",
+      "pos": "adj.",
+      "zh": "負責任的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6
+    },
+    {
+      "word": "cheer",
+      "pos": "v./n.",
+      "zh": "歡呼",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "cheered",
+      "pastParticipleForm": "cheered"
+    },
+    {
+      "word": "both",
+      "pos": "pron./adv./adj.",
+      "zh": "兩個都",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "bothed",
+      "pastParticipleForm": "bothed"
+    },
+    {
+      "word": "next",
+      "pos": "adj./adv.",
+      "zh": "下一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "nexted",
+      "pastParticipleForm": "nexted"
+    },
+    {
+      "word": "football",
+      "pos": "n.",
+      "zh": "足球",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "different",
+      "pos": "adj.",
+      "zh": "不同的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "country",
+      "pos": "n.",
+      "zh": "國家",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "fact",
+      "pos": "n.",
+      "zh": "事實",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "half",
+      "pos": "n./adv./adj.",
+      "zh": "一半",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "halfed",
+      "pastParticipleForm": "halfed"
+    },
+    {
+      "word": "class",
+      "pos": "n./v.",
+      "zh": "班級",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "classed",
+      "pastParticipleForm": "classed"
+    },
+    {
+      "word": "all",
+      "pos": "adj./adv./pron./n.",
+      "zh": "全部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "alled",
+      "pastParticipleForm": "alled"
+    },
+    {
+      "word": "morning",
+      "pos": "n.",
+      "zh": "早晨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "best",
+      "pos": "adj./adv./v./n.",
+      "zh": "最好的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "bested",
+      "pastParticipleForm": "bested"
+    },
+    {
+      "word": "runner",
+      "pos": "n.",
+      "zh": "跑者",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "grade",
+      "pos": "n./v.",
+      "zh": "年級",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "graded",
+      "pastParticipleForm": "graded"
+    },
+    {
+      "word": "finish",
+      "pos": "v./n.",
+      "zh": "結束",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "finished",
+      "pastParticipleForm": "finished"
+    },
+    {
+      "word": "race",
+      "pos": "n./v.",
+      "zh": "種族",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "raced",
+      "pastParticipleForm": "raced"
+    },
+    {
+      "word": "far",
+      "pos": "adv./adj.",
+      "zh": "遠的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "fared",
+      "pastParticipleForm": "fared"
+    },
+    {
+      "word": "ahead",
+      "pos": "adv.",
+      "zh": "前面",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "aheaded",
+      "pastParticipleForm": "aheaded"
+    },
+    {
+      "word": "rest",
+      "pos": "n./v.",
+      "zh": "休息",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "rested",
+      "pastParticipleForm": "rested"
+    },
+    {
+      "word": "we (us, our, ours, ourselves)",
+      "pos": "pron.",
+      "zh": "我們（我們，我們的，我們的，我們自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "toward/towards",
+      "pos": "prep.",
+      "zh": "朝向/朝向",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "memory",
+      "pos": "n.",
+      "zh": "記憶",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "used",
+      "pos": "adj.",
+      "zh": "用過的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "student",
+      "pos": "n.",
+      "zh": "學生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "hop",
+      "pos": "v./n.",
+      "zh": "跳",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "hoped",
+      "pastParticipleForm": "hoped"
+    },
+    {
+      "word": "run",
+      "pos": "v.",
+      "zh": "跑步",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "ran",
+      "pastParticipleForm": "run"
+    },
+    {
+      "word": "across",
+      "pos": "prep./adv.",
+      "zh": "穿過",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "acrossed",
+      "pastParticipleForm": "acrossed"
+    },
+    {
+      "word": "entire",
+      "pos": "adj.",
+      "zh": "全部的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "field",
+      "pos": "n.",
+      "zh": "場地",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "way",
+      "pos": "n.",
+      "zh": "方式",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "third",
+      "pos": "adj./n./adv.",
+      "zh": "第三",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "thirded",
+      "pastParticipleForm": "thirded"
+    },
+    {
+      "word": "place",
+      "pos": "n./v.",
+      "zh": "地方",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "placed",
+      "pastParticipleForm": "placed"
+    },
+    {
+      "word": "though",
+      "pos": "conj./adv.",
+      "zh": "儘管",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "thoughed",
+      "pastParticipleForm": "thoughed"
+    },
+    {
+      "word": "set",
+      "pos": "v./n.",
+      "zh": "放",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "seted",
+      "pastParticipleForm": "seted"
+    },
+    {
+      "word": "world",
+      "pos": "n.",
+      "zh": "世界",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "record",
+      "pos": "n./v.",
+      "zh": "記錄",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "recorded",
+      "pastParticipleForm": "recorded"
+    },
+    {
+      "word": "speed",
+      "pos": "n./v.",
+      "zh": "速度",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "speeded",
+      "pastParticipleForm": "speeded"
+    },
+    {
+      "word": "much",
+      "pos": "adj./pron./adv.",
+      "zh": "很多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "muched",
+      "pastParticipleForm": "muched"
+    },
+    {
+      "word": "pride",
+      "pos": "n./v.",
+      "zh": "自豪",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "prided",
+      "pastParticipleForm": "prided"
+    },
+    {
+      "word": "seem",
+      "pos": "v.",
+      "zh": "似乎",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "seemed",
+      "pastParticipleForm": "seemed"
+    },
+    {
+      "word": "agree",
+      "pos": "v.",
+      "zh": "同意",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "agreed",
+      "pastParticipleForm": "agreed"
+    },
+    {
+      "word": "final",
+      "pos": "adj./n.",
+      "zh": "最終的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "long",
+      "pos": "adj./adv./v.",
+      "zh": "長的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "longed",
+      "pastParticipleForm": "longed"
+    },
+    {
+      "word": "distance",
+      "pos": "n.",
+      "zh": "距離",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "jog",
+      "pos": "v./n.",
+      "zh": "慢跑",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "joged",
+      "pastParticipleForm": "joged"
+    },
+    {
+      "word": "around",
+      "pos": "prep./adv.",
+      "zh": "大約",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "arounded",
+      "pastParticipleForm": "arounded"
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "little",
+      "pos": "adj./adv./n.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "littled",
+      "pastParticipleForm": "littled"
+    },
+    {
+      "word": "power",
+      "pos": "n./v.",
+      "zh": "力量",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "powered",
+      "pastParticipleForm": "powered"
+    },
+    {
+      "word": "left",
+      "pos": "adj./n./adv.",
+      "zh": "左邊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "lefted",
+      "pastParticipleForm": "lefted"
+    },
+    {
+      "word": "leg",
+      "pos": "n.",
+      "zh": "腿",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "close",
+      "pos": "adj./adv./v./n.",
+      "zh": "關閉",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "closed",
+      "pastParticipleForm": "closed"
+    },
+    {
+      "word": "count",
+      "pos": "v./n.",
+      "zh": "數數",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "counted",
+      "pastParticipleForm": "counted"
+    },
+    {
+      "word": "personal",
+      "pos": "adj.",
+      "zh": "個人的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "powerful",
+      "pos": "adj.",
+      "zh": "強大的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "zh": "總是",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "alwaysed",
+      "pastParticipleForm": "alwaysed"
+    },
+    {
+      "word": "sometimes",
+      "pos": "adv.",
+      "zh": "有時",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "sometimesed",
+      "pastParticipleForm": "sometimesed"
+    },
+    {
+      "word": "give",
+      "pos": "v.",
+      "zh": "給",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "gave",
+      "pastParticipleForm": "given"
+    },
+    {
+      "word": "through",
+      "pos": "prep./adv.",
+      "zh": "透過",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "throughed",
+      "pastParticipleForm": "throughed"
+    },
+    {
+      "word": "grass",
+      "pos": "n.",
+      "zh": "草",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "tired",
+      "pos": "adj.",
+      "zh": "疲勞的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "move(ment)",
+      "pos": "v./(n.)",
+      "zh": "移動）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "moved",
+      "pastParticipleForm": "moved"
+    },
+    {
+      "word": "fun",
+      "pos": "n.",
+      "zh": "樂趣",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15
+    },
+    {
+      "word": "form",
+      "pos": "n./v.",
+      "zh": "形式",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "formed",
+      "pastParticipleForm": "formed"
+    },
+    {
+      "word": "punish(ment)",
+      "pos": "v./(n.)",
+      "zh": "懲罰）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "punishmented",
+      "pastParticipleForm": "punishmented"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "real",
+      "pos": "adj.",
+      "zh": "真實的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "survive",
+      "pos": "v.",
+      "zh": "存活",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "survived",
+      "pastParticipleForm": "survived"
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "zh": "因為",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Friday. Today was our school's annual sports day, and my body is currently filing several complaints against me.",
+      "zh": "星期五。今天是我們學校一年一度的運動會，我的身體現在正對我提出好幾項抗議。"
+    },
+    {
+      "en": "Our PE teacher is famously strict, the kind of person who considers \"walking\" during warm-up laps a serious crime.",
+      "zh": "我們的體育老師出了名的嚴格，那種把熱身跑步時「用走的」當成重大犯罪的類型。"
+    },
+    {
+      "en": "\"Effort matters more than natural talent,\" he shouted at the start of the day, apparently as a general life philosophy and not just about sports.",
+      "zh": "「努力比天生的才能更重要，」他在一開始就大喊，聽起來與其說是講運動，更像是一句人生哲學。"
+    },
+    {
+      "en": "My first event was badminton doubles with Bernice, who has surprisingly rapid reflexes for someone who claims to hate exercise.",
+      "zh": "我的第一個項目是跟 Bernice 搭檔打羽毛球雙打，她的反應速度快得驚人，實在不像一個自稱討厭運動的人。"
+    },
+    {
+      "en": "We lost our first match, badly, but our second match ended in a genuine victory, mostly thanks to Bernice's skill at the net.",
+      "zh": "我們第一場輸得很慘，但第二場真的贏了，主要要感謝 Bernice 在網前展現的球技。"
+    },
+    {
+      "en": "After badminton, I joined the soccer match, where my main skill turned out to be running away from the ball with great enthusiasm.",
+      "zh": "羽球賽後，我加入了足球賽，結果我最擅長的技能，居然是很有幹勁地跑離球。"
+    },
+    {
+      "en": "Our team still managed to score two goals, neither of which I was directly responsible for, but I cheered very loudly for both.",
+      "zh": "我們隊還是踢進了兩球，雖然兩球都跟我沒什麼直接關係，但我為兩球都大聲歡呼了。"
+    },
+    {
+      "en": "Next was football, which apparently is a completely different sport in some countries, a fact that confused half our class all morning.",
+      "zh": "接下來是美式足球，顯然在有些國家這是完全不同的一種運動，這件事讓我們班一整個早上都搞不清楚。"
+    },
+    {
+      "en": "The best runner in our grade finished the relay race so far ahead that the rest of us were basically jogging toward a memory of where he used to be.",
+      "zh": "我們年級跑最快的那個人在接力賽中遙遙領先，我們其他人基本上只是朝著他曾經出現的殘影慢跑而已。"
+    },
+    {
+      "en": "William's class had their own event: a hopping race where every student had to hop, not run, across the entire field.",
+      "zh": "William 那個年級有他們自己的項目：一場跳躍賽跑，每個學生必須從整個操場的這頭一路跳到那頭，不准用跑的。"
+    },
+    {
+      "en": "He hopped his way to third place and announced it as though he had personally set a world record for hopping speed.",
+      "zh": "他跳著跳著拿到了第三名，宣布這件事的樣子，好像他個人剛創下了跳躍速度的世界紀錄一樣。"
+    },
+    {
+      "en": "\"Third place with that much pride is basically first place,\" I told him, and he seemed to genuinely agree with that logic.",
+      "zh": "「用那種驕傲的態度拿第三名，基本上就等於第一名，」我跟他說，他似乎真心認同這個邏輯。"
+    },
+    {
+      "en": "By the final event, a long-distance jog around the whole field, I had very little power left in my legs.",
+      "zh": "到了最後一項，繞整個操場一圈的長跑，我的腿已經幾乎沒有力氣了。"
+    },
+    {
+      "en": "I did not finish first, or even close to first, but I did finish, which our PE teacher said counts as a personal victory.",
+      "zh": "我不是第一個抵達，甚至差得很遠，但我確實跑完了，我們體育老師說這也算是一種個人的勝利。"
+    },
+    {
+      "en": "\"A powerful finish is not always about speed,\" he said. \"Sometimes it is just about not giving up halfway through.\"",
+      "zh": "「有力的完賽不一定是靠速度，」他說：「有時候只是關於不在半路上放棄而已。」"
+    },
+    {
+      "en": "Bernice and I collapsed onto the grass afterward, too tired to move, silently agreeing that sports day is somehow both fun and a form of punishment.",
+      "zh": "事後 Bernice 和我癱倒在草地上，累到動不了，默默地都同意，運動會不知怎麼地同時是好玩的事，也是一種懲罰。"
+    },
+    {
+      "en": "Lesson of the day: my badminton skill is real, my soccer skill is questionable, and my pride survived mostly because William's did too.",
+      "zh": "今日心得：我的羽球技術是真的不錯，足球技術很可疑，而我的自尊心之所以還撐得住，主要是因為 William 的自尊心也撐住了。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does Coco's team win at, thanks mostly to Bernice's skill?",
+      "options": [
+        "Their second badminton match.",
+        "The soccer match.",
+        "The relay race.",
+        "The long-distance jog."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"victory\" mean?",
+      "options": [
+        "勝利",
+        "努力",
+        "技能",
+        "速度"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What event does William's class compete in?",
+      "options": [
+        "A hopping race across the field.",
+        "A swimming race.",
+        "A badminton tournament.",
+        "A soccer match."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "According to the PE teacher, what does a powerful finish depend on?",
+      "options": [
+        "Not giving up halfway through, not just speed.",
+        "Being the fastest runner in school.",
+        "Natural talent alone.",
+        "Winning every single event."
+      ],
+      "answer": 0
+    }
+  ]
+}

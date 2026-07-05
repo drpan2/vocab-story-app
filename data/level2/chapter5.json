@@ -1,0 +1,1516 @@
+{
+  "level": 2,
+  "chapter": 5,
+  "title": "Grocery Shopping With Sophia Is a Competitive Sport",
+  "targetWords": [
+    {
+      "word": "never",
+      "pos": "adv.",
+      "zh": "絕不",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "nevered",
+      "pastParticipleForm": "nevered"
+    },
+    {
+      "word": "full",
+      "pos": "adj.",
+      "zh": "滿的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0
+    },
+    {
+      "word": "rule",
+      "pos": "n./v.",
+      "zh": "規則",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "ruled",
+      "pastParticipleForm": "ruled"
+    },
+    {
+      "word": "shout",
+      "pos": "v./n.",
+      "zh": "喊",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 0,
+      "pastForm": "shouted",
+      "pastParticipleForm": "shouted"
+    },
+    {
+      "word": "bring",
+      "pos": "v.",
+      "zh": "帶來",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "brought",
+      "pastParticipleForm": "brought"
+    },
+    {
+      "word": "cash",
+      "pos": "n./v.",
+      "zh": "現金",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "cashed",
+      "pastParticipleForm": "cashed"
+    },
+    {
+      "word": "because",
+      "pos": "conj.",
+      "zh": "因為",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "trust",
+      "pos": "v./n.",
+      "zh": "相信",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "trusted",
+      "pastParticipleForm": "trusted"
+    },
+    {
+      "word": "anything",
+      "pos": "pron.",
+      "zh": "任何事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "paper",
+      "pos": "n./v.",
+      "zh": "紙",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1,
+      "pastForm": "papered",
+      "pastParticipleForm": "papered"
+    },
+    {
+      "word": "money",
+      "pos": "n.",
+      "zh": "錢",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 1
+    },
+    {
+      "word": "allow",
+      "pos": "v.",
+      "zh": "允許",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "allowed",
+      "pastParticipleForm": "allowed"
+    },
+    {
+      "word": "touch",
+      "pos": "n./v.",
+      "zh": "觸碰",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "touched",
+      "pastParticipleForm": "touched"
+    },
+    {
+      "word": "thing",
+      "pos": "n.",
+      "zh": "事物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "ask",
+      "pos": "v.",
+      "zh": "問",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "asked",
+      "pastParticipleForm": "asked"
+    },
+    {
+      "word": "first",
+      "pos": "n./adv./adj.",
+      "zh": "第一的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "firsted",
+      "pastParticipleForm": "firsted"
+    },
+    {
+      "word": "break",
+      "pos": "n./v.",
+      "zh": "休息",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "breaked",
+      "pastParticipleForm": "breaked"
+    },
+    {
+      "word": "every",
+      "pos": "adj.",
+      "zh": "每一個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2
+    },
+    {
+      "word": "second",
+      "pos": "adj./n./adv.",
+      "zh": "第二",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 2,
+      "pastForm": "seconded",
+      "pastParticipleForm": "seconded"
+    },
+    {
+      "word": "start",
+      "pos": "v./n.",
+      "zh": "開始",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "started",
+      "pastParticipleForm": "started"
+    },
+    {
+      "word": "fruit",
+      "pos": "n.",
+      "zh": "水果",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "section",
+      "pos": "n.",
+      "zh": "部分",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "single",
+      "pos": "adj./n./v.",
+      "zh": "單身的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "singled",
+      "pastParticipleForm": "singled"
+    },
+    {
+      "word": "peach",
+      "pos": "n.",
+      "zh": "桃",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "like",
+      "pos": "prep./v./n.",
+      "zh": "喜歡",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "liked",
+      "pastParticipleForm": "liked"
+    },
+    {
+      "word": "check",
+      "pos": "v./n.",
+      "zh": "查看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3,
+      "pastForm": "checked",
+      "pastParticipleForm": "checked"
+    },
+    {
+      "word": "it (its, itself)",
+      "pos": "pron.",
+      "zh": "它（它的，它本身）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 3
+    },
+    {
+      "word": "ready",
+      "pos": "adj./v.",
+      "zh": "準備好",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "readyed",
+      "pastParticipleForm": "readyed"
+    },
+    {
+      "word": "back",
+      "pos": "adv./n./v./adj.",
+      "zh": "後退",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "backed",
+      "pastParticipleForm": "backed"
+    },
+    {
+      "word": "pear",
+      "pos": "n.",
+      "zh": "梨",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4
+    },
+    {
+      "word": "reject",
+      "pos": "v.",
+      "zh": "拒絕",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "rejected",
+      "pastParticipleForm": "rejected"
+    },
+    {
+      "word": "before",
+      "pos": "prep./conj./adv.",
+      "zh": "前",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "befored",
+      "pastParticipleForm": "befored"
+    },
+    {
+      "word": "finally",
+      "pos": "adv.",
+      "zh": "最後",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "finallyed",
+      "pastParticipleForm": "finallyed"
+    },
+    {
+      "word": "choose",
+      "pos": "v.",
+      "zh": "選擇",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 4,
+      "pastForm": "chose",
+      "pastParticipleForm": "chosen"
+    },
+    {
+      "word": "load",
+      "pos": "n./v.",
+      "zh": "載入",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "loaded",
+      "pastParticipleForm": "loaded"
+    },
+    {
+      "word": "papaya",
+      "pos": "n.",
+      "zh": "木瓜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "grape",
+      "pos": "n.",
+      "zh": "葡萄",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "giant",
+      "pos": "adj./n.",
+      "zh": "巨大的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "watermelon",
+      "pos": "n.",
+      "zh": "西瓜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "insist",
+      "pos": "v.",
+      "zh": "堅持",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "insisted",
+      "pastParticipleForm": "insisted"
+    },
+    {
+      "word": "carry",
+      "pos": "v.",
+      "zh": "攜帶",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5,
+      "pastForm": "carryed",
+      "pastParticipleForm": "carryed"
+    },
+    {
+      "word": "he (him, his, himself)",
+      "pos": "pron.",
+      "zh": "他（他，他的，他自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 5
+    },
+    {
+      "word": "last",
+      "pos": "n./v./adv./adj.",
+      "zh": "最後的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "lasted",
+      "pastParticipleForm": "lasted"
+    },
+    {
+      "word": "about",
+      "pos": "prep./adv.",
+      "zh": "關於",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "abouted",
+      "pastParticipleForm": "abouted"
+    },
+    {
+      "word": "step",
+      "pos": "n./v.",
+      "zh": "步",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "steped",
+      "pastParticipleForm": "steped"
+    },
+    {
+      "word": "hit",
+      "pos": "v./n.",
+      "zh": "打",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "hited",
+      "pastParticipleForm": "hited"
+    },
+    {
+      "word": "floor",
+      "pos": "n./v.",
+      "zh": "地面",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 6,
+      "pastForm": "floored",
+      "pastParticipleForm": "floored"
+    },
+    {
+      "word": "vegetable",
+      "pos": "n.",
+      "zh": "蔬菜",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "cabbage",
+      "pos": "n.",
+      "zh": "高麗菜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "garlic",
+      "pos": "n.",
+      "zh": "蒜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "corn",
+      "pos": "n.",
+      "zh": "玉米",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "explain",
+      "pos": "v.",
+      "zh": "解釋",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "explained",
+      "pastParticipleForm": "explained"
+    },
+    {
+      "word": "exact",
+      "pos": "adj.",
+      "zh": "精確的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "soup",
+      "pos": "n.",
+      "zh": "湯",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7
+    },
+    {
+      "word": "make",
+      "pos": "v.",
+      "zh": "製作",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "made",
+      "pastParticipleForm": "made"
+    },
+    {
+      "word": "each",
+      "pos": "pron./adj./adv.",
+      "zh": "每個",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 7,
+      "pastForm": "eached",
+      "pastParticipleForm": "eached"
+    },
+    {
+      "word": "pick",
+      "pos": "v./n.",
+      "zh": "挑選",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "picked",
+      "pastParticipleForm": "picked"
+    },
+    {
+      "word": "up",
+      "pos": "adv./prep./adj./v./n.",
+      "zh": "向上",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "uped",
+      "pastParticipleForm": "uped"
+    },
+    {
+      "word": "bag",
+      "pos": "n.",
+      "zh": "包包",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "soybean",
+      "pos": "n.",
+      "zh": "大豆",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "block",
+      "pos": "n./v.",
+      "zh": "堵塞",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "blocked",
+      "pastParticipleForm": "blocked"
+    },
+    {
+      "word": "tofu",
+      "pos": "n.",
+      "zh": "豆腐",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "tell",
+      "pos": "v.",
+      "zh": "告訴",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "told",
+      "pastParticipleForm": "told"
+    },
+    {
+      "word": "always",
+      "pos": "adv.",
+      "zh": "總是",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "alwaysed",
+      "pastParticipleForm": "alwaysed"
+    },
+    {
+      "word": "come",
+      "pos": "v.",
+      "zh": "來",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8,
+      "pastForm": "came",
+      "pastParticipleForm": "come"
+    },
+    {
+      "word": "meat",
+      "pos": "n.",
+      "zh": "肉",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 8
+    },
+    {
+      "word": "food",
+      "pos": "n.",
+      "zh": "食物",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "shape",
+      "pos": "n.",
+      "zh": "形狀",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9
+    },
+    {
+      "word": "look",
+      "pos": "v./n.",
+      "zh": "看",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 9,
+      "pastForm": "looked",
+      "pastParticipleForm": "looked"
+    },
+    {
+      "word": "pork",
+      "pos": "n.",
+      "zh": "豬肉",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "some",
+      "pos": "adj./pron.",
+      "zh": "一些",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "beef",
+      "pos": "n.",
+      "zh": "牛肉",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "small",
+      "pos": "adj./n./adv.",
+      "zh": "小的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10,
+      "pastForm": "smalled",
+      "pastParticipleForm": "smalled"
+    },
+    {
+      "word": "package",
+      "pos": "n.",
+      "zh": "包裹",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "seafood",
+      "pos": "n.",
+      "zh": "海鮮",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "special",
+      "pos": "adj.",
+      "zh": "特別的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 10
+    },
+    {
+      "word": "jam",
+      "pos": "n./v.",
+      "zh": "果醬",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "jamed",
+      "pastParticipleForm": "jamed"
+    },
+    {
+      "word": "bottle",
+      "pos": "n./v.",
+      "zh": "瓶子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "bottled",
+      "pastParticipleForm": "bottled"
+    },
+    {
+      "word": "ketchup",
+      "pos": "n.",
+      "zh": "番茄醬",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "cola/Coke",
+      "pos": "n.",
+      "zh": "可樂/可樂",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "all",
+      "pos": "adj./adv./pron./n.",
+      "zh": "全部",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11,
+      "pastForm": "alled",
+      "pastParticipleForm": "alled"
+    },
+    {
+      "word": "into",
+      "pos": "prep.",
+      "zh": "進入",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "nobody",
+      "pos": "pron./n.",
+      "zh": "沒有人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 11
+    },
+    {
+      "word": "box",
+      "pos": "n./v.",
+      "zh": "盒子",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "boxed",
+      "pastParticipleForm": "boxed"
+    },
+    {
+      "word": "cereal",
+      "pos": "n.",
+      "zh": "穀物",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "biscuit",
+      "pos": "n.",
+      "zh": "餅乾",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "pack",
+      "pos": "n./v.",
+      "zh": "盒",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12,
+      "pastForm": "packed",
+      "pastParticipleForm": "packed"
+    },
+    {
+      "word": "bun",
+      "pos": "n.",
+      "zh": "包子",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "cocoa",
+      "pos": "n.",
+      "zh": "可可",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "cold",
+      "pos": "adj./n.",
+      "zh": "寒冷的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "morning",
+      "pos": "n.",
+      "zh": "早晨",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 12
+    },
+    {
+      "word": "buy",
+      "pos": "v./n.",
+      "zh": "買",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "buyed",
+      "pastParticipleForm": "buyed"
+    },
+    {
+      "word": "pumpkin",
+      "pos": "n.",
+      "zh": "南瓜",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "today",
+      "pos": "adv./n.",
+      "zh": "今天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "todayed",
+      "pastParticipleForm": "todayed"
+    },
+    {
+      "word": "anybody/anyone",
+      "pos": "pron.",
+      "zh": "任何人/任何人",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13
+    },
+    {
+      "word": "even",
+      "pos": "adv./adj./v.",
+      "zh": "甚至",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "evened",
+      "pastParticipleForm": "evened"
+    },
+    {
+      "word": "mention",
+      "pos": "v./n.",
+      "zh": "提到",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 13,
+      "pastForm": "mentioned",
+      "pastParticipleForm": "mentioned"
+    },
+    {
+      "word": "remember",
+      "pos": "v.",
+      "zh": "記住",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "remembered",
+      "pastParticipleForm": "remembered"
+    },
+    {
+      "word": "month",
+      "pos": "n.",
+      "zh": "月",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "whole",
+      "pos": "adj./n.",
+      "zh": "所有的",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "other",
+      "pos": "adj./pron.",
+      "zh": "其他",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "diary",
+      "pos": "n.",
+      "zh": "日記",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 14
+    },
+    {
+      "word": "write",
+      "pos": "v.",
+      "zh": "寫",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "wrote",
+      "pastParticipleForm": "written"
+    },
+    {
+      "word": "yet",
+      "pos": "adv./conj.",
+      "zh": "然而",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 14,
+      "pastForm": "yeted",
+      "pastParticipleForm": "yeted"
+    },
+    {
+      "word": "weigh",
+      "pos": "v.",
+      "zh": "稱重",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "weighed",
+      "pastParticipleForm": "weighed"
+    },
+    {
+      "word": "total",
+      "pos": "adj./n./v.",
+      "zh": "全部的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "totaled",
+      "pastParticipleForm": "totaled"
+    },
+    {
+      "word": "cost",
+      "pos": "n./v.",
+      "zh": "成本",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "costed",
+      "pastParticipleForm": "costed"
+    },
+    {
+      "word": "let",
+      "pos": "v.",
+      "zh": "讓",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "leted",
+      "pastParticipleForm": "leted"
+    },
+    {
+      "word": "out",
+      "pos": "adv./prep./adj./n./v.",
+      "zh": "出去",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "outed",
+      "pastParticipleForm": "outed"
+    },
+    {
+      "word": "long",
+      "pos": "adj./adv./v.",
+      "zh": "長的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 15,
+      "pastForm": "longed",
+      "pastParticipleForm": "longed"
+    },
+    {
+      "word": "everything",
+      "pos": "pron.",
+      "zh": "一切",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "expensive",
+      "pos": "adj.",
+      "zh": "昂貴的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "now",
+      "pos": "adv./n.",
+      "zh": "現在",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "nowed",
+      "pastParticipleForm": "nowed"
+    },
+    {
+      "word": "probably",
+      "pos": "adv.",
+      "zh": "大概",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "probablyed",
+      "pastParticipleForm": "probablyed"
+    },
+    {
+      "word": "hear",
+      "pos": "v.",
+      "zh": "聽到",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 16,
+      "pastForm": "heard",
+      "pastParticipleForm": "heard"
+    },
+    {
+      "word": "customer",
+      "pos": "n.",
+      "zh": "顧客",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 16
+    },
+    {
+      "word": "smile",
+      "pos": "n./v.",
+      "zh": "微笑",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "smiled",
+      "pastParticipleForm": "smiled"
+    },
+    {
+      "word": "price",
+      "pos": "n./v.",
+      "zh": "價格",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "priced",
+      "pastParticipleForm": "priced"
+    },
+    {
+      "word": "bill",
+      "pos": "n./v.",
+      "zh": "帳單",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "billed",
+      "pastParticipleForm": "billed"
+    },
+    {
+      "word": "correct",
+      "pos": "adj./v.",
+      "zh": "正確的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17,
+      "pastForm": "corrected",
+      "pastParticipleForm": "corrected"
+    },
+    {
+      "word": "sorry",
+      "pos": "adj.",
+      "zh": "對不起",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 17
+    },
+    {
+      "word": "count",
+      "pos": "v./n.",
+      "zh": "數數",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "counted",
+      "pastParticipleForm": "counted"
+    },
+    {
+      "word": "change",
+      "pos": "n./v.",
+      "zh": "改變",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "changed",
+      "pastParticipleForm": "changed"
+    },
+    {
+      "word": "twice",
+      "pos": "adv.",
+      "zh": "兩次",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "twiced",
+      "pastParticipleForm": "twiced"
+    },
+    {
+      "word": "put",
+      "pos": "v.",
+      "zh": "放",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "put",
+      "pastParticipleForm": "put"
+    },
+    {
+      "word": "coin",
+      "pos": "n.",
+      "zh": "硬幣",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "cloth",
+      "pos": "n.",
+      "zh": "布",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "own",
+      "pos": "adj./pron./v.",
+      "zh": "自己的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "owned",
+      "pastParticipleForm": "owned"
+    },
+    {
+      "word": "since",
+      "pos": "conj./prep./adv.",
+      "zh": "自從",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18,
+      "pastForm": "sinced",
+      "pastParticipleForm": "sinced"
+    },
+    {
+      "word": "born",
+      "pos": "adj.",
+      "zh": "出生",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 18
+    },
+    {
+      "word": "yam",
+      "pos": "n.",
+      "zh": "薯",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 19
+    },
+    {
+      "word": "time",
+      "pos": "n./v.",
+      "zh": "時間",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "timed",
+      "pastParticipleForm": "timed"
+    },
+    {
+      "word": "without",
+      "pos": "prep./adv.",
+      "zh": "沒有",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 19,
+      "pastForm": "withouted",
+      "pastParticipleForm": "withouted"
+    },
+    {
+      "word": "home",
+      "pos": "n./adv./v./adj.",
+      "zh": "家",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "homed",
+      "pastParticipleForm": "homed"
+    },
+    {
+      "word": "she (her, hers, herself)",
+      "pos": "pron.",
+      "zh": "她（她的，她的，她自己）",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "sort",
+      "pos": "n./v.",
+      "zh": "種類",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "sorted",
+      "pastParticipleForm": "sorted"
+    },
+    {
+      "word": "snack",
+      "pos": "n./v.",
+      "zh": "小吃",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "snacked",
+      "pastParticipleForm": "snacked"
+    },
+    {
+      "word": "tall",
+      "pos": "adj.",
+      "zh": "高的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20
+    },
+    {
+      "word": "enough",
+      "pos": "adv./adj./n.",
+      "zh": "足夠的",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "enoughed",
+      "pastParticipleForm": "enoughed"
+    },
+    {
+      "word": "reach",
+      "pos": "v./n.",
+      "zh": "抵達",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 20,
+      "pastForm": "reached",
+      "pastParticipleForm": "reached"
+    },
+    {
+      "word": "dinner",
+      "pos": "n.",
+      "zh": "晚餐",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21
+    },
+    {
+      "word": "half",
+      "pos": "n./adv./adj.",
+      "zh": "一半",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "halfed",
+      "pastParticipleForm": "halfed"
+    },
+    {
+      "word": "already",
+      "pos": "adv.",
+      "zh": "已經",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "alreadyed",
+      "pastParticipleForm": "alreadyed"
+    },
+    {
+      "word": "thank",
+      "pos": "v./n.",
+      "zh": "感謝",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 21,
+      "pastForm": "thanked",
+      "pastParticipleForm": "thanked"
+    },
+    {
+      "word": "lesson",
+      "pos": "n.",
+      "zh": "課",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22
+    },
+    {
+      "word": "day",
+      "pos": "n.",
+      "zh": "天",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22
+    },
+    {
+      "word": "much",
+      "pos": "adj./pron./adv.",
+      "zh": "很多",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "muched",
+      "pastParticipleForm": "muched"
+    },
+    {
+      "word": "grandmother",
+      "pos": "n.",
+      "zh": "祖母",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22
+    },
+    {
+      "word": "argue(argument)",
+      "pos": "v./(n.)",
+      "zh": "爭論（爭論）",
+      "phonetic": "",
+      "level": 2,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "argued",
+      "pastParticipleForm": "argued"
+    },
+    {
+      "word": "win",
+      "pos": "v./n.",
+      "zh": "贏",
+      "phonetic": "",
+      "level": 1,
+      "firstOccurrenceSentenceIndex": 22,
+      "pastForm": "wined",
+      "pastParticipleForm": "wined"
+    }
+  ],
+  "extraHighlightWords": [],
+  "sentences": [
+    {
+      "en": "Saturday. Grocery shopping with Sophia is never just \"grocery shopping.\" It is a full mission with rules, strategy, and occasional shouting.",
+      "zh": "星期六。跟 Sophia 去買菜從來不會只是「買菜」，這是一場有規則、有策略、偶爾還會大聲喊叫的完整任務。"
+    },
+    {
+      "en": "Rule one: we bring cash, because Sophia does not fully trust anything that is not paper money.",
+      "zh": "第一條規則：一定要帶現金，因為 Sophia 對任何不是紙鈔的東西都不太信任。"
+    },
+    {
+      "en": "Rule two: William is only allowed to touch things if he asks first, a rule he breaks approximately every ninety seconds.",
+      "zh": "第二條規則：William 只有先問過才能碰東西，而這條規則他大概每九十秒就犯規一次。"
+    },
+    {
+      "en": "We started in the fruit section, where Sophia squeezed every single peach like she was checking its heartbeat.",
+      "zh": "我們先從水果區開始，Sophia 捏了每一顆桃子，好像在檢查它的心跳一樣。"
+    },
+    {
+      "en": "\"This one is not ready,\" she said, putting back a pear. \"This one, also not ready.\" She rejected four pears before finally choosing one.",
+      "zh": "「這顆還沒熟，」她說，把一顆梨子放回去，「這顆，也還沒熟。」她拒絕了四顆梨子才終於選中一顆。"
+    },
+    {
+      "en": "We loaded the cart with mangoes, papayas, grapes, and one giant watermelon that William insisted on carrying by himself.",
+      "zh": "我們把推車裝滿了芒果、木瓜、葡萄，還有一顆 William 堅持要自己搬的巨大西瓜。"
+    },
+    {
+      "en": "He lasted about four steps before Dad quietly took the watermelon back before it hit the floor.",
+      "zh": "他撐了大概四步，爸爸就悄悄把西瓜接過去，免得它摔到地上。"
+    },
+    {
+      "en": "In the vegetable section, Sophia grabbed cabbage, garlic, and corn, explaining the exact soup she was planning to make with each one.",
+      "zh": "在蔬菜區，Sophia 拿了高麗菜、蒜頭和玉米，還一一解釋她打算用每樣東西煮什麼湯。"
+    },
+    {
+      "en": "She also picked up a bag of soybeans and a block of tofu, telling William that protein does not always come from meat.",
+      "zh": "她還拿了一袋大豆和一塊豆腐，跟 William 說蛋白質不是只能從肉裡來。"
+    },
+    {
+      "en": "William, who only trusts food shaped like nuggets, looked at the tofu like it had personally insulted him.",
+      "zh": "William 只信任長得像雞塊的食物，他看著那塊豆腐的表情，好像那塊豆腐親自羞辱了他一樣。"
+    },
+    {
+      "en": "At the meat counter, we bought pork, some beef, and a small package of seafood for Sophia's Sunday special.",
+      "zh": "在肉品櫃檯，我們買了豬肉、一些牛肉，還有一小包海鮮，準備做 Sophia 星期天的拿手菜。"
+    },
+    {
+      "en": "William begged for a jar of jam, a bottle of ketchup, and two cans of cola, and somehow got all three into the cart when nobody was looking.",
+      "zh": "William 一直吵著要一罐果醬、一瓶番茄醬，還有兩罐可樂，趁大家沒注意，居然三樣全塞進了推車裡。"
+    },
+    {
+      "en": "We also grabbed a box of cereal, a bag of biscuits, a pack of buns, and a small tin of cocoa powder for cold mornings.",
+      "zh": "我們還拿了一盒穀片、一包餅乾、一袋麵包卷，還有一小罐可可粉，準備留著寒冷的早晨喝。"
+    },
+    {
+      "en": "\"We are not buying pumpkin today,\" Sophia announced firmly, before anyone had even mentioned pumpkin.",
+      "zh": "「我們今天不買南瓜，」Sophia 態度堅定地宣布，儘管根本沒有人提過南瓜這件事。"
+    },
+    {
+      "en": "Apparently she remembered last month's pumpkin disaster, which is a whole other diary entry I am not ready to write yet.",
+      "zh": "顯然她還記得上個月的南瓜災難事件，那又是另一篇我還沒準備好寫的日記了。"
+    },
+    {
+      "en": "At the checkout counter, the cashier weighed our fruit, and the total cost made Sophia let out a long, dramatic sigh.",
+      "zh": "在結帳櫃檯，收銀員秤了我們的水果，總金額讓 Sophia 發出一聲又長又誇張的嘆氣。"
+    },
+    {
+      "en": "\"Everything is so expensive now,\" she told the cashier, who has probably heard this exact complaint from every customer today.",
+      "zh": "「現在什麼都好貴，」她跟收銀員說，那位收銀員大概今天已經聽過每個顧客都講過這句一模一樣的抱怨。"
+    },
+    {
+      "en": "The cashier smiled politely and said the price on the bill was correct, no discount today, sorry.",
+      "zh": "收銀員禮貌地笑了笑，說帳單上的價格沒有算錯，今天沒有折扣，抱歉。"
+    },
+    {
+      "en": "Sophia paid in cash, counted her change twice, and put every coin back into a small cloth purse she has owned since before I was born.",
+      "zh": "Sophia 用現金付款，把找的錢數了兩次，然後把每一枚硬幣都放進一個她生我之前就有的小布錢包裡。"
+    },
+    {
+      "en": "William tried to sneak a yam into the cart at the very last second, and somehow, this time, Sophia allowed it without an argument.",
+      "zh": "William 在最後一秒試圖偷偷把一根地瓜塞進推車，這次不知道為什麼，Sophia 竟然沒吵就同意了。"
+    },
+    {
+      "en": "Back home, Sophia unpacked every bag herself, sorting fruit here, vegetables there, and snacks into a cabinet William is not tall enough to reach.",
+      "zh": "回到家後，Sophia 親自把每個袋子都拆開整理，水果放這邊、蔬菜放那邊，零食則放進一個 William 還搆不到的櫃子裡。"
+    },
+    {
+      "en": "By dinner, half the watermelon was already gone, mostly thanks to William and, admittedly, me.",
+      "zh": "到晚餐時，半顆西瓜已經被吃光了，主要要感謝 William，還有，我承認，也要感謝我自己。"
+    },
+    {
+      "en": "Lesson of the day: never underestimate how much a small grandmother with a cloth purse can carry, argue about, and win.",
+      "zh": "今日心得：永遠不要小看一位拿著布錢包的嬌小阿嬤，她能扛多少東西、能吵贏多少場，還能贏下多少次。"
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Why does Sophia insist on bringing cash?",
+      "options": [
+        "She does not fully trust anything that is not paper money.",
+        "The store only accepts cash.",
+        "She wants to save on fees.",
+        "William lost her card."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does \"customer\" mean?",
+      "options": [
+        "顧客",
+        "收銀員",
+        "老闆",
+        "供應商"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Sophia refuse to buy today, before anyone even mentions it?",
+      "options": [
+        "Pumpkin.",
+        "Watermelon.",
+        "Tofu.",
+        "Cola."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the cashier do with the fruit at checkout?",
+      "options": [
+        "Weighs it to calculate the cost.",
+        "Gives it away for free.",
+        "Refuses to sell it.",
+        "Counts each piece by hand."
+      ],
+      "answer": 0
+    }
+  ]
+}
