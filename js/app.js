@@ -123,6 +123,7 @@ function updateBottomNav(path) {
 
 function router() {
   stopSpeak();
+  closeWordPopup();
   const hash = location.hash || '#/';
   const path = hash.slice(1) || '/';
   hideAllScreens();
