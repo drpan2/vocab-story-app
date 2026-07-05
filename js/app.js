@@ -3,6 +3,10 @@ let progress = {};
 let favorites = { words: [] };
 let streak = { visits: [] };
 let prefs = { fontSize: 'md', darkMode: false };
+let srs = { words: {} };
+
+const SRS_INTERVALS = [1, 3, 7, 14, 30];
+const SRS_SESSION_LIMIT = 20;
 
 let currentLevelNum = null;
 let currentChapterNum = null;
@@ -21,6 +25,7 @@ async function init() {
   progress = await loadState('progress');
   favorites = await loadState('favorites');
   streak = await loadState('streak');
+  srs = await loadState('srs');
   applyPrefs();
   recordVisit();
   manifest = await fetch('data/manifest.json').then(r => r.json());
@@ -75,6 +80,49 @@ function computeStreak() {
     } else break;
   }
   return count;
+}
+
+// ---------- spaced repetition (forgetting-curve review) ----------
+
+function addDaysKey(dateKey, days) {
+  const d = new Date(dateKey + 'T00:00:00');
+  d.setDate(d.getDate() + days);
+  return localDateKey(d);
+}
+
+function scheduleSRSWord(entry, levelNum, chapterNum) {
+  if (srs.words[entry.word]) return;
+  srs.words[entry.word] = {
+    word: entry.word,
+    zh: entry.zh,
+    pos: entry.pos,
+    level: levelNum,
+    chapter: chapterNum,
+    box: 0,
+    nextReview: addDaysKey(localDateKey(new Date()), SRS_INTERVALS[0])
+  };
+}
+
+function scheduleChapterWordsForSRS(chapterData, levelNum, chapterNum) {
+  (chapterData.targetWords || []).forEach((w) => scheduleSRSWord(w, levelNum, chapterNum));
+  saveState('srs', srs);
+}
+
+function getDueSRSWords() {
+  const today = localDateKey(new Date());
+  return Object.values(srs.words).filter((w) => w.nextReview <= today);
+}
+
+function gradeSRSWord(word, correct) {
+  const entry = srs.words[word];
+  if (!entry) return;
+  if (correct) {
+    entry.box = Math.min(entry.box + 1, SRS_INTERVALS.length - 1);
+  } else {
+    entry.box = 0;
+  }
+  entry.nextReview = addDaysKey(localDateKey(new Date()), SRS_INTERVALS[entry.box]);
+  saveState('srs', srs);
 }
 
 // ---------- prefs / theme ----------
@@ -147,6 +195,10 @@ function router() {
   } else if ((m = path.match(/^\/level\/(\d+)\/certificate$/))) {
     showScreen('certificate');
     renderCertificate(+m[1]);
+  } else if (path === '/review-due') {
+    $('topTitle').textContent = '今日複習';
+    showScreen('review-due');
+    renderDueReview();
   } else if (path === '/favorites') {
     $('topTitle').textContent = '我的收藏';
     showScreen('favorites');
@@ -188,6 +240,16 @@ function renderHome() {
   const streakDays = computeStreak();
   const banner = $('streakBanner');
   banner.textContent = streakDays > 0 ? `🔥 連續閱讀 ${streakDays} 天，保持下去！` : '👋 開始今天的第一章故事吧！';
+
+  const dueCount = getDueSRSWords().length;
+  const dueBanner = $('dueReviewBanner');
+  if (dueCount > 0) {
+    dueBanner.hidden = false;
+    dueBanner.innerHTML = `<span>📅 今天有 ${dueCount} 個單字要複習</span><span>去複習 →</span>`;
+    dueBanner.onclick = () => { location.hash = '#/review-due'; };
+  } else {
+    dueBanner.hidden = true;
+  }
 
   const list = $('levelList');
   list.innerHTML = '';
@@ -305,7 +367,10 @@ async function renderChapter(levelNum, chapterNum) {
     lp.readChapters[chapterNum] = true;
     lp.chapterQuiz[chapterNum] = { correct: score, total };
     saveState('progress', progress);
-    if (!wasRead) showToast(`✅ 完成第 ${chapterNum} 章！測驗 ${score}/${total} 對`);
+    if (!wasRead) {
+      scheduleChapterWordsForSRS(data, levelNum, chapterNum);
+      showToast(`✅ 完成第 ${chapterNum} 章！測驗 ${score}/${total} 對，${(data.targetWords || []).length} 個單字已加入複習排程`);
+    }
   });
 
   const lvl = manifest.levels.find(l => l.level === levelNum);
@@ -325,7 +390,7 @@ async function renderChapter(levelNum, chapterNum) {
 
 // ---------- quiz rendering (shared by chapter quiz + level review quiz) ----------
 
-function renderQuizBlock(container, quizArray, onAllAnswered) {
+function renderQuizBlock(container, quizArray, onAllAnswered, onItemAnswered) {
   const answers = new Array(quizArray.length).fill(null);
   container.innerHTML = '';
   quizArray.forEach((q, qi) => {
@@ -354,6 +419,7 @@ function renderQuizBlock(container, quizArray, onAllAnswered) {
           const correctEl = $(`quiz-${container.id}-${qi}-${q.answer}`);
           if (correctEl) correctEl.classList.add('correct');
         }
+        onItemAnswered && onItemAnswered(qi, oi === q.answer, q);
         if (answers.every(a => a !== null)) {
           const score = answers.filter((a, i2) => a === quizArray[i2].answer).length;
           onAllAnswered && onAllAnswered(score, quizArray.length);
@@ -414,6 +480,52 @@ function renderCertificate(levelNum) {
   } else {
     $('certBody').textContent = '這個 Level 還沒完成總複習大會考。';
   }
+}
+
+// ---------- daily spaced-repetition review screen ----------
+
+function renderDueReview() {
+  const due = getDueSRSWords().slice(0, SRS_SESSION_LIMIT);
+  const introEl = $('dueReviewIntro');
+  const quizEl = $('dueReviewQuiz');
+  const emptyEl = $('dueReviewEmpty');
+
+  if (!due.length) {
+    introEl.textContent = '';
+    quizEl.innerHTML = '';
+    emptyEl.hidden = false;
+    return;
+  }
+  emptyEl.hidden = true;
+  introEl.textContent = `今天有 ${getDueSRSWords().length} 個單字到期，這次複習 ${due.length} 個。答對會拉長下次複習間隔，答錯會明天再考一次。`;
+
+  const allZh = Object.values(srs.words).map((w) => w.zh);
+  const quizArray = due.map((entry) => {
+    const distractorPool = allZh.filter((zh) => zh !== entry.zh);
+    const distractors = [];
+    while (distractors.length < 3 && distractorPool.length) {
+      const idx = Math.floor(Math.random() * distractorPool.length);
+      distractors.push(distractorPool.splice(idx, 1)[0]);
+    }
+    const options = [...distractors, entry.zh].sort(() => Math.random() - 0.5);
+    return {
+      question: `"${entry.word.split('/')[0]}" 是什麼意思？`,
+      options,
+      answer: options.indexOf(entry.zh),
+      _word: entry.word
+    };
+  });
+
+  renderQuizBlock(
+    quizEl,
+    quizArray,
+    (score, total) => {
+      showToast(`📅 今日複習完成！答對 ${score}/${total}`);
+    },
+    (qi, correct, q) => {
+      gradeSRSWord(q._word, correct);
+    }
+  );
 }
 
 // ---------- word popup / favorites ----------

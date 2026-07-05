@@ -22,8 +22,17 @@
 
   <section class="screen" id="screen-home">
     <div id="streakBanner" class="streak-banner"></div>
+    <div id="dueReviewBanner" class="due-review-banner" hidden></div>
     <h2 class="section-title">選擇 Level</h2>
     <div id="levelList" class="level-list"></div>
+  </section>
+
+  <section class="screen" id="screen-review-due">
+    <h2 class="section-title">📅 今日複習</h2>
+    <p id="dueReviewIntro" class="meta"></p>
+    <div id="dueReviewQuiz" class="quiz-block"></div>
+    <div id="dueReviewEmpty" class="meta" hidden>今天沒有需要複習的單字，讀新章節會自動加入複習排程。</div>
+    <button class="primary-btn" style="margin-top:16px" onclick="location.hash='#/'">回首頁</button>
   </section>
 
   <section class="screen" id="screen-level">

@@ -64,6 +64,13 @@ body {
   padding: 10px 14px; border-radius: 12px; margin-bottom: 16px; font-size: .9rem;
 }
 
+.due-review-banner {
+  background: #FEF3C7; color: #92400E; padding: 12px 14px; border-radius: 12px;
+  margin-bottom: 16px; font-size: .9rem; cursor: pointer; font-weight: 600;
+  display: flex; align-items: center; justify-content: space-between;
+}
+html[data-theme="dark"] .due-review-banner { background: #78350F; color: #FDE68A; }
+
 .level-list { display: flex; flex-direction: column; gap: 10px; }
 .level-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px;
