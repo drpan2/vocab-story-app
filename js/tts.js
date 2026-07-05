@@ -1,14 +1,6 @@
 const ttsState = { queue: [], idx: 0, playing: false, onSentence: null, onDone: null };
 let ttsToken = 0;
 
-function pickEnglishVoice() {
-  const voices = speechSynthesis.getVoices();
-  const enVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
-  const enhanced = enVoices.find(v => /enhanced|premium/i.test(v.name));
-  const us = enVoices.find(v => v.lang.toLowerCase() === 'en-us');
-  return enhanced || us || enVoices[0] || voices[0] || null;
-}
-
 function speakChapter(sentences, onSentenceStart, onDone) {
   stopSpeak();
   ttsState.queue = sentences;
@@ -31,8 +23,6 @@ function speakNext() {
   ttsState.onSentence && ttsState.onSentence(i);
   const utter = new SpeechSynthesisUtterance(ttsState.queue[i]);
   utter.lang = 'en-US';
-  const v = pickEnglishVoice();
-  if (v) utter.voice = v;
   const advance = () => {
     if (myToken !== ttsToken) return;
     if (!ttsState.playing) return;
@@ -64,14 +54,5 @@ function speakSingleWord(word) {
   speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(word);
   utter.lang = 'en-US';
-  const v = pickEnglishVoice();
-  if (v) utter.voice = v;
   speechSynthesis.speak(utter);
-}
-
-if ('speechSynthesis' in window) {
-  // Some browsers (notably iOS Safari) populate getVoices() asynchronously
-  // after the voiceschanged event; call once early so later picks aren't empty.
-  speechSynthesis.getVoices();
-  speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); };
 }
