@@ -44,10 +44,10 @@
 
   <section class="screen" id="screen-chapter">
     <div class="chapter-toolbar">
-      <button id="translateToggleBtn" class="chip-btn">🈶 中文翻譯</button>
-      <button id="playBtn" class="chip-btn">▶ 自動朗讀</button>
-      <button id="fontMinusBtn" class="chip-btn">A−</button>
-      <button id="fontPlusBtn" class="chip-btn">A+</button>
+      <button id="translateToggleBtn" class="chip-btn"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h9M8.5 4v2c0 3.5-1.8 6.5-4.5 8M5 12c1.8 1.4 4 2 6.5 2M13 21l4-9 4 9M14.7 18h4.6"/></svg><span>中文翻譯</span></button>
+      <button id="playBtn" class="chip-btn"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4.5v15l13-7.5-13-7.5Z" fill="currentColor" stroke="none"/></svg><span>自動朗讀</span></button>
+      <button id="fontMinusBtn" class="chip-btn icon-only" aria-label="縮小字體">A−</button>
+      <button id="fontPlusBtn" class="chip-btn icon-only" aria-label="放大字體">A+</button>
     </div>
     <div class="legend">
       <span class="legend-swatch hl-target-swatch">藍色</span>目標單字（點一下看意思）
@@ -64,13 +64,13 @@
     <h3 class="section-title">讀後測驗</h3>
     <div id="chapterQuiz" class="quiz-block"></div>
 
-    <h3 class="section-title">📔 我的筆記</h3>
+    <h3 class="section-title">我的筆記</h3>
     <textarea id="chapterNotesInput" class="notes-textarea" placeholder="寫下你對這章的想法、想記住的句子、還沒搞懂的地方…"></textarea>
     <div id="notesSaveStatus" class="meta"></div>
 
     <div class="nav-buttons">
-      <button id="prevChapterBtn" class="secondary-btn">← 上一章</button>
-      <button id="nextChapterBtn" class="secondary-btn">下一章 →</button>
+      <button id="prevChapterBtn" class="secondary-btn"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg><span>上一章</span></button>
+      <button id="nextChapterBtn" class="secondary-btn"><span>下一章</span><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button>
     </div>
   </section>
 

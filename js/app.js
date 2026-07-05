@@ -435,7 +435,7 @@ async function renderChapter(levelNum, chapterNum) {
 
   document.body.classList.remove('show-zh');
   $('translateToggleBtn').classList.remove('active');
-  $('playBtn').textContent = '▶ 自動朗讀';
+  setPlayBtnLabel(false);
   $('playBtn').classList.remove('active');
 
   bindChapterNotes(levelNum, chapterNum, data.title);
@@ -448,6 +448,13 @@ function noteKey(levelNum, chapterNum) {
 }
 
 let notesSaveDebounce = null;
+
+function setPlayBtnLabel(playing) {
+  const btn = $('playBtn');
+  btn.innerHTML = playing
+    ? '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span>停止朗讀</span>'
+    : '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4.5v15l13-7.5-13-7.5Z" fill="currentColor" stroke="none"/></svg><span>自動朗讀</span>';
+}
 
 function bindChapterNotes(levelNum, chapterNum, chapterTitle) {
   const key = noteKey(levelNum, chapterNum);
@@ -992,12 +999,12 @@ function bindGlobalEvents() {
     const btn = $('playBtn');
     if (ttsState.playing) {
       stopSpeak();
-      btn.textContent = '▶ 自動朗讀';
+      setPlayBtnLabel(false);
       btn.classList.remove('active');
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
       return;
     }
-    btn.textContent = '⏸ 停止朗讀';
+    setPlayBtnLabel(true);
     btn.classList.add('active');
     const sentences = currentChapterData.sentences.map(s => s.en);
     speakChapter(sentences, (i) => {
@@ -1005,7 +1012,7 @@ function bindGlobalEvents() {
       const el = $(`sentence-${i}`);
       if (el) { el.classList.add('reading'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
     }, () => {
-      btn.textContent = '▶ 自動朗讀';
+      setPlayBtnLabel(false);
       btn.classList.remove('active');
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
     });
