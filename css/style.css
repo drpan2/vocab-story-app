@@ -114,6 +114,12 @@ html[data-theme="dark"] .legend .hl-extra-swatch { background: #581C87; color: #
 
 .meta { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
 
+.chapter-illustration-wrap {
+  background: #FFFFFF; border: 1px solid var(--border); border-radius: 14px;
+  padding: 10px; margin-bottom: 16px; text-align: center;
+}
+.chapter-illustration { max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px; }
+
 .sentence-list { line-height: 2; }
 .sentence { margin-bottom: 14px; padding: 8px 10px; border-radius: 10px; }
 .sentence.reading { background: var(--accent-soft); }

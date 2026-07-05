@@ -369,6 +369,13 @@ async function renderChapter(levelNum, chapterNum) {
   $('chapterTitle').textContent = `Chapter ${String(chapterNum).padStart(2, '0')}. ${data.title}`;
   $('chapterMeta').textContent = `Level ${data.level} · ${data.sentences.length} 句 · ${data.quiz.length} 題測驗`;
 
+  const illoWrap = $('chapterIllustrationWrap');
+  const illoImg = $('chapterIllustration');
+  illoWrap.hidden = true;
+  illoImg.onload = () => { illoWrap.hidden = false; };
+  illoImg.onerror = () => { illoWrap.hidden = true; };
+  illoImg.src = `images/level${levelNum}/chapter${chapterNum}.png`;
+
   resetHighlightRegistry();
   const wordsBySentence = {};
   (data.targetWords || []).forEach(w => {
