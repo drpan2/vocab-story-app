@@ -392,7 +392,12 @@ async function renderChapter(levelNum, chapterNum) {
     sentenceList.appendChild(div);
   });
   sentenceList.onclick = (e) => {
-    if (ttsState.playing && !e.target.closest('.hl-target,.hl-extra,.hl-plain')) advanceOneSentence();
+    if (!ttsState.playing) return;
+    if (e.target.closest('.hl-target,.hl-extra,.hl-plain')) return;
+    const sentenceEl = e.target.closest('.sentence');
+    if (!sentenceEl) return;
+    const idx = parseInt(sentenceEl.id.replace('sentence-', ''), 10);
+    if (!isNaN(idx)) replaySentence(idx);
   };
 
   renderQuizBlock($('chapterQuiz'), data.quiz, (score, total) => {

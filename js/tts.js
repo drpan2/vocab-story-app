@@ -41,10 +41,13 @@ function speakNext() {
   speechSynthesis.speak(utter);
 }
 
-function advanceOneSentence() {
+// Tapping a sentence during auto-read re-reads that exact sentence (handy for
+// listening practice), then playback continues forward from there as usual.
+function replaySentence(index) {
   if (!ttsState.playing) return;
+  if (index < 0 || index >= ttsState.queue.length) return;
   ttsToken++;
-  ttsState.idx++;
+  ttsState.idx = index;
   speechSynthesis.cancel();
   setTimeout(speakNext, CANCEL_SETTLE_MS);
 }
