@@ -67,6 +67,8 @@ body {
 .due-review-banner {
   background: #FEF3C7; color: #92400E; padding: 12px 14px; border-radius: 12px;
   margin-bottom: 16px; font-size: .9rem; cursor: pointer; font-weight: 600;
+}
+.due-review-banner:not([hidden]) {
   display: flex; align-items: center; justify-content: space-between;
 }
 html[data-theme="dark"] .due-review-banner { background: #78350F; color: #FDE68A; }
