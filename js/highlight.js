@@ -41,6 +41,14 @@ function resetHighlightRegistry() {
   highlightRegistry = [];
 }
 
+// `favorites` is a global defined in app.js; by the time any chapter is
+// actually rendered it has already been loaded from IndexedDB, so it's safe
+// to read here even though this file is loaded first in index.html.
+function isFavoritedWord(word) {
+  const key = word.toLowerCase();
+  return favorites.words.some(f => f.word.toLowerCase() === key);
+}
+
 // Wrap every plain word (not already part of a target/extra highlight) in its
 // own clickable span too, so users can tap ANY word in the sentence and add
 // it to favorites, not just the ones the story marked as target vocabulary.
@@ -64,7 +72,8 @@ function wrapPlainWords(segment) {
     const key = token.toLowerCase().replace(/^'+|'+$/g, '');
     if (key) {
       const safeKey = key.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-      result += `<span class="hl-plain" onclick="onPlainWordClick('${safeKey}')">${escapeHtml(token)}</span>`;
+      const cls = isFavoritedWord(key) ? 'hl-plain hl-favorited' : 'hl-plain';
+      result += `<span class="${cls}" data-plain-key="${escapeHtml(key)}" onclick="onPlainWordClick('${safeKey}')">${escapeHtml(token)}</span>`;
     } else {
       result += escapeHtml(token);
     }
@@ -102,7 +111,8 @@ function highlightSentence(text, words) {
     result += wrapPlainWords(text.slice(cursor, m.start));
     const regId = highlightRegistry.length;
     highlightRegistry.push(m.entry);
-    result += `<span class="${m.entry.cls}" data-reg-id="${regId}" onclick="onWordClick(${regId})">${escapeHtml(text.slice(m.start, m.end))}</span>`;
+    const cls = isFavoritedWord(m.entry.word) ? `${m.entry.cls} hl-favorited` : m.entry.cls;
+    result += `<span class="${cls}" data-reg-id="${regId}" onclick="onWordClick(${regId})">${escapeHtml(text.slice(m.start, m.end))}</span>`;
     cursor = m.end;
   });
   result += wrapPlainWords(text.slice(cursor));

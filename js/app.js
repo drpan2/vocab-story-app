@@ -521,6 +521,20 @@ function exportNotes(keys) {
 
 // ---------- quiz rendering (shared by chapter quiz + level review quiz) ----------
 
+// Recolor any already-rendered spans for this word in the current chapter view
+// right away, so favoriting a word gives instant visual feedback instead of
+// only showing up the next time the chapter is rendered.
+function markWordFavoritedInDOM(word) {
+  const key = word.toLowerCase();
+  document.querySelectorAll('#sentenceList .hl-target, #sentenceList .hl-extra').forEach(span => {
+    const entry = highlightRegistry[span.dataset.regId];
+    if (entry && entry.word.toLowerCase() === key) span.classList.add('hl-favorited');
+  });
+  document.querySelectorAll('#sentenceList .hl-plain').forEach(span => {
+    if (span.dataset.plainKey === key) span.classList.add('hl-favorited');
+  });
+}
+
 function addWordToFavorites(wordInfo) {
   if (favorites.words.some(f => f.word === wordInfo.word)) {
     showToast('已經收藏過了');
@@ -535,6 +549,7 @@ function addWordToFavorites(wordInfo) {
     addedAt: new Date().toISOString()
   });
   saveState('favorites', favorites);
+  markWordFavoritedInDOM(wordInfo.word);
   showToast('⭐ 已加入收藏');
   return true;
 }
@@ -748,6 +763,7 @@ function renderDueCard(word) {
     if (favorites.words.some(f => f.word === entry.word)) { showToast('已經收藏過了'); return; }
     favorites.words.push({ word: entry.word, zh: entry.zh, pos: entry.pos || '', level: entry.level, chapter: entry.chapter, addedAt: new Date().toISOString() });
     saveState('favorites', favorites);
+    markWordFavoritedInDOM(entry.word);
     $('dueFavBtn').textContent = '⭐ 已收藏';
     showToast('⭐ 已加入收藏');
   };
@@ -838,6 +854,7 @@ function addFavoriteFromPopup() {
     addedAt: new Date().toISOString()
   });
   saveState('favorites', favorites);
+  markWordFavoritedInDOM(entry.word);
   showToast('⭐ 已加入收藏');
 }
 

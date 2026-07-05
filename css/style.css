@@ -109,8 +109,10 @@ html[data-theme="dark"] .due-review-banner { background: #78350F; color: #FDE68A
 .legend .legend-swatch { padding: 1px 6px; border-radius: 4px; margin-right: 4px; }
 .legend .hl-target-swatch { background: #DBEAFE; color: #1E3A8A; }
 .legend .hl-extra-swatch { background: #F3E8FF; color: #6B21A8; }
+.legend .hl-favorited-swatch { background: #FEF3C7; color: #92400E; }
 html[data-theme="dark"] .legend .hl-target-swatch { background: #1E3A8A; color: #BFDBFE; }
 html[data-theme="dark"] .legend .hl-extra-swatch { background: #581C87; color: #E9D5FF; }
+html[data-theme="dark"] .legend .hl-favorited-swatch { background: #78350F; color: #FDE68A; }
 
 .meta { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
 
@@ -133,6 +135,12 @@ html[data-theme="dark"] .hl-target { background: #1E3A8A; color: #BFDBFE; }
 html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
 
 .hl-plain { cursor: pointer; border-radius: 3px; }
+
+/* Already-favorited words get their own color regardless of target/extra/plain
+   status, so a reader can see at a glance which words they've already
+   collected while reading, without opening the separate favorites list. */
+.hl-favorited { background: #FEF3C7; color: #92400E; padding: 1px 3px; border-radius: 4px; cursor: pointer; font-weight: 600; }
+html[data-theme="dark"] .hl-favorited { background: #78350F; color: #FDE68A; }
 .hl-plain:active { background: var(--accent-soft); }
 
 .quiz-block { display: flex; flex-direction: column; gap: 14px; }
