@@ -821,14 +821,17 @@ function onWordClick(regId) {
 
 // Tapping a plain (non-highlighted) word in a sentence: it has no dictionary
 // data in our word bank, but the user can still favorite it directly so the
-// favorites list isn't limited to whatever the story happened to mark.
+// favorites list isn't limited to whatever the story happened to mark. Since
+// there's no built-in meaning, let the user type their own before favoriting.
 function onPlainWordClick(word) {
   currentPopupEntry = { word, zh: '', pos: '' };
   let html = `<h3>${escapeHtml(word)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
-  html += `<div class="pos meta">這個字不在故事的標色單字庫裡，沒有內建字義，但你可以直接收藏起來。</div>`;
+  html += `<div class="pos meta">這個字不在故事的標色單字庫裡，沒有內建字義，可以自己輸入中文意思再收藏：</div>`;
+  html += `<input type="text" id="plainWordZhInput" class="popup-input" placeholder="輸入中文意思（選填）">`;
   $('wordPopupBody').innerHTML = html;
   $('wordPopup').hidden = false;
   $('wordPopupSpeakBtn').onclick = () => speakSingleWord(word);
+  $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
 }
 
 function closeWordPopup() {
