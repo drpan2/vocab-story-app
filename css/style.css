@@ -136,28 +136,6 @@ html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
 
 .hl-plain { cursor: pointer; border-radius: 3px; }
 
-/* On touch devices, our own long-press-drag gesture (bindPhraseSelectGesture
-   in app.js) IS the phrase-selection mechanism, so the browser's native
-   text-selection must be turned off for this content — otherwise both fire
-   on the same gesture at once: our popup opens correctly, but iOS/Android's
-   own selection handles and "Copy/Translate" menu also appear and often
-   balloon out to select way more than intended. Scoped to `pointer: coarse`
-   (touch-primary devices) only, so desktop mouse users keep native select/
-   copy/right-click-search exactly as before — this rule never applies there. */
-@media (pointer: coarse) {
-  .sentence-list .en {
-    -webkit-user-select: none;
-    user-select: none;
-    -webkit-touch-callout: none;
-    /* Without this, the browser starts its own vertical scroll on the very
-       first touchmove, before our JS ever sees the gesture as a drag — so
-       dragging down to reach the next sentence line just scrolls the page
-       instead of extending the phrase selection. Disabling native touch
-       scrolling here hands the whole gesture to bindPhraseSelectGesture. */
-    touch-action: none;
-  }
-}
-
 /* Already-favorited words get their own color regardless of target/extra/plain
    status, so a reader can see at a glance which words they've already
    collected while reading, without opening the separate favorites list. */
@@ -284,10 +262,3 @@ input:checked + .slider:before { transform: translateX(20px); }
   position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%);
   background: #1E293B; color: #fff; padding: 10px 18px; border-radius: 999px; font-size: .85rem; z-index: 60;
 }
-
-/* Live preview while dragging across words to select a phrase (touch only —
-   see bindPhraseSelectGesture in app.js). Declared last so it wins over
-   hl-target/hl-extra/hl-favorited/hl-plain by source order without needing
-   !important, since this is meant to visually override whatever a word's
-   normal color is for the duration of the drag. */
-.phrase-selecting { background: var(--accent); color: #fff; border-radius: 4px; }

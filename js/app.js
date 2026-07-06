@@ -222,6 +222,21 @@ function updateBottomNav(path) {
 // playback stops for a reason other than the button's own click handler
 // (e.g. navigating away mid-playback) — the screen it used to live in isn't
 // there anymore to just hide the stale state along with it.
+// Auto-read used to always start from sentence 0, which was annoying when
+// the reader had already scrolled partway into a long chapter — starting
+// from whatever sentence is currently on screen instead means resuming
+// reading doesn't force them back to the top every time.
+function findFirstVisibleSentenceIndex() {
+  const sentences = document.querySelectorAll('#sentenceList .sentence');
+  for (const el of sentences) {
+    const rect = el.getBoundingClientRect();
+    if (rect.bottom > 0 && rect.top < window.innerHeight) {
+      return +el.id.slice('sentence-'.length);
+    }
+  }
+  return 0;
+}
+
 function resetPlayBtnUI() {
   const btn = $('playBtn');
   btn.innerHTML = '▶<span>自動朗讀</span>';
@@ -843,14 +858,7 @@ function renderDueCard(word) {
 
 // ---------- word popup / favorites ----------
 
-// Set right before a phrase-drag-select finishes (see bindPhraseSelectGesture)
-// so the browser's own synthesized click on the span where the finger lifted
-// doesn't also pop open that single word's popup right on top of the phrase
-// popup we're about to show.
-let suppressNextWordClick = false;
-
 function onWordClick(regId) {
-  if (suppressNextWordClick) { suppressNextWordClick = false; return; }
   const entry = highlightRegistry[regId];
   if (!entry) return;
   currentPopupEntry = entry;
@@ -872,7 +880,6 @@ function onWordClick(regId) {
 // favorites list isn't limited to whatever the story happened to mark. Since
 // there's no built-in meaning, let the user type their own before favoriting.
 function onPlainWordClick(word) {
-  if (suppressNextWordClick) { suppressNextWordClick = false; return; }
   currentPopupEntry = { word, zh: '', pos: '' };
   let html = `<h3>${escapeHtml(word)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
   html += `<div class="pos meta">這個字不在故事的標色單字庫裡，沒有內建字義，可以自己輸入中文意思再收藏：</div>`;
@@ -881,96 +888,6 @@ function onPlainWordClick(word) {
   $('wordPopup').hidden = false;
   $('wordPopupSpeakBtn').onclick = () => speakSingleWord(word);
   $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
-}
-
-// Triggered by a touch-drag across several words in one sentence (see
-// bindPhraseSelectGesture) — for phrases/idioms/grammar patterns that a
-// single-word lookup can't cover. Same "no built-in meaning, type your own"
-// pattern as onPlainWordClick, plus a Google Translate link since phrases
-// are much more likely to need an external lookup than a single word is.
-function onPhraseSelected(phrase) {
-  currentPopupEntry = { word: phrase, zh: '', pos: '' };
-  const translateUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(phrase)}&op=translate`;
-  let html = `<h3>${escapeHtml(phrase)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
-  html += `<div class="pos meta">這是你圈選的片語，可以查Google翻譯，或自己輸入意思再收藏：</div>`;
-  html += `<a class="secondary-btn" id="phraseTranslateLink" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px" href="${translateUrl}" target="_blank" rel="noopener">🔍 查Google翻譯</a>`;
-  html += `<input type="text" id="plainWordZhInput" class="popup-input" placeholder="輸入中文意思（選填）">`;
-  $('wordPopupBody').innerHTML = html;
-  $('wordPopup').hidden = false;
-  $('wordPopupSpeakBtn').onclick = () => speakSingleWord(phrase);
-  $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
-}
-
-// Touch-only: press and drag across words — even across different
-// numbered sentence lines — to select a phrase/idiom, released into
-// onPhraseSelected(). Deliberately gated to pointerType === 'touch' so mouse
-// users on desktop keep the browser's own native text selection, copy, and
-// right-click "search"/"translate" menu completely untouched — this is
-// purely additive on mobile.
-function bindPhraseSelectGesture() {
-  const container = $('sentenceList');
-  let drag = null; // { spans, startIdx, currentIdx, dragging }
-
-  function allWordSpans() {
-    return Array.from(container.querySelectorAll('.en .hl-target, .en .hl-extra, .en .hl-plain'));
-  }
-  function clearPreview(spans) {
-    spans.forEach((s) => s.classList.remove('phrase-selecting'));
-  }
-
-  container.addEventListener('pointerdown', (e) => {
-    if (e.pointerType !== 'touch') return;
-    const span = e.target.closest('.hl-target,.hl-extra,.hl-plain');
-    if (!span) return;
-    const spans = allWordSpans();
-    const startIdx = spans.indexOf(span);
-    if (startIdx < 0) return;
-    drag = { spans, startIdx, currentIdx: startIdx, dragging: false };
-  });
-
-  container.addEventListener('pointermove', (e) => {
-    if (!drag || e.pointerType !== 'touch') return;
-    // Prevent unconditionally (not only once dragging is confirmed below) so
-    // the page never gets a chance to start its own scroll on the first move
-    // of the gesture — see the touch-action:none comment in style.css for why
-    // that alone isn't always enough as a safety net.
-    e.preventDefault();
-    const el = document.elementFromPoint(e.clientX, e.clientY);
-    const span = el && el.closest('.hl-target,.hl-extra,.hl-plain');
-    if (!span) return;
-    const idx = drag.spans.indexOf(span);
-    if (idx < 0) return;
-    if (idx !== drag.currentIdx) {
-      drag.dragging = true;
-      clearPreview(drag.spans);
-      const [lo, hi] = idx < drag.startIdx ? [idx, drag.startIdx] : [drag.startIdx, idx];
-      for (let i = lo; i <= hi; i++) drag.spans[i].classList.add('phrase-selecting');
-      drag.currentIdx = idx;
-    }
-  });
-
-  container.addEventListener('pointerup', (e) => {
-    if (!drag || e.pointerType !== 'touch') return;
-    const { spans, startIdx, currentIdx, dragging } = drag;
-    clearPreview(spans);
-    drag = null;
-    if (!dragging) return; // plain tap: let the span's own onclick handle it as usual
-    e.preventDefault();
-    suppressNextWordClick = true;
-    // Safety net: a synthesized click (if the browser fires one at all after
-    // this drag) lands within the same task, well under this delay — but if
-    // the flag were left armed indefinitely waiting for a click that never
-    // comes, it would wrongly eat the user's NEXT, unrelated single-word tap.
-    setTimeout(() => { suppressNextWordClick = false; }, 300);
-    const [lo, hi] = currentIdx < startIdx ? [currentIdx, startIdx] : [startIdx, currentIdx];
-    const phrase = spans.slice(lo, hi + 1).map((s) => s.textContent).join(' ');
-    onPhraseSelected(phrase);
-  });
-
-  container.addEventListener('pointercancel', () => {
-    if (drag) clearPreview(drag.spans);
-    drag = null;
-  });
 }
 
 function closeWordPopup() {
@@ -1132,7 +1049,6 @@ function bindGlobalEvents() {
   $('wordPopupClose').onclick = closeWordPopup;
   $('wordPopup').onclick = (e) => { if (e.target.id === 'wordPopup') closeWordPopup(); };
   $('wordPopupFavBtn').onclick = addFavoriteFromPopup;
-  bindPhraseSelectGesture();
 
   $('translateToggleBtn').onclick = () => {
     document.body.classList.toggle('show-zh');
@@ -1155,7 +1071,7 @@ function bindGlobalEvents() {
     btn.innerHTML = '⏸<span>停止朗讀</span>';
     btn.classList.add('active');
     const sentences = currentChapterData.sentences.map(s => s.en);
-    speakChapter(sentences, (i) => {
+    speakChapter(sentences, findFirstVisibleSentenceIndex(), (i) => {
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
       const el = $(`sentence-${i}`);
       if (el) { el.classList.add('reading'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }

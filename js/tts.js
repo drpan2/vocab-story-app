@@ -6,12 +6,12 @@ let ttsToken = 0;
 // delay after cancel() avoids this — a well-known iOS Web Speech API quirk.
 const CANCEL_SETTLE_MS = 80;
 
-function speakChapter(sentences, onSentenceStart, onDone) {
+function speakChapter(sentences, startIndex, onSentenceStart, onDone) {
   ttsToken++;
   ttsState.playing = false;
   speechSynthesis.cancel();
   ttsState.queue = sentences;
-  ttsState.idx = 0;
+  ttsState.idx = startIndex || 0;
   ttsState.playing = true;
   ttsState.onSentence = onSentenceStart;
   ttsState.onDone = onDone;
