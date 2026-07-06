@@ -262,3 +262,10 @@ input:checked + .slider:before { transform: translateX(20px); }
   position: fixed; bottom: 84px; left: 50%; transform: translateX(-50%);
   background: #1E293B; color: #fff; padding: 10px 18px; border-radius: 999px; font-size: .85rem; z-index: 60;
 }
+
+/* Live preview while dragging across words to select a phrase (touch only —
+   see bindPhraseSelectGesture in app.js). Declared last so it wins over
+   hl-target/hl-extra/hl-favorited/hl-plain by source order without needing
+   !important, since this is meant to visually override whatever a word's
+   normal color is for the duration of the drag. */
+.phrase-selecting { background: var(--accent); color: #fff; border-radius: 4px; }

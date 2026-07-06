@@ -812,7 +812,14 @@ function renderDueCard(word) {
 
 // ---------- word popup / favorites ----------
 
+// Set right before a phrase-drag-select finishes (see bindPhraseSelectGesture)
+// so the browser's own synthesized click on the span where the finger lifted
+// doesn't also pop open that single word's popup right on top of the phrase
+// popup we're about to show.
+let suppressNextWordClick = false;
+
 function onWordClick(regId) {
+  if (suppressNextWordClick) { suppressNextWordClick = false; return; }
   const entry = highlightRegistry[regId];
   if (!entry) return;
   currentPopupEntry = entry;
@@ -834,6 +841,7 @@ function onWordClick(regId) {
 // favorites list isn't limited to whatever the story happened to mark. Since
 // there's no built-in meaning, let the user type their own before favoriting.
 function onPlainWordClick(word) {
+  if (suppressNextWordClick) { suppressNextWordClick = false; return; }
   currentPopupEntry = { word, zh: '', pos: '' };
   let html = `<h3>${escapeHtml(word)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
   html += `<div class="pos meta">這個字不在故事的標色單字庫裡，沒有內建字義，可以自己輸入中文意思再收藏：</div>`;
@@ -842,6 +850,92 @@ function onPlainWordClick(word) {
   $('wordPopup').hidden = false;
   $('wordPopupSpeakBtn').onclick = () => speakSingleWord(word);
   $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
+}
+
+// Triggered by a touch-drag across several words in one sentence (see
+// bindPhraseSelectGesture) — for phrases/idioms/grammar patterns that a
+// single-word lookup can't cover. Same "no built-in meaning, type your own"
+// pattern as onPlainWordClick, plus a Google Translate link since phrases
+// are much more likely to need an external lookup than a single word is.
+function onPhraseSelected(phrase) {
+  currentPopupEntry = { word: phrase, zh: '', pos: '' };
+  const translateUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(phrase)}&op=translate`;
+  let html = `<h3>${escapeHtml(phrase)} <button class="chip-btn" id="wordPopupSpeakBtn" type="button">🔊 發音</button></h3>`;
+  html += `<div class="pos meta">這是你圈選的片語，可以查Google翻譯，或自己輸入意思再收藏：</div>`;
+  html += `<a class="secondary-btn" id="phraseTranslateLink" style="display:block;text-align:center;text-decoration:none;margin-bottom:10px" href="${translateUrl}" target="_blank" rel="noopener">🔍 查Google翻譯</a>`;
+  html += `<input type="text" id="plainWordZhInput" class="popup-input" placeholder="輸入中文意思（選填）">`;
+  $('wordPopupBody').innerHTML = html;
+  $('wordPopup').hidden = false;
+  $('wordPopupSpeakBtn').onclick = () => speakSingleWord(phrase);
+  $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
+}
+
+// Touch-only: press and drag across words in the same sentence to select a
+// phrase/idiom, released into onPhraseSelected(). Deliberately gated to
+// pointerType === 'touch' so mouse users on desktop keep the browser's own
+// native text selection, copy, and right-click "search"/"translate" menu
+// completely untouched — this is purely additive on mobile.
+function bindPhraseSelectGesture() {
+  const container = $('sentenceList');
+  let drag = null; // { sentenceEl, spans, startIdx, currentIdx, dragging }
+
+  function wordSpansIn(sentenceEl) {
+    return Array.from(sentenceEl.querySelectorAll('.en .hl-target, .en .hl-extra, .en .hl-plain'));
+  }
+  function clearPreview(spans) {
+    spans.forEach((s) => s.classList.remove('phrase-selecting'));
+  }
+
+  container.addEventListener('pointerdown', (e) => {
+    if (e.pointerType !== 'touch') return;
+    const span = e.target.closest('.hl-target,.hl-extra,.hl-plain');
+    const sentenceEl = span && span.closest('.sentence');
+    if (!span || !sentenceEl) return;
+    const spans = wordSpansIn(sentenceEl);
+    const startIdx = spans.indexOf(span);
+    if (startIdx < 0) return;
+    drag = { sentenceEl, spans, startIdx, currentIdx: startIdx, dragging: false };
+  });
+
+  container.addEventListener('pointermove', (e) => {
+    if (!drag || e.pointerType !== 'touch') return;
+    const el = document.elementFromPoint(e.clientX, e.clientY);
+    const span = el && el.closest('.hl-target,.hl-extra,.hl-plain');
+    if (!span || span.closest('.sentence') !== drag.sentenceEl) return;
+    const idx = drag.spans.indexOf(span);
+    if (idx < 0) return;
+    if (idx !== drag.currentIdx) {
+      drag.dragging = true;
+      clearPreview(drag.spans);
+      const [lo, hi] = idx < drag.startIdx ? [idx, drag.startIdx] : [drag.startIdx, idx];
+      for (let i = lo; i <= hi; i++) drag.spans[i].classList.add('phrase-selecting');
+      drag.currentIdx = idx;
+    }
+    if (drag.dragging) e.preventDefault();
+  });
+
+  container.addEventListener('pointerup', (e) => {
+    if (!drag || e.pointerType !== 'touch') return;
+    const { spans, startIdx, currentIdx, dragging } = drag;
+    clearPreview(spans);
+    drag = null;
+    if (!dragging) return; // plain tap: let the span's own onclick handle it as usual
+    e.preventDefault();
+    suppressNextWordClick = true;
+    // Safety net: a synthesized click (if the browser fires one at all after
+    // this drag) lands within the same task, well under this delay — but if
+    // the flag were left armed indefinitely waiting for a click that never
+    // comes, it would wrongly eat the user's NEXT, unrelated single-word tap.
+    setTimeout(() => { suppressNextWordClick = false; }, 300);
+    const [lo, hi] = currentIdx < startIdx ? [currentIdx, startIdx] : [startIdx, currentIdx];
+    const phrase = spans.slice(lo, hi + 1).map((s) => s.textContent).join(' ');
+    onPhraseSelected(phrase);
+  });
+
+  container.addEventListener('pointercancel', () => {
+    if (drag) clearPreview(drag.spans);
+    drag = null;
+  });
 }
 
 function closeWordPopup() {
@@ -1003,6 +1097,7 @@ function bindGlobalEvents() {
   $('wordPopupClose').onclick = closeWordPopup;
   $('wordPopup').onclick = (e) => { if (e.target.id === 'wordPopup') closeWordPopup(); };
   $('wordPopupFavBtn').onclick = addFavoriteFromPopup;
+  bindPhraseSelectGesture();
 
   $('translateToggleBtn').onclick = () => {
     document.body.classList.toggle('show-zh');
