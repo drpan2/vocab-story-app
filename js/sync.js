@@ -45,6 +45,33 @@ async function verifyToken(token) {
   return json.login;
 }
 
+// A device only learns the gist's ID from its OWN push response — gistId
+// lives in local config, not in the synced payload itself, so a second
+// device that has never pushed has no way to know it yet even though the
+// gist already exists under the same GitHub account. Look it up by its
+// fixed description before giving up.
+async function findExistingGist(token) {
+  const res = await fetch('https://api.github.com/gists?per_page=100', { headers: ghHeaders(token) });
+  if (!res.ok) return null;
+  const list = await res.json();
+  const match = list.find((g) => g.description === SYNC_GIST_DESC && g.files && g.files[SYNC_GIST_FILENAME]);
+  return match ? match.id : null;
+}
+
+// Returns cfg with a resolved gistId (discovering + persisting it if this
+// device doesn't have one cached yet), or null in cfg.gistId if truly none
+// exists anywhere on this account.
+async function ensureGistId(cfg) {
+  if (cfg.gistId) return cfg;
+  const found = await findExistingGist(cfg.token);
+  if (found) {
+    const updated = { ...cfg, gistId: found };
+    await setSyncConfig(updated);
+    return updated;
+  }
+  return cfg;
+}
+
 async function buildSyncPayload() {
   const values = await Promise.all(SYNC_APP_KEYS.map((k) => loadState(k)));
   const data = {};
@@ -63,10 +90,12 @@ async function applySyncPayload(payload) {
   await dbSet('lastLocalChangeAt', payload.savedAt);
 }
 
-// Pushes the current local state up, creating the gist on first use.
+// Pushes the current local state up, creating the gist on first use (or
+// discovering + updating one this device didn't know about yet).
 async function syncPush() {
-  const cfg = await getSyncConfig();
+  let cfg = await getSyncConfig();
   if (!cfg.token) throw new Error('請先貼上並儲存GitHub權杖');
+  cfg = await ensureGistId(cfg);
   const payload = await buildSyncPayload();
   const body = {
     description: SYNC_GIST_DESC,
@@ -86,8 +115,10 @@ async function syncPush() {
 // Pulls the gist and overwrites local state unconditionally (user tapped
 // "restore from cloud" on purpose, so no timestamp comparison here).
 async function syncPull() {
-  const cfg = await getSyncConfig();
-  if (!cfg.token || !cfg.gistId) throw new Error('還沒有雲端備份可以還原');
+  let cfg = await getSyncConfig();
+  if (!cfg.token) throw new Error('還沒有雲端備份可以還原');
+  cfg = await ensureGistId(cfg);
+  if (!cfg.gistId) throw new Error('還沒有雲端備份可以還原');
   const payload = await fetchGistPayload(cfg.token, cfg.gistId);
   await applySyncPayload(payload);
   await setSyncConfig({ ...cfg, lastSyncedAt: payload.savedAt });
@@ -108,9 +139,11 @@ async function fetchGistPayload(token, gistId) {
 // pull it in silently. Any fetch/parse failure is swallowed so a network
 // hiccup or bad token never blocks the app from loading.
 async function autoPullIfNewer() {
-  const cfg = await getSyncConfig();
-  if (!cfg.token || !cfg.gistId) return false;
+  let cfg = await getSyncConfig();
+  if (!cfg.token) return false;
   try {
+    cfg = await ensureGistId(cfg);
+    if (!cfg.gistId) return false;
     const payload = await fetchGistPayload(cfg.token, cfg.gistId);
     const localChangeAt = await dbGet('lastLocalChangeAt', null);
     if (!localChangeAt || new Date(payload.savedAt) > new Date(localChangeAt)) {
