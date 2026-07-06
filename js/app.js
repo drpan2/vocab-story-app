@@ -217,8 +217,21 @@ function updateBottomNav(path) {
   });
 }
 
+// playBtn now lives in the persistent bottom nav (not inside the chapter
+// screen), so its label/active state has to be reset explicitly whenever
+// playback stops for a reason other than the button's own click handler
+// (e.g. navigating away mid-playback) — the screen it used to live in isn't
+// there anymore to just hide the stale state along with it.
+function resetPlayBtnUI() {
+  const btn = $('playBtn');
+  btn.innerHTML = '▶<span>自動朗讀</span>';
+  btn.classList.remove('active');
+  document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
+}
+
 function router() {
   stopSpeak();
+  resetPlayBtnUI();
   closeWordPopup();
   const hash = location.hash || '#/';
   const path = hash.slice(1) || '/';
@@ -1127,26 +1140,26 @@ function bindGlobalEvents() {
   };
 
   $('playBtn').onclick = () => {
-    const btn = $('playBtn');
     if (ttsState.playing) {
       stopSpeak();
-      btn.textContent = '▶ 自動朗讀';
-      btn.classList.remove('active');
-      document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
+      resetPlayBtnUI();
       return;
     }
-    btn.textContent = '⏸ 停止朗讀';
+    // Now sits in the bottom nav so it's reachable from any screen, but
+    // there's nothing to read outside an open chapter.
+    if (!currentChapterData) {
+      showToast('請先打開一個章節再朗讀');
+      return;
+    }
+    const btn = $('playBtn');
+    btn.innerHTML = '⏸<span>停止朗讀</span>';
     btn.classList.add('active');
     const sentences = currentChapterData.sentences.map(s => s.en);
     speakChapter(sentences, (i) => {
       document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
       const el = $(`sentence-${i}`);
       if (el) { el.classList.add('reading'); el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
-    }, () => {
-      btn.textContent = '▶ 自動朗讀';
-      btn.classList.remove('active');
-      document.querySelectorAll('.sentence.reading').forEach(e => e.classList.remove('reading'));
-    });
+    }, resetPlayBtnUI);
   };
 
   const order = ['sm', 'md', 'lg'];
