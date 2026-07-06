@@ -1071,9 +1071,15 @@ function bindGlobalEvents() {
   $('syncSaveTokenBtn').onclick = async () => {
     const token = $('syncTokenInput').value.trim();
     if (!token) { showToast('請先貼上權杖'); return; }
-    const cfg = await getSyncConfig();
-    await setSyncConfig({ ...cfg, token });
-    showToast('✅ 權杖已儲存');
+    $('syncStatus').textContent = '驗證權杖中…';
+    try {
+      const login = await verifyToken(token);
+      const cfg = await getSyncConfig();
+      await setSyncConfig({ ...cfg, token });
+      showToast(`✅ 權杖有效（GitHub帳號：${login}）`);
+    } catch (err) {
+      showToast(`權杖驗證失敗：${err.message}`);
+    }
     refreshSyncStatus();
   };
 

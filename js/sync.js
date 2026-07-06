@@ -23,6 +23,28 @@ function ghHeaders(token) {
   };
 }
 
+// GitHub's newer "fine-grained" tokens (prefix github_pat_) don't support
+// the classic Gist API the way "classic" tokens (prefix ghp_) do, and this
+// is a common mistake since GitHub's own UI nudges new users toward
+// fine-grained by default. Checked up front so the error points at the
+// actual fix instead of a bare "401".
+function tokenLooksFineGrained(token) {
+  return token.startsWith('github_pat_');
+}
+
+// Does a minimal authenticated request so token problems surface the
+// moment the user saves it, instead of only failing later on push/pull.
+async function verifyToken(token) {
+  if (tokenLooksFineGrained(token)) {
+    throw new Error('這是Fine-grained權杖(github_pat_開頭)，Gist功能需要Classic權杖(ghp_開頭)，請用設定頁的連結重新產生一個');
+  }
+  const res = await fetch('https://api.github.com/user', { headers: ghHeaders(token) });
+  if (res.status === 401) throw new Error('權杖無效或已過期，請重新產生一個');
+  if (!res.ok) throw new Error(`權杖驗證失敗 (${res.status})`);
+  const json = await res.json();
+  return json.login;
+}
+
 async function buildSyncPayload() {
   const values = await Promise.all(SYNC_APP_KEYS.map((k) => loadState(k)));
   const data = {};
@@ -53,6 +75,7 @@ async function syncPush() {
   };
   const url = cfg.gistId ? `https://api.github.com/gists/${cfg.gistId}` : 'https://api.github.com/gists';
   const res = await fetch(url, { method: cfg.gistId ? 'PATCH' : 'POST', headers: ghHeaders(cfg.token), body: JSON.stringify(body) });
+  if (res.status === 401) throw new Error('權杖無效或已過期，請到設定頁重新儲存一個新權杖');
   if (!res.ok) throw new Error(`GitHub API 錯誤 (${res.status})`);
   const json = await res.json();
   await setSyncConfig({ ...cfg, gistId: json.id, lastSyncedAt: payload.savedAt });
@@ -73,6 +96,7 @@ async function syncPull() {
 
 async function fetchGistPayload(token, gistId) {
   const res = await fetch(`https://api.github.com/gists/${gistId}`, { headers: ghHeaders(token) });
+  if (res.status === 401) throw new Error('權杖無效或已過期，請到設定頁重新儲存一個新權杖');
   if (!res.ok) throw new Error(`GitHub API 錯誤 (${res.status})`);
   const json = await res.json();
   const file = json.files[SYNC_GIST_FILENAME];
