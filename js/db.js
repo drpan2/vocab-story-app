@@ -71,7 +71,14 @@ async function loadState(key) {
 }
 
 async function saveState(key, value) {
-  return dbSet(key, value);
+  await dbSet(key, value);
+  // Tracks when any of the app's own data last changed, so the cross-device
+  // sync feature (js/sync.js) can tell whether a remote backup is newer or
+  // older than what's on this device, without needing a full field-by-field
+  // merge. Not itself app data, so it's excluded to avoid a pointless loop.
+  if (key !== 'lastLocalChangeAt') {
+    await dbSet('lastLocalChangeAt', new Date().toISOString());
+  }
 }
 
 async function exportProgress() {

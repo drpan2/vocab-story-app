@@ -22,6 +22,7 @@ const $ = (id) => document.getElementById(id);
 // ---------- boot ----------
 
 async function init() {
+  await autoPullIfNewer();
   prefs = await loadState('prefs');
   progress = await loadState('progress');
   favorites = await loadState('favorites');
@@ -443,6 +444,13 @@ function noteKey(levelNum, chapterNum) {
 
 let notesSaveDebounce = null;
 
+// Grows the textarea to fit its content instead of leaving it at a fixed
+// height with an internal scrollbar, so the whole note is visible at once.
+function autoGrowTextarea(textarea) {
+  textarea.style.height = 'auto';
+  textarea.style.height = `${textarea.scrollHeight}px`;
+}
+
 function bindChapterNotes(levelNum, chapterNum, chapterTitle) {
   const key = noteKey(levelNum, chapterNum);
   const textarea = $('chapterNotesInput');
@@ -450,8 +458,10 @@ function bindChapterNotes(levelNum, chapterNum, chapterTitle) {
   const existing = notes.entries[key];
   textarea.value = existing ? existing.text : '';
   status.textContent = existing ? `上次儲存：${new Date(existing.updatedAt).toLocaleString('zh-TW')}` : '';
+  autoGrowTextarea(textarea);
 
   textarea.oninput = () => {
+    autoGrowTextarea(textarea);
     clearTimeout(notesSaveDebounce);
     status.textContent = '儲存中…';
     notesSaveDebounce = setTimeout(() => {
@@ -937,6 +947,20 @@ function doSearch(query) {
 
 function renderSettings() {
   applyPrefs();
+  refreshSyncStatus();
+}
+
+async function refreshSyncStatus() {
+  const cfg = await getSyncConfig();
+  $('syncTokenInput').value = cfg.token || '';
+  const status = $('syncStatus');
+  if (!cfg.token) {
+    status.textContent = '尚未設定，跨裝置同步不會生效。';
+  } else if (!cfg.gistId) {
+    status.textContent = '權杖已儲存，按「同步上傳」建立雲端備份。';
+  } else {
+    status.textContent = `已連接雲端備份${cfg.lastSyncedAt ? '，上次同步：' + new Date(cfg.lastSyncedAt).toLocaleString('zh-TW') : ''}`;
+  }
 }
 
 // ---------- confirm modal (generic, used for destructive actions) ----------
@@ -1042,6 +1066,44 @@ function bindGlobalEvents() {
     } catch (err) {
       showToast('匯入失敗：檔案格式不正確');
     }
+  };
+
+  $('syncSaveTokenBtn').onclick = async () => {
+    const token = $('syncTokenInput').value.trim();
+    if (!token) { showToast('請先貼上權杖'); return; }
+    const cfg = await getSyncConfig();
+    await setSyncConfig({ ...cfg, token });
+    showToast('✅ 權杖已儲存');
+    refreshSyncStatus();
+  };
+
+  $('syncPushBtn').onclick = async () => {
+    $('syncStatus').textContent = '上傳中…';
+    try {
+      await syncPush();
+      showToast('☁ 已同步上傳');
+    } catch (err) {
+      showToast(`同步上傳失敗：${err.message}`);
+    }
+    refreshSyncStatus();
+  };
+
+  $('syncPullBtn').onclick = () => {
+    showConfirmModal(
+      '確定要從雲端還原嗎？',
+      '這會用雲端備份的資料覆蓋這台裝置目前的進度、收藏、筆記、複習排程。如果這台裝置有雲端還沒有的新內容，會被覆蓋掉，建議先用「同步上傳」確保雲端是最新的。',
+      async () => {
+        $('syncStatus').textContent = '還原中…';
+        try {
+          await syncPull();
+          showToast('✅ 已從雲端還原，重新載入中...');
+          setTimeout(() => location.reload(), 800);
+        } catch (err) {
+          showToast(`還原失敗：${err.message}`);
+          refreshSyncStatus();
+        }
+      }
+    );
   };
 
   $('resetProgressBtn').onclick = () => {

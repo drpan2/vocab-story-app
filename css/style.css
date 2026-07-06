@@ -233,7 +233,7 @@ input:checked + .slider:before { transform: translateX(20px); }
 .notes-textarea {
   width: 100%; min-height: 100px; padding: 10px 12px; border-radius: 10px;
   border: 1px solid var(--border); background: var(--card-bg); color: var(--text);
-  font-size: .92rem; font-family: inherit; resize: vertical;
+  font-size: .92rem; font-family: inherit; resize: vertical; overflow-y: hidden;
 }
 
 .notebook-list { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
