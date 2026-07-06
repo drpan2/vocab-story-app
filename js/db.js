@@ -78,6 +78,7 @@ async function saveState(key, value) {
   // merge. Not itself app data, so it's excluded to avoid a pointless loop.
   if (key !== 'lastLocalChangeAt') {
     await dbSet('lastLocalChangeAt', new Date().toISOString());
+    scheduleAutoPush();
   }
 }
 

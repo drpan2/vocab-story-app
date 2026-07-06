@@ -135,10 +135,10 @@ async function fetchGistPayload(token, gistId) {
   return JSON.parse(file.content);
 }
 
-// Background auto-push safety net (wired to visibilitychange + a periodic
-// interval in app.js) — only actually pushes when there's something new
-// since the last sync, so repeatedly backgrounding the app doesn't spam the
-// Gist API/history with no-op uploads.
+// Auto-push safety net (wired to visibilitychange + a periodic interval in
+// app.js) — only actually pushes when there's something new since the last
+// sync, so repeatedly backgrounding the app doesn't spam the Gist API/
+// history with no-op uploads.
 async function autoPushIfChanged() {
   const cfg = await getSyncConfig();
   if (!cfg.token) return false;
@@ -151,6 +151,21 @@ async function autoPushIfChanged() {
   } catch (e) {
     return false; // background push failures shouldn't interrupt the user
   }
+}
+
+// The real, reliable trigger: iOS suspends a backgrounded tab/PWA's JS
+// (and any in-flight fetch) almost immediately, so waiting for
+// visibilitychange to fire the upload is too late — there's no guarantee
+// the request completes before the OS freezes the page. Debouncing a push
+// a few seconds after every saveState() call instead uploads while the app
+// is still fully active in the foreground, so by the time the user actually
+// backgrounds the app the sync has normally already finished. Called from
+// db.js's saveState() on every write.
+let autoPushDebounceTimer = null;
+const AUTO_PUSH_DEBOUNCE_MS = 4000;
+function scheduleAutoPush() {
+  clearTimeout(autoPushDebounceTimer);
+  autoPushDebounceTimer = setTimeout(() => { autoPushIfChanged(); }, AUTO_PUSH_DEBOUNCE_MS);
 }
 
 // Called once on app boot: if a newer backup exists on another device,
