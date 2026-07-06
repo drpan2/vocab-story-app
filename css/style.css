@@ -149,6 +149,12 @@ html[data-theme="dark"] .hl-extra { background: #581C87; color: #E9D5FF; }
     -webkit-user-select: none;
     user-select: none;
     -webkit-touch-callout: none;
+    /* Without this, the browser starts its own vertical scroll on the very
+       first touchmove, before our JS ever sees the gesture as a drag — so
+       dragging down to reach the next sentence line just scrolls the page
+       instead of extending the phrase selection. Disabling native touch
+       scrolling here hands the whole gesture to bindPhraseSelectGesture. */
+    touch-action: none;
   }
 }
 

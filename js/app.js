@@ -870,17 +870,18 @@ function onPhraseSelected(phrase) {
   $('plainWordZhInput').oninput = (e) => { currentPopupEntry.zh = e.target.value.trim(); };
 }
 
-// Touch-only: press and drag across words in the same sentence to select a
-// phrase/idiom, released into onPhraseSelected(). Deliberately gated to
-// pointerType === 'touch' so mouse users on desktop keep the browser's own
-// native text selection, copy, and right-click "search"/"translate" menu
-// completely untouched — this is purely additive on mobile.
+// Touch-only: press and drag across words — even across different
+// numbered sentence lines — to select a phrase/idiom, released into
+// onPhraseSelected(). Deliberately gated to pointerType === 'touch' so mouse
+// users on desktop keep the browser's own native text selection, copy, and
+// right-click "search"/"translate" menu completely untouched — this is
+// purely additive on mobile.
 function bindPhraseSelectGesture() {
   const container = $('sentenceList');
-  let drag = null; // { sentenceEl, spans, startIdx, currentIdx, dragging }
+  let drag = null; // { spans, startIdx, currentIdx, dragging }
 
-  function wordSpansIn(sentenceEl) {
-    return Array.from(sentenceEl.querySelectorAll('.en .hl-target, .en .hl-extra, .en .hl-plain'));
+  function allWordSpans() {
+    return Array.from(container.querySelectorAll('.en .hl-target, .en .hl-extra, .en .hl-plain'));
   }
   function clearPreview(spans) {
     spans.forEach((s) => s.classList.remove('phrase-selecting'));
@@ -889,19 +890,23 @@ function bindPhraseSelectGesture() {
   container.addEventListener('pointerdown', (e) => {
     if (e.pointerType !== 'touch') return;
     const span = e.target.closest('.hl-target,.hl-extra,.hl-plain');
-    const sentenceEl = span && span.closest('.sentence');
-    if (!span || !sentenceEl) return;
-    const spans = wordSpansIn(sentenceEl);
+    if (!span) return;
+    const spans = allWordSpans();
     const startIdx = spans.indexOf(span);
     if (startIdx < 0) return;
-    drag = { sentenceEl, spans, startIdx, currentIdx: startIdx, dragging: false };
+    drag = { spans, startIdx, currentIdx: startIdx, dragging: false };
   });
 
   container.addEventListener('pointermove', (e) => {
     if (!drag || e.pointerType !== 'touch') return;
+    // Prevent unconditionally (not only once dragging is confirmed below) so
+    // the page never gets a chance to start its own scroll on the first move
+    // of the gesture — see the touch-action:none comment in style.css for why
+    // that alone isn't always enough as a safety net.
+    e.preventDefault();
     const el = document.elementFromPoint(e.clientX, e.clientY);
     const span = el && el.closest('.hl-target,.hl-extra,.hl-plain');
-    if (!span || span.closest('.sentence') !== drag.sentenceEl) return;
+    if (!span) return;
     const idx = drag.spans.indexOf(span);
     if (idx < 0) return;
     if (idx !== drag.currentIdx) {
@@ -911,7 +916,6 @@ function bindPhraseSelectGesture() {
       for (let i = lo; i <= hi; i++) drag.spans[i].classList.add('phrase-selecting');
       drag.currentIdx = idx;
     }
-    if (drag.dragging) e.preventDefault();
   });
 
   container.addEventListener('pointerup', (e) => {
