@@ -36,6 +36,24 @@ async function init() {
   router();
   window.addEventListener('hashchange', router);
   registerServiceWorker();
+  bindAutoPush();
+}
+
+// Auto-uploads to the sync Gist so the user doesn't have to remember to tap
+// "同步上傳" every session. Two triggers, both cheap no-ops when there's
+// nothing new to push (see autoPushIfChanged in sync.js):
+// 1) visibilitychange->hidden covers the common case (switching to another
+//    app/tab, locking the phone) and fires while the page is still very
+//    much alive, so the async fetch has time to complete.
+// 2) A periodic interval is a safety net for the device/OS killing the app
+//    outright without ever backgrounding it first (visibilitychange would
+//    never fire in that case) — also useful for long foreground sessions
+//    that never get backgrounded.
+function bindAutoPush() {
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) autoPushIfChanged();
+  });
+  setInterval(() => { autoPushIfChanged(); }, 3 * 60 * 1000);
 }
 
 function registerServiceWorker() {

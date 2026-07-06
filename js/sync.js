@@ -135,6 +135,24 @@ async function fetchGistPayload(token, gistId) {
   return JSON.parse(file.content);
 }
 
+// Background auto-push safety net (wired to visibilitychange + a periodic
+// interval in app.js) — only actually pushes when there's something new
+// since the last sync, so repeatedly backgrounding the app doesn't spam the
+// Gist API/history with no-op uploads.
+async function autoPushIfChanged() {
+  const cfg = await getSyncConfig();
+  if (!cfg.token) return false;
+  const localChangeAt = await dbGet('lastLocalChangeAt', null);
+  if (!localChangeAt) return false;
+  if (cfg.lastSyncedAt && new Date(localChangeAt) <= new Date(cfg.lastSyncedAt)) return false;
+  try {
+    await syncPush();
+    return true;
+  } catch (e) {
+    return false; // background push failures shouldn't interrupt the user
+  }
+}
+
 // Called once on app boot: if a newer backup exists on another device,
 // pull it in silently. Any fetch/parse failure is swallowed so a network
 // hiccup or bad token never blocks the app from loading.

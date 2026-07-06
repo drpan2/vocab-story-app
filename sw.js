@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vocab-story-v24';
+const CACHE_NAME = 'vocab-story-v25';
 const CORE_ASSETS = [
   './',
   './index.html',
